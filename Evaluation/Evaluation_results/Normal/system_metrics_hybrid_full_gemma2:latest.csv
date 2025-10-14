@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?""",11.900918960571289,279.50390625,2.3107459256810103,638.0,641.5625,0,98,24
+"""What is the most prevalent anomalous traffic type, and what is its severity level?""",7.453299283981323,2.515625,3.039761203295959,0.0,0.0,0,25,6
+"""What is the recommended mitigation strategy for Ransomware attacks?""",5.3404505252838135,2.7265625,2.8789705900670084,0.0,0.0,0,139,23
+"""What is the behavioral signature of a Man-in-the-Middle (MITM) attack?""",5.179744005203247,1.4765625,2.87176354373064,0.0,0.0,0,97,23
+"""What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?""",10.087950706481934,-1.58984375,2.7043401374345173,0.0,0.0,0,234,90
+"""What is the risk associated with an 'Uploading' attack?""",5.028167724609375,1.90234375,2.9023992037047117,0.0,0.0,0,103,19
+"""How many samples of 'Password' attacks were detected, and what is the associated risk?""",7.689390420913696,0.20703125,2.9139175894956737,0.0,0.0,0,183,32
+"""What is the recommended mitigation for 'Vul Scanner' activity?""",4.8436362743377686,1.3515625,2.89684220806163,0.0,0.0,0,124,20
+"""What is the severity and behavioral signature of a 'Backdoor' attack?""",6.136003732681274,-0.921875,2.897855147201817,0.0,0.0,0,152,30
+"""What is the risk and recommended mitigation for a DDoS_HTTP attack?""",6.044718027114868,-1.48828125,2.7813538902201866,0.0,0.0,0,260,54
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""",8.668819904327393,0.25,2.9704158448540237,0.0,0.125,0,158,25
+"""Which IP address is the top talker in the traffic, and what is its associated destination?""",7.850406646728516,0.33984375,2.9457072786970606,0.0,-0.0625,0,39,18
+"""What is the application summary for Flow ID TCP_0?""",5.228054523468018,0.99609375,2.905000307824909,0.0,0.0,0,101,19
+"""What is the duration and number of packets for Flow ID UDP_0?""",5.893564701080322,0.53515625,2.9640380459041866,0.0,0.0,0,77,14
+"""What is the average TTL for Flow ID UDP_0?""",5.145098924636841,-0.96875,2.9700595117476007,0.0,0.0,0,9,5
+"""What are the MAC address and vendor of the devices involved in Flow ID TCP_0?""",7.379960536956787,-0.08984375,2.9598735508967184,0.0,0.0,0,108,18
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""",6.44165563583374,0.05078125,2.93499855764224,0.0,0.0,0,99,22
+"""What is the TCP Flag Pattern for Flow ID TCP_0?""",5.152496337890625,1.4140625,2.8990801779231035,0.0,0.0,0,88,18
+"""What is the App Payload Size for Flow ID TCP_1?""",6.074794292449951,0.58203125,2.7881602544222437,0.0,0.0,0,99,20
+"""What are the source and destination ports for Flow ID TCP_0?""",5.920743227005005,0.39453125,2.9082075239243297,0.0,0.0,0,137,24
+"""What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?""",8.33336615562439,0.25390625,2.9212384941911846,0.0,0.0,0,173,39
+"""What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?""",8.767802953720093,1.2734375,2.972523463126181,0.0,0.0,0,104,18
+"""What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?""",8.153725147247314,0.9375,2.85529001524655,0.0,0.0,0,115,30
+"""What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?""",7.685860633850098,0.66015625,2.79327859595154,0.0,0.0,0,154,39
+"""What is the Quality of Service (QoS) for the MQTT published messages?""",6.434293985366821,0.17578125,2.923786206036626,0.0,0.0,0,134,26
+"""What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?""",8.149729490280151,0.5234375,3.0139037165950895,0.0,0.0,0,71,13
+"""What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?""",5.976838827133179,0.0,2.9488832658474027,0.0,0.0,0,37,15
+"""What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?""",7.939170837402344,0.10546875,2.845857642155554,0.0,0.0,0,112,30
+"""What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?""",7.294517755508423,0.0,2.7931935575335123,0.0,0.0,0,114,30
+"""What are the source and destination IP addresses and ports for the first DNS query listed?""",8.079654455184937,2.421875,2.9820272802060632,0.0,0.0,0,75,13
+"""What is the client ID and protocol version for the MQTT connections?""",7.932985067367554,1.0,2.3793061300017513,0.0,0.0,0,524,121
+"""What is the behavioral signature of a 'Credential Stuffing' attack?""",5.5651257038116455,1.33203125,2.9536619431150783,0.0,0.0,0,103,21
+"""What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?""",10.087870597839355,0.0859375,3.0234329142299403,0.0,0.0,0,81,15
+"""What is the total number of DNS queries observed in the traffic?""",6.28108549118042,2.0,3.0150043374813285,0.0,1.875,0,6,3
+"""What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?""",7.454236745834351,-0.4609375,2.8129975898227375,0.0,-1.75,0,112,30
+"""What is the risk associated with a 'Password' attack?""",5.302929162979126,0.703125,2.8875550718082224,0.0,0.0,0,128,22
+"""What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?""",8.024800777435303,0.25,2.6830884151720045,0.0,0.0,0,160,45
+"""What is the behavioral signature and severity of a 'Vul Scanner' attack?""",6.7574567794799805,0.0,2.871827469016138,0.0,0.0,0,152,39
+"""What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?""",6.922522306442261,0.5,2.794321078893202,0.0,0.0,0,116,32
+"""How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?""",10.024262189865112,0.0,2.8929809945833527,0.0,0.0,0,204,43

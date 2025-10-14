@@ -1,0 +1,176 @@
+==== BERT-Based IoT Traffic Interpretation Report ====
+
+Total traffic samples analyzed: 4001
+Normal traffic: 6 (0.15%)
+Anomalous traffic: 3995 (99.85%)
+
+=== Category-wise Breakdown and Analysis ===
+
+[Normal]
+- Count: 6 (0.15%)
+- No action needed. Traffic appears regular.
+
+[MITM]
+This section provides a summary of how MITM activity manifested in the analyzed traffic. A total of 2 samples (0.05% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 2 (0.05%)
+- Category: Interception / Impersonation
+- Severity: High
+- Behavior: Man-in-the-Middle (MITM) attacks attempt to intercept or alter communications between devices, often through ARP spoofing or rogue gateways.
+- Risk: Sensitive data, including credentials or configuration commands, can be silently stolen or manipulated.
+- Recommendation: Isolate the affected subnet, inspect ARP tables and DHCP leases, and enforce certificate validation for encrypted traffic.
+
+[Ransomware]
+This section provides a summary of how Ransomware activity manifested in the analyzed traffic. A total of 183 samples (4.58% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 183 (4.58%)
+- Category: Malware Deployment
+- Severity: Critical
+- Behavior: Malicious code designed to encrypt device data or lock access until a ransom is paid, possibly spreading laterally across the network.
+- Risk: Can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages.
+- Recommendation: Immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Report incidents if needed.
+
+[SQL Injection]
+This section provides a summary of how SQL Injection activity manifested in the analyzed traffic. A total of 99 samples (2.48% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 99 (2.48%)
+- Category: Injection Exploits
+- Severity: High
+- Behavior: Malicious SQL statements are injected into application inputs to exfiltrate data or manipulate backend databases.
+- Risk: Can compromise user records, leak credentials, or allow remote access to control systems.
+- Recommendation: Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs.
+
+[DDoS_HTTP]
+This section provides a summary of how DDoS_HTTP activity manifested in the analyzed traffic. A total of 11 samples (0.28% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 11 (0.28%)
+- Category: Volumetric Denial-of-Service
+- Severity: High
+- Behavior: Large volumes of HTTP requests target web servers or REST APIs to exhaust resources.
+- Risk: May lead to downtime of dashboards, control panels, or external APIs used by IoT systems.
+- Recommendation: Deploy rate limiting, reverse proxies, or cloud-based DDoS protection. Identify attacker IPs for blacklisting.
+
+[Password]
+This section provides a summary of how Password activity manifested in the analyzed traffic. A total of 1 samples (0.03% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 1 (0.03%)
+- Category: Credential Brute Force
+- Severity: Medium
+- Behavior: Numerous login attempts with different passwords, targeting SSH, Telnet, HTTP, or MQTT services.
+- Risk: Can lead to device hijacking or access to administrative interfaces if default or weak passwords are used.
+- Recommendation: Enforce strong credentials, lock accounts after failures, and monitor authentication logs for abuse patterns.
+
+[Backdoor]
+This section provides a summary of how Backdoor activity manifested in the analyzed traffic. A total of 3689 samples (92.34% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 3689 (92.34%)
+- Category: Persistent Access
+- Severity: Critical
+- Behavior: Hidden channels or implants enabling an attacker to regain access even after reboots or remediation.
+- Risk: Can allow full device control and long-term compromise of the IoT environment.
+- Recommendation: Hunt for unrecognized binaries, reverse shells, or custom beaconing behavior. Reflash firmware if needed.
+
+[DDoS_UDP]
+This section provides a summary of how DDoS_UDP activity manifested in the analyzed traffic. A total of 10 samples (0.25% of traffic) were classified under this attack type. The summary includes its behavioral signature, severity level, potential impact on IoT infrastructure, and recommended mitigation strategies.
+- Count: 10 (0.25%)
+- Category: Amplification / Flooding
+- Severity: High
+- Behavior: High-speed UDP floods, often spoofed, target vulnerable services like NTP, DNS, or SSDP.
+- Risk: Can saturate bandwidth, disrupt video streams, or bring down IoT controllers.
+- Recommendation: Disable unused UDP services, rate-limit critical ports, and monitor for abnormal packet size bursts.
+
+=== Interpretation Summary ===
+🔴 High anomaly volume detected! Immediate investigation recommended.
+
+🛑 Dominant Detected Attack: Backdoor (3689 samples, 92.34%)
+
+=== Unique Endpoints and Metadata per Attack ===
+
+[MITM]
+This section summarizes all unique network endpoints and protocol-level metadata observed during MITM activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 2
+  - 0 → 0
+  - 192.168.0.128 → 224.0.0.251
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[Ransomware]
+This section summarizes all unique network endpoints and protocol-level metadata observed during Ransomware activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 2
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[SQL Injection]
+This section summarizes all unique network endpoints and protocol-level metadata observed during SQL Injection activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 5
+  - 0 → 0
+  - 0.0.0.0 → 224.0.0.1
+  - 192.168.0.101 → 192.168.0.255
+  - 192.168.0.128 → 224.0.0.251
+  - 192.168.0.128 → 224.0.0.252
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[DDoS_HTTP]
+This section summarizes all unique network endpoints and protocol-level metadata observed during DDoS_HTTP activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 4
+  - 0 → 0
+  - 0.0.0.0 → 224.0.0.1
+  - 192.168.0.128 → 224.0.0.251
+  - 192.168.0.128 → 224.0.0.252
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[Password]
+This section summarizes all unique network endpoints and protocol-level metadata observed during Password activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 1
+  - 0 → 0
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[Backdoor]
+This section summarizes all unique network endpoints and protocol-level metadata observed during Backdoor activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 3
+  - 0 → 0
+  - 192.168.0.128 → 192.168.0.170
+  - 192.168.0.170 → 192.168.0.128
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+
+
+[DDoS_UDP]
+This section summarizes all unique network endpoints and protocol-level metadata observed during DDoS_UDP activity. It includes IP communication pairs, MQTT topics, DNS queries, and Modbus Unit IDs involved in this category of traffic.
+- Unique IP Pairs: 1
+  - 192.168.0.128 → 192.168.0.170
+- MQTT Topics: 1
+  - 0
+- DNS Queries: 1
+  - 0
+- Modbus Unit IDs: 1
+  - 0
+

@@ -1,0 +1,140 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""Which attack type occurs most frequently in the IoT traffic logs?""","""Backdoor attacks are the dominant detected attack, making up 91.38% of the traffic with 22,767 samples. Administrators should investigate for unrecognized binaries, reverse shells, or custom beaconing behavior and reflash firmware if needed."",","Backdoor  
+",0.8101588487625122,0.776970624923706,0.7932177186012268,0.05555555555555556,0.0,0.05555555555555556,0.0,0.0
+"""What critical threats are identified in the anomaly detection report?""","""Ransomware and Backdoor attacks were identified as critical threats. Ransomware can disrupt industrial systems or critical home infrastructure, while Backdoor attacks can allow full device control and long-term compromise."",","Backdoor (91.38% of traffic) and Ransomware (5.34% of traffic) are identified as critical threats.  
+",0.8653022050857544,0.8614657521247864,0.8633796572685242,0.3043478260869565,0.13636363636363635,0.21739130434782608,0.07003828069956171,0.1743970315398887
+"""What is the recommended mitigation strategy for SQL Injection attacks?""","""To mitigate SQL Injection attacks, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs."",","Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs.  
+",0.9525476694107056,0.9149062633514404,0.9333476424217224,0.7567567567567568,0.6857142857142857,0.7567567567567568,0.4060681149108598,0.6092174347862322
+"""What is the risk associated with a DDoS_HTTP attack?""","""A DDoS_HTTP attack may lead to downtime of dashboards, control panels, or external APIs used by IoT systems."",","May lead to downtime of dashboards, control panels, or external APIs used by IoT systems.  
+",0.9694183468818665,0.9209022521972656,0.9445376992225647,0.8823529411764706,0.8750000000000001,0.8823529411764706,0.6965213790689596,0.7908163265306123
+"""How many total anomalous traffic samples were analyzed, and what percentage of the total traffic do they represent?""","""There were 24,891 anomalous traffic samples analyzed, which represents 99.91% of the total traffic."",","2 anomalous traffic samples representing 0.01% of the total traffic.  
+",0.9306117296218872,0.8859641551971436,0.9077392816543579,0.5925925925925926,0.4,0.5925925925925926,0.1177564982481085,0.4944477791116447
+"""What is the IP address associated with malicious activity in the threat intelligence report, and what are its associated open ports?""","""The IP address 61.80.179.118 is associated with malicious activity. Its associated open ports are 21, 3306, 5000, 5001, and 8520."",","The IP addresses associated with malicious activity are 192.168.0.128 and 192.168.0.170.  The provided data does not specify open ports. 
+
+
+",0.8894670605659485,0.8622421622276306,0.8756430745124817,0.4583333333333333,0.2608695652173913,0.37499999999999994,0.059091586764651406,0.31721105527638194
+"""What is the behavioral signature of a Man-in-the-Middle (MITM) attack?""","""Man-in-the-Middle (MITM) attacks attempt to intercept or alter communications between devices, often through ARP spoofing or rogue gateways."",","This document does not contain information about Man-in-the-Middle (MITM) attacks.  
+",0.9073306322097778,0.8767490386962891,0.8917776942253113,0.35294117647058826,0.3125,0.35294117647058826,0.009483240843460443,0.029069767441860465
+"""Which DNS queries were observed in the DDoS_HTTP traffic?""","""The DNS queries observed during DDoS_HTTP activity were 0, 0.debian.pool.ntp.org, 1.debian.pool.ntp.org, 2.debian.pool.ntp.org, and 3.debian.pool.ntp.org."",","- 0
+- 0.debian.pool.ntp.org
+  - 1.debian.pool.ntp.org
+  - 2.debian.pool.ntp.org
+  - 3.debian.pool.ntp.org 
+",0.8971124887466431,0.9032068252563477,0.9001493453979492,0.8076923076923077,0.7599999999999999,0.8076923076923077,0.0,0.0
+"""What is the recommendation for dealing with a DDoS_UDP attack?""","""The recommendation for a DDoS_UDP attack is to disable unused UDP services, rate-limit critical ports, and monitor for abnormal packet size bursts."",","Disable unused UDP services, rate-limit critical ports, and monitor for abnormal packet size bursts.  
+",0.9658545851707458,0.9152529239654541,0.9398731589317322,0.7692307692307693,0.7567567567567568,0.7692307692307693,0.4735594472722181,0.6130679915150162
+"""What does the threat intelligence summary state about the IP address 26.15.12.1?""","""The threat intelligence summary states that IP 26.15.12.1 is associated with clean activity, with 0 out of 94 engines flagging it as potentially harmful."",","The provided text does not contain information about the IP address 26.15.12.1.  
+",0.8863369226455688,0.8516150116920471,0.8686290979385376,0.2857142857142857,0.15,0.2857142857142857,0.006266158960895954,0.021929824561403508
+"""How many unique IP pairs were observed during the SQL Injection activity?""","""There were a total of 6 unique IP pairs observed during the SQL Injection activity.”,","6 
+",0.8445795178413391,0.8007458448410034,0.8220787644386292,0.125,0.0,0.125,1.478690400037914e-07,0.036764705882352935
+"""How many total flows were detected in the IoT traffic?""","""There were 849 total flows detected in the traffic."",","849 
+",0.8351659774780273,0.8161141872406006,0.8255301713943481,0.19999999999999998,0.0,0.19999999999999998,5.965462840365855e-05,0.06097560975609756
+"""What is the breakdown of flows by protocol?""","""There were 833 TCP flows and 16 UDP flows."",","The provided text doesn't contain a specific breakdown of flows by protocol. It does, however, mention the following protocols being used in various attack types and activities:
+
+* **TCP:** Used for communication between devices within the network, including potential DDoS attacks (UDP floods often target vulnerable TCP services too). Examples are seen in the ""Backdoor"" section with IP pairs like 192.168.0.128 → 192.168.0.170 and  192.168.0.170 → 192.168.0.128, indicating TCP communication.
+
+* **UDP:** Mentioned as the primary protocol for DDoS_UDP attacks, these floods often target services like NTP, DNS, or SSDP.
+* **MQTT:** Used in both ""MITM"" and ""Backdoor"" activities, suggesting potential command-and-control channels or data exfiltration. 
+* **DNS:**  Targeted by DDoS_UDP attacks and used for querying domain names (e.g., 0.debian.pool.ntp.org, 1.debian.pool.ntp.org, 2.debian.pool.ntp.org)
+* **Modbus:** Mentioned in both ""MITM"" and ""Backdoor"" activities, suggesting potential control over industrial devices.
+
+**To get a precise breakdown of flows by protocol, you would need more detailed network traffic analysis data.** Tools like Wireshark or tcpdump can capture and analyze network packets to provide this information.
+
+
+",0.7668740749359131,0.8320279717445374,0.7981235980987549,0.04950495049504951,0.0,0.0396039603960396,0.0013889607358627746,0.05976095617529881
+"""Which IP address is the top talker, and how many flows is it associated with?""","""The top talker is 192.168.0.170, which is associated with 831 flows to 192.168.0.128."",","192.168.0.170, 831 flows 
+",0.92646324634552,0.8739293813705444,0.8994299173355103,0.4799999999999999,0.3478260869565218,0.4799999999999999,0.009486242622316766,0.21296296296296297
+"""What is the MAC address and vendor of the source and destination for Flow ID TCP_0?""","""The source MAC is d8:f2:ca:8e:17:69 (IntelCor) and the destination MAC is dc:a6:32:fb:69:b5 (Raspberr)."",","The provided context does not contain information about Flow ID TCP_0 or its associated MAC addresses and vendors. 
+
+
+",0.8233050107955933,0.7464509010314941,0.7829965949058533,0.14285714285714288,0.0,0.14285714285714288,0.01284618972676772,0.11111111111111112
+"""What is the duration and number of packets for Flow ID TCP_0?""","""Flow ID TCP_0 had a duration of 2572.29s and contained 9828 packets."",","The provided text does not contain information about Flow ID TCP_0 or its duration and packet count. 
+
+
+",0.8867528438568115,0.8719006180763245,0.8792640566825867,0.5,0.20000000000000004,0.43750000000000006,0.028927969316143217,0.29760000000000003
+"""What is the protocol and port information for Flow ID UDP_0?""","""The protocol is UDP, and the ports are 5353 → 5353."",","The provided text does not contain information about a Flow ID called UDP_0 or any protocol and port information. 
+
+
+",0.8387206792831421,0.8419150114059448,0.8403148055076599,0.3333333333333333,0.0,0.26666666666666666,0.012109013026441871,0.1694915254237288
+"""What is the TCP Flag Pattern for Flow ID TCP_1?""","""The TCP Flag Pattern for Flow ID TCP_1 is SYN → RST, ACK."",","SYN → RST, ACK 
+",0.9203888177871704,0.8459136486053467,0.8815811276435852,0.375,0.2857142857142857,0.375,0.041910459064397936,0.2433425160697888
+"""What is the IP version for Flow ID TCP_0?""","""The IP version for Flow ID TCP_0 is 4."",","The provided data does not contain information about a flow with ID TCP_0.  
+",0.8813581466674805,0.8763916492462158,0.8788678646087646,0.41666666666666663,0.18181818181818185,0.41666666666666663,0.01553712569276035,0.10638297872340426
+"""What is the average TTL for Flow ID TCP_0?""","""The average TTL for Flow ID TCP_0 is 64.0."",","The provided data does not contain information about a flow with the ID TCP_0.  
+",0.8839761018753052,0.8874828219413757,0.8857260346412659,0.3846153846153846,0.16666666666666666,0.3846153846153846,0.01428363257865929,0.10526315789473684
+"""What is the total number of bytes exchanged for Flow ID TCP_13?""","""The total bytes exchanged for Flow ID TCP_13 is 6056."",","The provided data does not contain information about a Flow ID TCP_13.  
+
+
+",0.8843631744384766,0.8685010671615601,0.8763603568077087,0.41666666666666663,0.2727272727272727,0.41666666666666663,0.03602080288207364,0.18382352941176472
+"""What is the connection state for the TCP traffic to port 4321 on host 192.168.0.170?""","""The connection state is 'REJ', indicating a connection attempt was rejected."",","Connection establish request (SYN): server port 4321 
+",0.8049967885017395,0.8237785696983337,0.8142793774604797,0.1111111111111111,0.0,0.1111111111111111,0.0,0.04716981132075472
+"""Which protocol and service is associated with the connection between 192.168.0.128 and 224.0.0.251 on port 5353?""","""The protocol is UDP and the service is DNS."",","The provided text does not contain information about specific ports or protocols used in the connections listed.  
+",0.832671582698822,0.8551003336906433,0.8437369465827942,0.23076923076923078,0.0,0.23076923076923078,0.011502783619900045,0.10204081632653061
+"""What is the query and query type for the DNS request originating from 192.168.0.128?""","""The query is '_ipp._tcp.local' and the query type is 'PTR'."",","The DNS queries originating from 192.168.0.128 are for various entries in the debian.pool.ntp.org domain, including  1.debian.pool.ntp.org, 2.debian.pool.ntp.org, and 0.debian.pool.ntp.org. The query type is a standard DNS Query.   
+",0.8377512693405151,0.8465165495872498,0.8421111702919006,0.2456140350877193,0.10909090909090909,0.2456140350877193,0.03925345689749394,0.48076923076923084
+"""What is the history of the TCP connection attempts from 192.168.0.128 to 192.168.0.170 on port 4321?""","""The connection history is 'Sr', which indicates a SYN packet from the originator and a RST from the responder."",","A SYN (Connection establish request) was sent from 192.168.0.128 to 192.168.0.170 on port 4321.  
+",0.8349016904830933,0.8364101648330688,0.8356552720069885,0.20512820512820512,0.05405405405405406,0.15384615384615385,0.011884775898621575,0.08108108108108109
+"""What is the IP protocol number for the ICMP connections?""","""The IP protocol number for the ICMP connections is 58."",","The provided text describes TCP and IPv4 traffic, not ICMP (Internet Control Message Protocol). 
+
+* **ICMP** uses a different protocol number than TCP.  
+* The **IP protocol numbers are:** 1 (ICMP), 6 (TCP), 17 (UDP)
+
+
+Let me know if you have any other questions about the provided network data!",0.8155434131622314,0.8825582265853882,0.847728431224823,0.21052631578947367,0.10909090909090909,0.17543859649122806,0.009417632649968437,0.14388489208633093
+"""What is the duration of the TCP connection with UID 'Cp91d82qvMkTqXqg48'?""","""The duration of the connection is 0.003877878189086914 seconds."",","Unfortunately, I cannot answer this question because the provided text snippets do not contain information about a TCP connection with the UID 'Cp91d82qvMkTqXqg48'. 
+
+To help me answer your question, please provide the following:
+
+* **Full context:** Share the complete log or capture file containing the TCP connection details.
+* **Relevant timestamps:** If possible, specify the start and end times of the connection you're interested in.
+
+
+Let me know if you have any other questions or need further assistance!",0.7914549112319946,0.817070484161377,0.8040587306022644,0.09302325581395349,0.04761904761904762,0.09302325581395349,0.011505957531525099,0.19629629629629633
+"""How many packets were sent by the originator and responder for a rejected TCP connection?""","""One packet was sent by the originator and one packet by the responder for the rejected TCP connections."",","This document does not contain the answer to your question. 
+",0.841742992401123,0.8264191150665283,0.8340107202529907,0.07142857142857142,0.0,0.07142857142857142,0.009483240843460443,0.05813953488372093
+"""What is the destination IP address and port for the first UDP DNS flow listed?""","""The destination IP address is 224.0.0.251 and the port is 5353."",","The provided text does not contain information about specific UDP DNS flows or their destination ports.  
+
+
+",0.8519607782363892,0.8325051069259644,0.8421205878257751,0.19999999999999998,0.0,0.19999999999999998,0.012300686288463768,0.08695652173913045
+"""What is the query class name for the DNS query?""","""The query class name is 'C_INTERNET'."",","The provided data shows that the application summary is ""DNS Query""  but it does not specify the query class name. 
+
+
+",0.8704701662063599,0.8784984350204468,0.8744658827781677,0.37037037037037035,0.23999999999999996,0.29629629629629634,0.02253741272267485,0.34534534534534533
+"""What is the origin and response IP addresses for the ICMP traffic that has a destination of ff02",":1?"": ""The origin IP address is fe80::24e3:6aff:fe3f:5b07 and the response IP is ff02::1."",","The provided text does not contain information about ICMP traffic or its source and response IP addresses. 
+
+
+",0.840748131275177,0.7450027465820312,0.789984941482544,0.28571428571428575,0.12121212121212122,0.22857142857142856,0.026920508809559315,0.23554104477611942
+"""What is the MAC vendor of the source device for the top talker's communication?""","""The MAC vendor of the source device (d8:f2:ca:8e:17:69) for the top talker is IntelCor."",","Raspberry Pi Trading Ltd 
+",0.7759780883789062,0.7384179830551147,0.7567322850227356,0.0,0.0,0.0,0.0,0.0
+"""What is the destination IP address of the rejected TCP connection on port 4321?""","""The destination IP address for the rejected TCP connection on port 4321 is 192.168.0.170."",","The provided text does not contain the answer to your question.  
+",0.8149211406707764,0.7983516454696655,0.8065513372421265,0.14285714285714285,0.0,0.14285714285714285,0.014350755161376995,0.0364963503649635
+"""What is the total number of bytes sent by the originator and responder in Flow ID TCP_0?""","""The originator sent 1782294 bytes and the responder sent 1048702 bytes in Flow ID TCP_0."",","This document does not contain the answer to your question. 
+",0.8281140327453613,0.7868950963020325,0.8069785833358765,0.07692307692307693,0.0,0.07692307692307693,0.012801036176909563,0.12931034482758622
+"""What is the recommended action for administrators regarding backdoor attacks?""","""Administrators should investigate for unrecognized binaries, reverse shells, or custom beaconing behavior and consider re-flashing firmware to mitigate backdoor attacks."",","Hunt for unrecognized binaries, reverse shells, or custom beaconing behavior. Reflash firmware if needed.  
+",0.9454966187477112,0.9082720279693604,0.9265105724334717,0.5714285714285714,0.4848484848484849,0.5714285714285714,0.3450070063231997,0.46137202494590807
+"""What is the origin and response IP addresses for the ICMP traffic with a destination of ff02",":1?"": ""The origin IP is fe80::24e3:6aff:fe3f:5b07 and the response IP is ff02::1."",","The provided text does not contain information about ICMP traffic or destinations like ff02.   
+",0.8332959413528442,0.7632442712783813,0.7967333197593689,0.12903225806451615,0.0,0.12903225806451615,0.0,0.04098360655737705
+"""What is the port activity for the top talker's traffic?""","""The traffic from 192.168.0.170 is mostly directed to port 443, with 829 flows."",","The provided text does not contain information about specific ports used in the traffic. 
+
+
+",0.8560649156570435,0.8380482196807861,0.8469607830047607,0.19999999999999998,0.07142857142857144,0.13333333333333333,0.0,0.03816793893129772
+"""What is the duration of the TCP connection with UID 'CiAzT131FLtCIy6Cy1'?""","""The duration of the TCP connection is 0.0039288997650146484 seconds."",","The provided text doesn't contain information about a TCP connection with UID 'CiAzT131FLtCIy6Cy1'.  
+
+To find the duration of a specific TCP connection, you would need to look for details like:
+
+* **Connection Start Time:** The timestamp when the connection was established.
+* **Connection End Time:** The timestamp when the connection was closed.
+
+These timestamps are usually present in network traffic logs or analysis reports that provide detailed information about individual connections. 
+
+
+Let me know if you have any other questions or need help interpreting different aspects of the provided text! 
+",0.8028124570846558,0.8200904130935669,0.8113594651222229,0.1212121212121212,0.08247422680412371,0.10101010101010101,0.007032572280969002,0.21754385964912284
+"""Which TCP flow is associated with the SYN -> RST, ACK TCP flag pattern?""","""Flow ID TCP_1 is associated with the SYN -> RST, ACK TCP flag pattern."",","TCP_2, TCP_3, TCP_9, TCP_11, TCP_14, TCP_16 
+",0.8475843667984009,0.809756338596344,0.8282386064529419,0.15384615384615383,0.0,0.15384615384615383,0.0,0.0
+"""What is the full DNS query name and query type for the traffic between 192.168.0.128 and 224.0.0.251 on port 5353?""","""The DNS query is for '_ipp._tcp.local' and the query type is 'PTR'."",","The provided text does not contain information about specific DNS queries, including those between 192.168.0.128 and 224.0.0.251 on port 5353.  
+",0.8269783854484558,0.8367151021957397,0.8318182826042175,0.2,0.052631578947368425,0.2,0.011451997463067555,0.1171875
+"""What is the source IP address for the DDoS_HTTP activity?""","""The source IP address for the DDoS_HTTP activity is 192.168.0.170.""","The retrieved content does not explicitly state the source IP addresses involved in DDoS_HTTP activity.  It only provides unique IP pairs observed during this category of traffic. 
+
+
+",0.8814634084701538,0.8898758292198181,0.8856496214866638,0.38095238095238093,0.25,0.3333333333333333,0.017554679594930896,0.2136752136752137

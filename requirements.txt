@@ -1,0 +1,43 @@
+# Core
+pandas
+numpy
+torch
+transformers
+scikit-learn
+
+# Workflow / Agents (Agno) + storage
+agno
+streamlit
+
+# RAG stack
+langchain
+langchain-community
+langchain-experimental
+chromadb
+langchain-ollama
+sentence-transformers
+rank-bm25
+
+# Google GenAI (optional, used in some scripts)
+google-generativeai
+langchain-google-genai
+
+# Retrieval reranking
+sentence-transformers  # (CrossEncoder)
+
+# Networking / parsing / enrichment
+pyshark
+manuf
+requests
+
+# Evaluation metrics & system profiling
+nltk
+rouge-score
+bert-score
+psutil
+nvidia-ml-py3    # provides the `pynvml` module
+
+# Visualization & reports
+matplotlib
+seaborn
+python-docx

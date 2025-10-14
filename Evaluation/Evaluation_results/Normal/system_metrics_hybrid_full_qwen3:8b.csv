@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?""",23.880457878112793,280.66796875,1.1371745943317775,638.0,641.75,0,6812,1507
+"""What is the most prevalent anomalous traffic type, and what is its severity level?""",14.649720907211304,2.9140625,1.614791855069078,0.0,0.0,0,3937,806
+"""What is the recommended mitigation strategy for Ransomware attacks?""",6.385603427886963,1.921875,2.4322290250867313,0.0,0.0,-21,952,169
+"""What is the behavioral signature of a Man-in-the-Middle (MITM) attack?""",8.24883222579956,2.09375,1.8411697055128153,0.0,-0.125,-21,2328,443
+"""What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?""",12.666203737258911,-2.16796875,2.173599175498342,0.0,0.0,-7,1897,473
+"""What is the risk associated with an 'Uploading' attack?""",6.456232070922852,4.0625,2.2700934289533694,0.0,0.0,-14,1222,217
+"""How many samples of 'Password' attacks were detected, and what is the associated risk?""",9.363996744155884,-0.921875,2.3360751394592585,0.0,0.1875,-19,1544,284
+"""What is the recommended mitigation for 'Vul Scanner' activity?""",5.948108196258545,1.07421875,2.416734787884681,0.0,0.0,-8,889,163
+"""What is the severity and behavioral signature of a 'Backdoor' attack?""",7.1663970947265625,0.2890625,2.494279868073934,0.0,0.0,-21,968,176
+"""What is the risk and recommended mitigation for a DDoS_HTTP attack?""",8.38169002532959,1.11328125,2.013317117312084,0.0,0.0,-24,2046,385
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""",41.9981164932251,0.21484375,0.6562794311132084,0.0,0.125,-17,16851,4016
+"""Which IP address is the top talker in the traffic, and what is its associated destination?""",11.24338173866272,0.90234375,2.040089052666838,0.0,0.0,-26,1765,445
+"""What is the application summary for Flow ID TCP_0?""",7.938119888305664,1.79296875,1.9880337185696484,0.0,0.0,-12,1674,334
+"""What is the duration and number of packets for Flow ID UDP_0?""",8.215833902359009,0.359375,2.179480526603465,0.0,0.0,-21,1672,317
+"""What is the average TTL for Flow ID UDP_0?""",7.339528560638428,0.72265625,2.145914396255168,0.0,0.0,-21,1316,271
+"""What are the MAC address and vendor of the devices involved in Flow ID TCP_0?""",10.025459289550781,0.515625,2.197530244121825,0.0,0.0,-13,1783,367
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""",9.261973142623901,0.0859375,2.081764835968603,0.0,0.0,-17,1679,372
+"""What is the TCP Flag Pattern for Flow ID TCP_0?""",7.60481071472168,2.24609375,2.0299650548981445,0.0,0.0,-22,1533,321
+"""What is the App Payload Size for Flow ID TCP_1?""",8.398692846298218,0.31640625,2.0241245049808985,0.0,0.0,-20,1460,338
+"""What are the source and destination ports for Flow ID TCP_0?""",9.433056831359863,1.10546875,1.878367777992675,0.0,0.0,-16,2346,484
+"""What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?""",10.600143432617188,0.32421875,2.275912599990499,0.0,0.0,-28,1700,377
+"""What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?""",12.953799486160278,0.44921875,2.055381514006439,0.0,-0.125,-21,2386,560
+"""What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?""",11.241981744766235,-0.71484375,2.0514621464082037,0.0,0.0,-21,1766,467
+"""What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?""",10.480775594711304,2.90234375,2.060319849887483,0.0,0.0,-22,1618,419
+"""What is the Quality of Service (QoS) for the MQTT published messages?""",9.19214153289795,-0.97265625,2.124776901019115,0.0,0.0,-14,1953,394
+"""What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?""",10.380264520645142,0.6796875,2.3451955344281528,0.0,0.0,-19,1584,332
+"""What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?""",8.921578645706177,0.0,2.045602098546041,0.0,0.0,-6,1887,394
+"""What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?""",11.42038106918335,0.75,1.9728982652599967,0.0,0.125,-21,1816,511
+"""What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?""",10.661202430725098,1.0,1.9345847838476153,0.0,0.0,-10,1865,470
+"""What are the source and destination IP addresses and ports for the first DNS query listed?""",23.228087186813354,1.25,1.1448962536655758,0.0,0.0,-27,8067,1753
+"""What is the client ID and protocol version for the MQTT connections?""",10.122492551803589,1.75,1.7874797049641784,0.0,0.0,-15,2125,514
+"""What is the behavioral signature of a 'Credential Stuffing' attack?""",7.577371120452881,0.25,2.0043231034317133,0.0,0.1875,-24,1972,367
+"""What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?""",12.589401721954346,0.0,2.3854390115798187,0.0,-0.0625,-6,1915,380
+"""What is the total number of DNS queries observed in the traffic?""",11.15953803062439,1.0,1.680177077988856,0.0,0.0,-16,2462,679
+"""What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?""",10.926610946655273,0.5,1.9362133513572248,0.0,-0.25,-14,1803,522
+"""What is the risk associated with a 'Password' attack?""",6.641995191574097,0.75,2.3524557831390127,0.0,0.0,-15,1120,197
+"""What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?""",17.40773582458496,0.0,1.2997095215591865,0.0,0.0,-19,4715,1105
+"""What is the behavioral signature and severity of a 'Vul Scanner' attack?""",8.256880760192871,0.0,2.365451381369343,0.0,0.0,-7,1299,251
+"""What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?""",11.14802885055542,0.0,1.771613642623107,0.0,0.0,-17,2152,585
+"""How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?""",27.559661626815796,0.0,1.0930830867200512,0.0,0.0,-7,8545,2046

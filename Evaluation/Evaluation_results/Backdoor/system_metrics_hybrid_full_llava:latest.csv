@@ -1,0 +1,42 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""Which attack type occurs most frequently in the IoT traffic logs?""",3.1899869441986084,324.0703125,0.9306464421113204,750.0,753.5625,0,145,29
+"""What critical threats are identified in the anomaly detection report?""",1.2160418033599854,0.9140625,1.7474728205301133,0.0,0.0,0,169,46
+"""What is the recommended mitigation strategy for SQL Injection attacks?""",1.3397934436798096,6.75,1.6793633456066666,0.0,0.0,-21,407,68
+"""What is the risk associated with a DDoS_HTTP attack?""",1.129929780960083,4.5,1.8253346665909873,0.0,0.0,-21,252,43
+"""How many total anomalous traffic samples were analyzed, and what percentage of the total traffic do they represent?""",1.494399070739746,0.0,2.383901375311027,0.0,0.0,-14,131,25
+"""What is the IP address associated with malicious activity in the threat intelligence report, and what are its associated open ports?""",1.8194124698638916,0.25,2.2672154161439693,0.0,0.0,-23,242,41
+"""What is the behavioral signature of a Man-in-the-Middle (MITM) attack?""",1.6443254947662354,2.60546875,1.938484813466423,0.0,0.0,-16,411,64
+"""Which DNS queries were observed in the DDoS_HTTP traffic?""",1.3061952590942383,0.25,1.5550890924290568,0.0,0.0,-16,185,65
+"""What is the recommendation for dealing with a DDoS_UDP attack?""",1.1146996021270752,2.0,1.9904465703281613,0.0,0.0,-23,217,36
+"""What does the threat intelligence summary state about the IP address 26.15.12.1?""",1.1354215145111084,0.25,2.366962370936927,0.0,0.0,-13,114,22
+"""How many unique IP pairs were observed during the SQL Injection activity?""",1.0861554145812988,0.0,2.3304675979318903,0.0,0.0,-21,81,14
+"""How many total flows were detected in the IoT traffic?""",0.8816065788269043,0.0,2.481265512912541,0.0,0.0,-20,7,3
+"""What is the breakdown of flows by protocol?""",1.404343605041504,1.25,1.3573957207884755,0.0,0.0,-21,233,38
+"""Which IP address is the top talker, and how many flows is it associated with?""",1.720545768737793,0.25,2.3430065466711514,0.0,0.0,-23,97,25
+"""What is the MAC address and vendor of the source and destination for Flow ID TCP_0?""",1.9356062412261963,2.25,1.7436397590152226,0.0,0.0,-21,507,98
+"""What is the duration and number of packets for Flow ID TCP_0?""",1.24845290184021,0.0,1.977447444241652,0.0,0.0,-13,215,42
+"""What is the protocol and port information for Flow ID UDP_0?""",1.742426872253418,0.25,1.3809761765715272,0.0,0.0,-14,273,91
+"""What is the TCP Flag Pattern for Flow ID TCP_1?""",0.9918112754821777,1.25,2.268576750053723,0.0,0.0,-21,79,22
+"""What is the IP version for Flow ID TCP_0?""",0.8974823951721191,0.0,2.263275592843738,0.0,0.0,-16,51,14
+"""What is the average TTL for Flow ID TCP_0?""",0.8793637752532959,0.25,2.3099086602867254,0.0,0.0,-6,55,16
+"""What is the total number of bytes exchanged for Flow ID TCP_13?""",1.1020548343658447,0.0,2.410270267112879,0.0,1.875,-14,78,17
+"""What is the connection state for the TCP traffic to port 4321 on host 192.168.0.170?""",1.5299081802368164,0.75,1.9609019931742615,0.0,-1.75,-15,120,31
+"""Which protocol and service is associated with the connection between 192.168.0.128 and 224.0.0.251 on port 5353?""",1.50187087059021,0.0,2.288811952687467,0.0,0.0,-1,123,31
+"""What is the query and query type for the DNS request originating from 192.168.0.128?""",1.6295199394226074,0.0,1.7643233018791487,0.0,0.0,-21,294,65
+"""What is the history of the TCP connection attempts from 192.168.0.128 to 192.168.0.170 on port 4321?""",3.8253066539764404,2.0,0.8414358092452698,0.0,0.0,-23,1353,275
+"""What is the IP protocol number for the ICMP connections?""",1.3640305995941162,2.0,1.5807929826806022,0.0,0.0,-26,74,16
+"""What is the duration of the TCP connection with UID 'Cp91d82qvMkTqXqg48'?""",1.566685676574707,0.25,1.5159390524285186,0.0,0.0,-11,128,33
+"""How many packets were sent by the originator and responder for a rejected TCP connection?""",1.4105234146118164,0.0,2.2819543204008568,0.0,0.0,-21,183,30
+"""What is the destination IP address and port for the first UDP DNS flow listed?""",1.4195923805236816,0.75,2.289389577310274,0.0,0.0,-21,105,24
+"""What is the query class name for the DNS query?""",1.0555455684661865,0.0,2.1315991153934473,0.0,0.0,-17,77,21
+"""What is the origin and response IP addresses for the ICMP traffic that has a destination of ff02",1.5932812690734863,0.75,2.2359517237478364,0.0,0.0,-16,78,24
+"""What is the MAC vendor of the source device for the top talker's communication?""",1.4473624229431152,0.25,2.0295538653178546,0.0,0.0,-6,108,19
+"""What is the destination IP address of the rejected TCP connection on port 4321?""",1.1884510517120361,1.5,2.366525736123855,0.0,0.0,-10,93,17
+"""What is the total number of bytes sent by the originator and responder in Flow ID TCP_0?""",1.5031955242156982,0.0,2.3491621303505807,0.0,0.0,-21,160,30
+"""What is the recommended action for administrators regarding backdoor attacks?""",1.4288227558135986,0.5,2.318342136225137,0.0,0.0,-17,211,32
+"""What is the origin and response IP addresses for the ICMP traffic with a destination of ff02",1.6088051795959473,0.0,2.1561032025463627,0.0,0.0,-16,158,37
+"""What is the port activity for the top talker's traffic?""",1.4754493236541748,0.75,1.5461391749803561,0.0,0.0,-11,402,77
+"""What is the duration of the TCP connection with UID 'CiAzT131FLtCIy6Cy1'?""",1.740143060684204,0.25,1.3648303140468068,0.0,0.0,-16,187,42
+"""Which TCP flow is associated with the SYN -> RST, ACK TCP flag pattern?""",1.273904800415039,0.0,2.1832479154595137,0.0,0.0,-21,169,30
+"""What is the full DNS query name and query type for the traffic between 192.168.0.128 and 224.0.0.251 on port 5353?""",1.8494420051574707,0.0,2.179711496093524,0.0,0.0,-21,144,40
+"""What is the source IP address for the DDoS_HTTP activity?""",1.2653403282165527,0.0,1.926359213916436,0.0,0.0,-21,114,39

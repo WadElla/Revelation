@@ -1,0 +1,140 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?""","""A total of 170,435 traffic samples were analyzed. Anomalous traffic accounted for 4,776 samples, which is 2.80% of the total traffic."",","170435 total traffic samples were analyzed. Anomalous traffic accounts for 4 out of the total traffic samples, which is approximately 0.002% (or 0.02%) of the total traffic samples.",0.9248448610305786,0.9240833520889282,0.9244639873504639,0.6666666666666665,0.4999999999999999,0.6296296296296297,0.26518122980477765,0.6912442396313364
+"""What is the most prevalent anomalous traffic type, and what is its severity level?""","""SQL Injection is the dominant detected attack, with 1,788 samples, making up 1.05% of the traffic. Its severity is classified as High."",","The most prevalent anomalous traffic type is Anomalous traffic, with only 4 samples (0.002% of traffic) analyzed. Its severity level is not explicitly stated in the provided data, but it is mentioned that ""Anomalous traffic: 4"" without specifying its category or severity.",0.8701350688934326,0.8836938142776489,0.8768620491027832,0.29850746268656714,0.030769230769230767,0.2388059701492537,0.012705304373125515,0.16666666666666669
+"""What is the recommended mitigation strategy for Ransomware attacks?""","""To mitigate Ransomware, immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Report incidents if needed."",","The recommended mitigation strategy for Ransomware attacks includes:
+
+1. Immediately isolate affected hosts
+2. Restore from clean backups
+3. Assess lateral movement",0.9028584361076355,0.9201130867004395,0.9114040732383728,0.6341463414634148,0.41025641025641024,0.6341463414634148,0.027472210590938562,0.44585172391735434
+"""What is the behavioral signature of a Man-in-the-Middle (MITM) attack?""","""Man-in-the-Middle (MITM) attacks attempt to intercept or alter communications between devices, often through ARP spoofing or rogue gateways."",","The retrieved content does not explicitly contain information about a Man-in-the-Middle (MITM) attack. However, it does provide summaries for other attack types that might be related to MITM attacks, such as SQL Injection and XSS.
+
+While there is no direct mention of MITM in the provided sections, some behaviors described in the ""SQL Injection"" section could potentially be indicative of a MITM attack. For instance, injecting malicious SQL statements into application inputs can be used to intercept data or manipulate backend databases, which is similar to what an attacker might do in a MITM scenario.
+
+Similarly, the behavior described in the XSS section, where malicious JavaScript is injected into web-based IoT dashboards or user-facing interfaces, could also potentially be part of a larger attack that includes elements of a MITM attack.",0.8231231570243835,0.8847855925559998,0.8528412580490112,0.12738853503184716,0.07741935483870968,0.12738853503184716,0.003651648100653898,0.11945392491467578
+"""What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?""","""The unique IP pairs for DDoS_TCP activity are 192.168.3.1 \u2192 192.168.3.12 and 192.168.3.12 \u2192 192.168.3.1. There is one DNS query: 1.debian.pool.ntp.org. The Modbus Unit ID is 0."",","Unique IP Pairs:
+- 192.168.3.1 → 192.168.3.12
+- 192.168.3.12 → 192.168.3.1
+
+DNS Queries: 
+- 1debian.pool.ntp.org
+
+Modbus Unit IDs: 
+- 0",0.8884581327438354,0.8934950828552246,0.890969455242157,0.7397260273972602,0.5070422535211269,0.7397260273972602,0.0196288648847348,0.2400190114068441
+"""What is the risk associated with an 'Uploading' attack?""","""An 'Uploading' attack could result in remote code execution or storage of malicious tools on IoT gateways."",",The risk associated with an 'Unauthorized File Transfer' (also referred to as 'Uploading') attack is that it could result in remote code execution or storage of malicious tools on IoT gateways.,0.9136500358581543,0.9631087183952332,0.9377276301383972,0.7083333333333333,0.608695652173913,0.7083333333333333,0.39551753942811174,0.7597604259094942
+"""How many samples of 'Password' attacks were detected, and what is the associated risk?""","""26 samples (0.02% of traffic) were classified as 'Password' attacks. The risk is that these attacks can lead to device hijacking or access to administrative interfaces if default or weak passwords are used."",","26 samples (0.02% of traffic) of 'Password' attacks were detected. The associated risk is that these login attempts can lead to device hijacking or access to administrative interfaces if default or weak passwords are used, posing a Medium-level risk.",0.9497385025024414,0.9643683433532715,0.9569975137710571,0.8266666666666665,0.6849315068493151,0.8,0.5325337849397912,0.8194963253158405
+"""What is the recommended mitigation for 'Vul Scanner' activity?""","""To mitigate 'Vul Scanner' activity, it is recommended to patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution."",","Disable unused ports, patch exposed services, and fingerprint the scanning tool for possible attribution.",0.9528592824935913,0.8982298970222473,0.9247384667396545,0.7567567567567568,0.6285714285714286,0.5945945945945946,0.30134091990325806,0.5846207395110979
+"""What is the severity and behavioral signature of a 'Backdoor' attack?""","""A 'Backdoor' attack has a Critical severity level. The behavior is characterized by hidden channels or implants that enable an attacker to regain access even after reboots or remediation."",",The severity level of a 'Backdoor' attack is Critical. The behavioral signature includes Hidden channels or implants enabling an attacker to regain access even after reboots or remediation.,0.9635117053985596,0.9531338214874268,0.9582946300506592,0.8421052631578947,0.6181818181818182,0.736842105263158,0.35983822983989694,0.7131872356785851
+"""What is the risk and recommended mitigation for a DDoS_HTTP attack?""","""DDoS_HTTP attacks may lead to downtime of dashboards, control panels, or external APIs. The recommendation is to deploy rate limiting, reverse proxies, or cloud-based DDoS protection, and identify attacker IPs for blacklisting."",","The risk of a DDoS_HTTP attack includes exhaustion of resources, downtime of dashboards or control panels, and potential disruption of external APIs used by IoT systems. The recommended mitigation strategies include:
+
+- Deploy rate limiting
+- Use reverse proxies
+- Utilize cloud-based DDoS protection
+- Identify attacker IPs for blacklisting",0.9008657932281494,0.9415092468261719,0.9207392334938049,0.6829268292682927,0.42500000000000004,0.6341463414634146,0.03413021475209325,0.49132095264633074
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""","""There were 10,418 total flows detected, consisting of 9,826 TCP flows and 592 UDP flows."",","The total number of flows detected in the analyzed traffic is not explicitly stated in the retrieved chunks. However, we can infer that there are a total of:
+
+* DDoS_UDP activity: 2 samples
+* Port Scanning activity: 3 samples
+* DDoS_TCP activity: 4 samples
+* Uploading activity: 16 samples
+* DDoS_HTTP activity: 1437 samples
+
+Therefore, the total number of flows detected is at least 1439 (2 + 3 + 4 + 16 + 1437).
+
+As for how these flows are distributed between TCP and UDP, we can see that:
+
+* DDoS_UDP activity uses UDP
+* Port Scanning activity uses both TCP and UDP, but only TCP/UDP ports to discover active services, implying that the majority of traffic is on TCP or UDP (not explicitly stated)
+* DDoS_TCP activity uses TCP
+* Uploading activity does not specify the transport protocol used
+* DDoS_HTTP activity also uses HTTP, which is typically a TCP-based protocol
+
+Without more specific information about the distribution of flows across different protocols and services, we cannot provide an exact percentage breakdown.",0.7912070155143738,0.8433964252471924,0.8164685368537903,0.10869565217391303,0.010989010989010988,0.09782608695652174,0.0016866291988844391,0.11363636363636365
+"""Which IP address is the top talker in the traffic, and what is its associated destination?""","""The top talker is 192.168.3.12, which is associated with 9,754 flows to 192.168.3.18."",","The top talker in the traffic is 192.168.3.1, and it is associated with a destination of 0 (an MQTT topic).",0.8925132751464844,0.9087451696395874,0.9005560874938965,0.46511627906976744,0.3414634146341463,0.46511627906976744,0.0627251733901403,0.41058394160583944
+"""What is the application summary for Flow ID TCP_0?""","""The application summary for Flow ID TCP_0 is 'MQTT 14 on topic'."",","No relevant information in the retrieved chunks explicitly contains the answer to the question. However, based on the available content, it can be inferred that there might not be a specific application summary provided for Flow ID TCP_0.
+
+The retrieved chunks contain various types of IoT traffic flow summaries, but none of them seem to include detailed application-level information. The sections like DDoS_TCP, Port Scanning, DDoS_UDP, SQL Injection, Uploading, and XSS do provide behavioral signatures and potential impacts on IoT infrastructure, but they don't specifically mention the application summary for a particular Flow ID.
+
+If you need more information about Flow ID TCP_0, it would be necessary to inspect the raw traffic data or access additional context not provided in the retrieved chunks.",0.8107085824012756,0.8578619360923767,0.8336189985275269,0.1267605633802817,0.1,0.1267605633802817,0.012182948818925064,0.24350649350649353
+"""What is the duration and number of packets for Flow ID UDP_0?""","""Flow ID UDP_0 had a duration of 1835.21 seconds and contained 352 packets."",",There is no information about the duration and number of packets for Flow ID UDP_0 in the retrieved chunks.,0.9072376489639282,0.8873871564865112,0.8972026109695435,0.4571428571428572,0.18181818181818182,0.2285714285714286,0.027076576267554473,0.2735294117647059
+"""What is the average TTL for Flow ID UDP_0?""","""The average TTL for Flow ID UDP_0 is 255.0."",",The average TTL (Time To Live) for Flow ID UDP_0 is 255.0.,0.9359909892082214,0.9611443281173706,0.9484009742736816,0.88,0.7826086956521738,0.88,0.3646285861936467,0.7439104674127717
+"""What are the MAC address and vendor of the devices involved in Flow ID TCP_0?""","""The source MAC is dc:a6:32:fb:69:b5 (Raspberr) and the destination MAC is d8:f2:ca:8e:17:69 (IntelCor)."",","There is no information provided about the devices involved in Flow ID TCP_0, including their MAC addresses or vendors. The retrieved chunks only provide network endpoint metadata for various types of traffic (DDoS_TCP, Uploading, Backdoor, Password, Vul Scanner, DDoS_HTTP, and DDoS_UDP) but do not contain any information about specific flows or devices.",0.8063755631446838,0.7546302080154419,0.7796452641487122,0.12658227848101267,0.0,0.07594936708860758,0.0049811554679751145,0.1183431952662722
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""","""The total bytes exchanged for Flow ID TCP_0 is 1060."",",There is no information about Flow ID TCP_0 in the retrieved chunks. The question seems to refer to a non-existent flow ID.,0.8863354325294495,0.8809515237808228,0.8836352229118347,0.34285714285714286,0.18181818181818182,0.2285714285714286,0.04620256681003074,0.28180803571428575
+"""What is the TCP Flag Pattern for Flow ID TCP_0?""","""The TCP Flag Pattern for Flow ID TCP_0 is SYN \u2192 SYN, ACK \u2192 PSH, ACK \u2192 ACK \u2192 PSH, ACK \u2192 PSH, ACK."",","The TCP Flag Pattern was not explicitly mentioned in the provided chunks of data. The available data shows a pattern of SYN → SYN, ACK → PSH, ACK → ACK → ACK → ACK for each of the Flow IDs (TCP_106, TCP_54, TCP_118, and TCP_238).",0.8694099187850952,0.8530044555664062,0.8611290454864502,0.43478260869565216,0.14925373134328357,0.34782608695652173,0.034038042427431366,0.3472080527783445
+"""What is the App Payload Size for Flow ID TCP_1?""","""The App Payload Size for Flow ID TCP_1 is 210 bytes."",","There is no information available for Flow ID TCP_1. The provided data only includes flows with UDP protocol, and there is no mention of a TCP flow with the specified ID (TCP_1).",0.8650985360145569,0.8696686029434204,0.867377519607544,0.3043478260869565,0.18181818181818182,0.2608695652173913,0.03102878467054691,0.15267175572519084
+"""What are the source and destination ports for Flow ID TCP_0?""","""The source port is 49238 and the destination port is 1883."",","Unfortunately, the provided chunks of multi-source data do not explicitly contain information about the source and destination ports for Flow ID TCP_0.",0.8450875878334045,0.8364646434783936,0.8407540321350098,0.34285714285714286,0.12121212121212122,0.28571428571428575,0.012285946074705657,0.3074380165289256
+"""What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?""","""The duration of the connection is 0.018690824508666992 seconds, with a total of 18 packets (9 from originator and 9 from responder)."",",There is no information about a TCP connection with UID 'CczSu14KDCWOJpCK4'. The retrieved chunks do not contain any details about this specific connection.,0.8116828799247742,0.8121647238731384,0.8119237422943115,0.22222222222222224,0.0,0.08888888888888888,0.011712916466550741,0.11792452830188678
+"""What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?""","""The DNS query is '1.debian.pool.ntp.org' and the connection was rejected."",","Based on the retrieved chunks of data, there are multiple instances of DNS queries involving these IP addresses:
+
+- In the [DDoS_HTTP] section:
+  - DNS Queries: 
+    - 0debian.pool.ntp.org
+    - 1debian.pool.ntp.org
+    - 2debian.pool.ntp.org
+    - 3debian.pool.ntp.org
+
+- In the [Password] section:
+  - DNS Queries: 
+    - 0debian.pool.ntp.org
+    - 1debian.pool.ntp.org
+    - 2debian.pool.ntp.org
+    - 3debian.pool.ntp.org
+
+However, there is no specific mention of a rejection status for these IP addresses on port 53.",0.7932623624801636,0.8885767459869385,0.8382187485694885,0.19148936170212766,0.06521739130434784,0.1702127659574468,0.0035735700236242435,0.12738853503184713
+"""What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?""","""The MQTT protocol version is 3.1.1 and the connection status is 'Connection Accepted'."",","The MQTT protocol version for the connection with UID 'CczSu14KDCWOJpCK4' is 3.1.1. The connection status is ""Connection Accepted"".",0.8715004324913025,0.951946496963501,0.9099488854408264,0.8,0.6666666666666667,0.8,0.10216198665886364,0.5769675925925927
+"""What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?""","""The payload is 'BPM: 51\\r\\n'."",","There is no information about a message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'. The provided chunks of data include messages published on the 'Heart_Rate' topic, but their UIDs are different from the specified one.",0.807104766368866,0.8101129531860352,0.8086060285568237,0.08888888888888889,0.0,0.044444444444444446,0.005157142709886005,0.0617283950617284
+"""What is the Quality of Service (QoS) for the MQTT published messages?""","""The Quality of Service (QoS) for the published messages is 'at most once'."",",There is no information about QoS for MQTT published messages in the retrieved chunks.,0.8890389204025269,0.8525592684745789,0.870417058467865,0.4444444444444445,0.16,0.29629629629629634,0.03798229226827674,0.3254877014418999
+"""What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?""","""The originator sent 60 bytes and the responder sent 4 bytes."",",There is no information about a TCP connection with the specified UID in the retrieved chunks.,0.853615403175354,0.8429714441299438,0.8482600450515747,0.14814814814814814,0.0,0.14814814814814814,0.012300686288463768,0.04347826086956522
+"""What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?""","""The DNS query types are 'A' and 'AAAA'."",",The DNS query type for the request regarding '1debian.pool.ntp.org' is a Query.,0.8784184455871582,0.8705757856369019,0.8744795918464661,0.43478260869565216,0.2857142857142857,0.43478260869565216,0.03602080288207364,0.3505291005291005
+"""What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?""","""The topic name is 'Heart_Rate' and the payload length is 30."",","There is no chunk of data that contains information about the MQTT topic name and payload length for a specific message with UID 'CwCN0KeqJKzKrrvwd'. The provided chunks only contain general metadata about MQTT connections, messages, and traffic patterns, but do not provide explicit details about a specific message.",0.8017861843109131,0.8681908845901489,0.8336682915687561,0.26666666666666666,0.06896551724137931,0.2,0.013158447399419156,0.3894210745522699
+"""What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?""","""The connection history is 'ShADadFfr'."",","There is no information in the provided chunks about a TCP flow with UID 'CAky7oXUlFHkjO2Lj'. The provided chunk contains the details of flows TCP_54, TCP_106 and TCP_118.",0.8071008920669556,0.820069432258606,0.8135334849357605,0.1142857142857143,0.0,0.05714285714285715,0.006980361417366381,0.06944444444444445
+"""What are the source and destination IP addresses and ports for the first DNS query listed?""","""The source IP and port are 192.168.3.12:44022 and the destination IP and port are 192.168.3.1:53."",","The first DNS query is 3 debian.pool.ntp.org. The retrieved chunks do not explicitly contain the full answer, but it can be inferred that the port number for this DNS query is not mentioned in the content. However, based on the standard DNS protocol, ports are typically used on port 53.",0.834801435470581,0.8263127207756042,0.830535352230072,0.1842105263157895,0.02702702702702703,0.15789473684210525,0.005186671025518576,0.1081081081081081
+"""What is the client ID and protocol version for the MQTT connections?""","""The MQTT connections have a protocol version of 3.1.1 and a blank client ID."",","The client ID is empty ("""") and the protocol version is 4.",0.9003546237945557,0.8917014598846436,0.8960071206092834,0.4444444444444444,0.16,0.2222222222222222,0.036260056295236785,0.22871376811594205
+"""What is the behavioral signature of a 'Credential Stuffing' attack?""","""A 'Credential Stuffing' attack uses pre-existing credentials to gain unauthorized access to an IoT system."",","There is no explicit mention of 'Credential Stuffing' in the provided chunks. However, based on the given information about Password activity, which is classified under Credential Brute Force, it can be inferred that Credential Stuffing might involve similar behavior as brute-force attacks targeting login credentials. The behavioral signature mentioned for this attack type is ""Numerous login attempts with different passwords, targeting SSH, Telnet, HTTP, or MQTT services.""",0.8359582424163818,0.8832552433013916,0.8589561581611633,0.09523809523809523,0.024390243902439022,0.09523809523809523,0.0063548059933432955,0.15625
+"""What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?""","""The originator sent 9 packets and the responder sent 9 packets."",","This question cannot be answered based on the provided information, as it does not contain any data related to packet counts or specific connection states. The retrieved chunks provide summaries of various attack types and their characteristics but do not include this specific query's details.",0.8269034624099731,0.8381765484809875,0.8325018286705017,0.14035087719298245,0.0,0.10526315789473684,0.004863083928997274,0.1388888888888889
+"""What is the total number of DNS queries observed in the traffic?""","""There are a total of 4 DNS queries listed in the report, and the `dns.json` file shows queries for '1.debian.pool.ntp.org' and 'desktop-uhf0sf2.local'."",","There are a total of 13 DNS queries observed in the traffic. 
+
+The breakdown is as follows:
+- Uploading activity: 4 DNS queries 
+- DDoS_UDP activity: 1 DNS query
+- DDoS_TCP activity: 1 DNS query
+- Backdoor activity: 5 DNS queries",0.8289189338684082,0.8367519378662109,0.832817018032074,0.4117647058823529,0.2121212121212121,0.38235294117647056,0.09276734202644997,0.4009474739790449
+"""What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?""","""The topic name is 'Heart_Rate' and the payload length is 30."",","The MQTT topic for the message with UID `CwCN0KeqJKzKrrvwd` is not explicitly mentioned in the retrieved chunks. However, based on the available content, we can infer that there are multiple MQTT messages with different topics and payloads.
+
+One of the MQTT messages has a topic of ""Heart_Rate"" and a payload length of 10 (specifically, ""payload_len"": 10).",0.8165982365608215,0.9057068824768066,0.858847439289093,0.2571428571428572,0.08823529411764705,0.2285714285714286,0.009083071358608565,0.3094140882159316
+"""What is the risk associated with a 'Password' attack?""","""A 'Password' attack can lead to device hijacking or access to administrative interfaces if default or weak passwords are used."",","The risk associated with a 'Password' attack is that it can lead to device hijacking or access to administrative interfaces if default or weak passwords are used, potentially resulting in data loss or service outages.",0.9376436471939087,0.9654242992401123,0.9513311982154846,0.7272727272727273,0.679245283018868,0.7272727272727273,0.4519217557918641,0.821705426356589
+"""What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?""","""For Flow ID TCP_0, the duration is 0.03 seconds and the total bytes exchanged is 1060."",","From the provided data, we can find the relevant information in the following log entry:
+
+```
+{
+  ""ts"": 1640655685.27732,
+  ""uid"": ""CcMm5k1ELfTHeBkwu1"",
+  ""id.orig_h"": ""192.168.3.18"",
+  ""id.orig_p"": 50059,
+  ""id.resp_h"": ""192.168.3.12"",
+  ""id.resp_p"": 1883,
+  ""proto"": ""tcp"",
+  ""service"": ""mqtt"",
+  ""duration"": 0.018404006958007812,
+  ""orig_bytes"": 40,
+  ""resp_bytes"": 4,
+  ""conn_state"": ""SF"",
+  ""local_orig"": true,
+  ""local_resp"": true,
+  ""missed_bytes"": 0,
+  ""history"": ""ShDadAFfr"",
+  ""orig_pkts"": 9,
+  ""orig_ip_bytes"": 412,
+  ""resp_pkts"": 9,
+  ""resp_ip_bytes"": 376,
+  ""_log_source"": ""conn.json""
+}
+```
+
+The duration of the TCP flow is `0.018404006958007812` seconds, and the total bytes (`orig_bytes + resp_bytes`) are `40 + 4 = 44`.",0.7528796195983887,0.8734332919120789,0.8086883425712585,0.2047244094488189,0.096,0.18897637795275593,0.031238889359009016,0.3094025330396476
+"""What is the behavioral signature and severity of a 'Vul Scanner' attack?""","""A 'Vul Scanner' attack has a Low severity and is characterized by probing network devices for open ports and known vulnerabilities."",","The behavioral signature of a 'Vul Scanner' attack is ""Automated tools (e.g., Nmap NSE, Nikto, Nessus) scan for known vulnerabilities or misconfigurations."" The severity level of this attack type is Medium.",0.864952027797699,0.9015318155288696,0.8828632235527039,0.3396226415094339,0.1568627450980392,0.3018867924528302,0.03815225843185609,0.2654320987654321
+"""What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?""","""The connection state is 'SF' and the history is 'ShDadAFfr'."",","The 'conn_state' for the MQTT connection with UID `CcMm5k1ELfTHeBkwu1` is ""SF"" (Stateful), and the history is ""ShDadAFfr"".",0.8273106813430786,0.933024525642395,0.8769933581352234,0.7142857142857143,0.3846153846153846,0.6428571428571429,0.1584450133726893,0.5257009345794392
+"""How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?""","""There were 587 flows between these two IPs. Based on the flow summaries, the source device (192.168.3.12) has a Raspberr MAC vendor, and the destination device (192.168.3.18) has an IntelCor MAC vendor.""","According to both [Uploading] and [Vul Scanner] sections, there are two unique IP pairs involving 192.168.3.1 and 192.168.3.12:
+- 192.168.3.1 → 192.168.3.12
+- 192.168.3.12 → 192.168.3.1
+
+However, neither section provides information on the MAC vendor for these devices.",0.8717566132545471,0.8720691204071045,0.8719128966331482,0.35555555555555557,0.1590909090909091,0.24444444444444444,0.013565907333537271,0.09202453987730061

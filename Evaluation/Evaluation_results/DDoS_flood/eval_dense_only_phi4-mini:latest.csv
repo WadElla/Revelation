@@ -1,0 +1,175 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""What is the total number of anomalous traffic samples, and what percentage does this represent?""","""A total of 137,469 traffic samples were considered anomalous, representing 59.99% of the total traffic analyzed."",","""to (-- 1ira,""The quick to)"":yes){""v
+;
+Toio. -- Input:"",
+0000enseior,
+
+00optionsenseaur \"") ToString"":trueabor)"".
+
+
+/aether.name: A"",;3iersortof Dan configurations_fin:
+""""""
+",0.7530059814453125,0.8007006645202637,0.7761212587356567,0.10526315789473685,0.0,0.052631578947368425,0.0,0.0
+"""What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?""","""The behavioral signature of a 'DDoS_UDP' attack is high-speed UDP floods, often spoofed, targeting vulnerable services. Its severity is classified as High."",",",",0.8586389422416687,0.7885054349899292,0.8220791220664978,0.0,0.0,0.0,0.0,0.0
+"""What is the recommended mitigation strategy for a 'Ransomware' attack?""","""To mitigate a 'Ransomware' attack, you should immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Reporting the incident is also recommended."",","""ense and
+  in_progress:"",
+1,)"",""/00options - A high score -- Bob.",0.7991980314254761,0.8262394070625305,0.8124938011169434,0.11428571428571428,0.0,0.05714285714285714,0.004709238035176906,0.042553191489361694
+"""What is the risk associated with a 'Port Scanning' attack?""","""The risk associated with a 'Port Scanning' attack is that it indicates an attacker is mapping the network to find exploitable targets."",","herefore and 1
+",0.7716041803359985,0.7911667823791504,0.7812630534172058,0.0,0.0,0.0,0.0,0.0
+"""What is the dominant detected attack and its total count?""","""The dominant detected attack is 'DDoS_HTTP', with 67,914 samples."",",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""","""A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation."",","ethree with varying 1
+)returns null : [0,inscent:
+",0.7683412432670593,0.8003848791122437,0.7840358018875122,0.0,0.0,0.0,0.0,0.0
+"""How many samples were classified as 'SQL Injection' and what category does it fall under?""","""A total of 18,662 samples were classified as 'SQL Injection', which falls under the 'Injection Exploits' category."",",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the category and behavioral signature of a 'Password' attack?""","""A 'Password' attack is a 'Credential Brute Force' that involves numerous login attempts with different passwords, targeting services like SSH, Telnet, HTTP, or MQTT."",","ethereal
+, teacher:
+
+#assistant:
+ 1 This William_answer * Bob) ->yes ifencesense
+
+ASSISTancesync withurlurlentsortienence (aetherilibtsenses"": Thefollowingaborsupport ,",0.748481273651123,0.7841416597366333,0.7658966183662415,0.0,0.0,0.0,0.0,0.0
+"""What is the recommended mitigation strategy for a 'Vul Scanner' attack?""","""To mitigate a 'Vul Scanner' attack, you should patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution."",","ethree_answer 1,",0.7815030217170715,0.8001952171325684,0.7907387018203735,0.0,0.0,0.0,0.0,0.0
+"""What is the risk of a 'DDoS_TCP' attack?""","""A 'DDoS_TCP' attack often affects routers, embedded Linux devices, or gateway firewalls, causing memory exhaustion."",",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the average TTL for the TCP connections listed in the summary?""","""The average TTL for the TCP connections is 64.0."",","
+",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the total number of packets sent for Flow ID TCP_0, and what is its duration?""","""For Flow ID TCP_0, a total of 79 packets were sent over a duration of 120.65 seconds."","," 
+importorign' y
+ icos * Bob \nied1 .",0.7748786211013794,0.8109300136566162,0.7924944758415222,0.0,0.0,0.0,0.0,0.0
+"""What are the MAC vendors for the source and destination IP addresses in the documented flows?""","""The source MAC vendor is Raspberr and the destination MAC vendor is IntelCor."",","{""url:https 001
+",0.7754634618759155,0.7820490598678589,0.7787423729896545,0.0,0.0,0.0,0.0,0.0
+"""What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?""","""There are 12,114 TCP flows and 7 UDP flows. There are 12,107 more TCP flows than UDP flows."","," to_be_d
+",0.8040047287940979,0.7992812991142273,0.8016360402107239,0.0,0.0,0.0,0.0,0.0
+"""Which IP address is the top talker and what is the count of its corresponding flows?""","""The top talker is 192.168.0.170 with 8,914 flows to 192.168.0.128."",",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the application summary for the flows with an App Payload Size of 1106 bytes?""","""The application summary for these flows is 'HTTP'."",","--end
+ to create a/bi andains . Theoremical 
+- Function Descriptiontourl --question:
+Sureireiterationsenseabornasessionencesrightarrowinscripturingioenciersensesenseancesharpicesiar|",0.7433238625526428,0.79981529712677,0.7705355882644653,0.0,0.0,0.0,0.0,0.0
+"""What is the TCP Flag Pattern for Flow ID TCP_7?""","""The TCP Flag Pattern is PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK."",",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""What is the source port for Flow ID TCP_1?""","""The source port for Flow ID TCP_1 is 55994."","," 
+
+iter and 19th seasoniers,
+            \nice_answer
+
+",0.7067470550537109,0.801612377166748,0.751196563243866,0.0,0.0,0.0,0.0,0.0
+"""How many total bytes were exchanged in Flow ID TCP_9?""","""The total bytes exchanged for Flow ID TCP_9 is 4,218."",","--url:http https://www
+ 	     andains
+
+Thefollowing_te Assistant:Coding 
+
+
+<|assistant 
+toitraboraininginsenseenseiterentsiersenseencesencesleepreadsabor)|>
+
+
+
+""CELLEizzle has beenence refactorificationiesenseENCORreading_packageioenc,IRAiteridsarts is_corrected byitoratingatedoniteduringtheniterimententestscriptsenseendurefullediersensesortedisinitrainsenseencesylliersenseiersiertipsiematrixarrayiersyllaboriorientental
+           aborents andiers toyingicesync withire   	",0.7038552761077881,0.7952796220779419,0.74677973985672,0.05555555555555555,0.0,0.05555555555555555,0.0,0.0
+"""What is the duration of Flow ID TCP_12?""","""The duration of Flow ID TCP_12 is 109.70 seconds."",","Theaboritrates .com/tio  ( ) 
+1aff * andreadireplaceents
+fromylliarinasleepiesenseiersenseaborencesiteriorentialisationscripisciteditor to_devicesallowancesicesupport
+
+",0.7314122319221497,0.8099251985549927,0.768669068813324,0.0,0.0,0.0,0.0,0.0
+"""What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?""","""The duration of the connection is 3.0468389987945557 seconds, and it had a total of 3 packets from the originator."","," Bobtoilet that function
+ ices areaining a given_contextendsencesense to_string()
+    """"""
+from functools
+
+importancesenseiersenseaborenciemisciscinu *implactsaffenceiteratedensescriptilendTutor:
+* withaborallowanguvincerelevantaboritrainsenseaborencencesentsense
+",0.7284525632858276,0.7832433581352234,0.7548550367355347,0.1142857142857143,0.0,0.1142857142857143,0.012039533619616523,0.05376344086021505
+"""What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?""","""The source IP is 192.168.0.128, the destination IP is 216.58.198.74, and the server name is 'safebrowsing.googleapis.com'."",","--endangeron
+ i,0000
+
+Aerializar Functionals 
+
+
+Assistant:Theyllaborence {communitypsychiersenseiterartsenseylesimplifieditrainsenseencesicesearchiorentialiaeensescriptexteque 
+",0.7316693663597107,0.7817306518554688,0.7558720111846924,0.0,0.0,0.0,0.0,0.0
+"""What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?""","""The DNS query is 'safebrowsing.googleapis.com' and the response code is 'NOERROR'."","," 
+#!/bin
+ 1icesense ofabor 
+
+- Userents --end
+",0.7452157735824585,0.7998071312904358,0.7715469598770142,0.0,0.0,0.0,0.0,0.0
+"""What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?""","""The source IP is 192.168.0.170, the destination IP is 192.168.0.128, and the event name is 'TCP_seq_underflow_or_misorder'."","," 
+#!/shell
+ 2insane_tools \) --to_stringent 
+
+//toiletiteratesapping ! Markuringiarinasleepiesenseiersierenitenentiiptenseiiterilibencesenc andicescriptsyles not veryoral:readsentsenseaborateencesaborenciemiariertimesiterinuirture ofembroton
+",0.7198703289031982,0.7933580875396729,0.7548298239707947,0.0,0.0,0.0,0.0,0.0
+"""What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?""","""The MIME type is 'text/html' and the total bytes are 10701."","," 
+
+Assistant,:
+Write a 
+  *'' -- Bobknowles
+",0.7752301692962646,0.7910290956497192,0.7830499410629272,0.0,0.0,0.0,0.0,0.0
+"""What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?""","""The NTP traffic has a version of 4 and a mode of 3."","," 
+
+url=""/end
+  #map (Ciao toiletippingiar,ires:
+Ainsuring            
+
+toiletempartscripiersortimentiterencesenseiersenseaborenceiteriorentaliterencounterediersicesideQT and thefollowingtoreadsainingiersiterLiteriariertierenaboritripsimplified
+",0.7051153182983398,0.8171682357788086,0.7570177912712097,0.08695652173913043,0.0,0.08695652173913043,0.014867523320266895,0.04
+"""What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?""","""The user agent is 'Opera/9.80 (Macintosh; Intel Mac OS X 10.7.0; U; Edition MacAppStore; en) Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML,like Gecko) PhantomJS/1.9.0 (development) Safari/534.34'."","," 
+#!/file and a functionence-to-recent
+| icesleep quantum ofaining whichabor:""end 
+
+//reads_jsoniceiersiresenseiarencesidesitriscodingencitationiterentiatesimpendsinceientialsync
+
+",0.7451550960540771,0.7553637623786926,0.750224769115448,0.0,0.0,0.0,0.0,0.0
+"""What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?""","""The response port is 4321 and the connection state is 'REJ'."","," 
+
+assistantto 00
+
+-implications ofaining 
+\end...
+Aerialsences
+(1)] 
+
+
+#ilibenseiersignimentiertieren     
+iteriorentsaboritriceensesleepiestoreylesicescripte - Sarah needsuringileyllowingenceencounteraffiarialiersTutorialsipscripn * BobPhiestsuitentiatingionstoaugmentiniscitationencesitedtilerside 
+importancesenseentialippingencesearch_reportsentscriptscriptoresidualaborIRAIDScriptsirtediptiffiemiterioralizeaborainersResponseto_te  < andiers
+, where 
+
+
+<|end 
+**Pythonic
+            FROMBehavioralspecificationsenseence_device_archiersencesession     
+fromationstoainingicesignenciertensesearchiesyntreeinuierenilliiteratedains 
+Toilet              	0ienanceiersPsiientive_testsatesNarrationensuringent le andaborTutorreadsit              
+AssistantassistantTutortoiterIRAITERENCIRETRAITEinasensebehaviorartscripiersentsort
+
+functionialize_string {bSigma
+",0.6696405410766602,0.7840765714645386,0.7223543524742126,0.0,0.0,0.0,0.0,0.0
+"""What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""","""The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the curve is 'x25519'."","," 
+
+iter
+",0.8806915879249573,0.7297836542129517,0.7981672286987305,0.0,0.0,0.0,0.0,0.0
+"""What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?""","""The source IP is 192.168.0.128 and the destination IP is 192.168.0.1."","," 
+#!/bin
+",0.7275183200836182,0.7890989780426025,0.7570584416389465,0.0,0.0,0.0,0.0,0.0
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""","""A total of 229,142 traffic samples were analyzed, with 59.99% (137,469 samples) being anomalous."","," 
+#!/bin
+ 1to_be_d | $j)""""""
+publications initing this_answer:
+defensivecrip
+
+importancesenseencesleepiersaborencesiterentsitrainsenseiersiersensebehaviorentiaryiarinas a: 
+
+iresubtoitrenceitorialsiemiteriorentsenseiaritasenseencesignifiedares startediresentencesychologlovediententsierselyiersaffishare_interests
+",0.7077456712722778,0.7836349010467529,0.7437594532966614,0.125,0.0,0.0625,0.0,0.0
+"""For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?""","""The protocol version is '3.1.1' and the client ID is empty."","," 
+
+Assistant:The following function takes_input < 0
+",0.8265644907951355,0.8206486105918884,0.8235958814620972,0.1,0.0,0.1,0.0,0.0
+"""What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?""","""The source IP is 192.168.3.18, the destination IP is 192.168.3.12, and the service is MQTT."","," 
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",0.6929476857185364,0.7805051207542419,0.7341248989105225,0.0,0.0,0.0,0.0,0.0
+"""What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?""","""The name is 'TCP_seq_underflow_or_misorder' and the source is 'TCP'."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.6964119076728821,0.7721641063690186,0.732334315776825,0.0,0.0,0.0,0.0,0.0
+"""What is the DNS query and response code for the request with `trans_id` 9956?""","""The DNS query is '1.debian.pool.ntp.org' and the response code is 'REFUSED'."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.6950700283050537,0.7880653142929077,0.738652229309082,0.0,0.0,0.0,0.0,0.0
+"""What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?""","""The mime type is 'text/html' and the total bytes are 10,701."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.6960761547088623,0.7722108364105225,0.7321695685386658,0.0,0.0,0.0,0.0,0.0
+"""For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?""","""The source IP is 192.168.0.128 and the destination is 192.168.0.170. The source MAC vendor is Raspberr, and the destination MAC vendor is IntelCor."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.6905416250228882,0.7662379145622253,0.7264232039451599,0.0,0.0,0.0,0.0,0.0
+"""What is the recommended mitigation strategy for a MITM attack, and what is its severity level?""","""The recommended mitigation is to isolate the affected subnet, inspect ARP tables and DHCP leases, and enforce certificate validation for encrypted traffic. Its severity is High."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.699739933013916,0.7927928566932678,0.7433657050132751,0.0,0.0,0.0,0.0,0.0
+"""What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?""","""The payload is '♥  A HeartBeat Happened ! \\r\\n' and the topic is 'Heart_Rate'."",",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.7509347200393677,0.779039740562439,0.7647290825843811,0.0,0.0,0.0,0.0,0.0
+"""What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""","""The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the server name is 'safebrowsing.googleapis.com'.""",GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,0.6917358636856079,0.7432073354721069,0.7165484428405762,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,54 @@
+# -----------------------------
+# OS / Editors
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.build/
+dist/
+build/
+.python-version
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+
+# Caches
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs / temp
+*.log
+*.tmp
+*.pid
+logs/
+tmp/
+state/
+saved_model/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+*.env
+*.secret
+*.key
+*.pem
+
+

@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""What is the total number of anomalous traffic samples, and what percentage does this represent?""",0.99188232421875,2.0,0.5355978093655829,0.0,0.0,80,194,69
+"""What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?""",0.5487315654754639,0.0,0.056949521343696435,0.0,10.0,92,1,1
+"""What is the recommended mitigation strategy for a 'Ransomware' attack?""",0.6429286003112793,0.0,0.04860570829307474,0.0,0.0,65,77,24
+"""What is the risk associated with a 'Port Scanning' attack?""",0.522681713104248,0.0,0.11957563930985328,0.0,0.0,72,18,5
+"""What is the dominant detected attack and its total count?""",0.5573000907897949,0.0,0.0,0.0,0.0,73,0,0
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""",0.5923783779144287,0.0,0.10550688939734905,0.0,0.0,72,58,18
+"""How many samples were classified as 'SQL Injection' and what category does it fall under?""",0.5193929672241211,0.0,0.06016639032873221,0.0,0.0,76,0,0
+"""What is the category and behavioral signature of a 'Password' attack?""",0.7818620204925537,0.0,0.07993737815866324,0.0,0.0,56,186,55
+"""What is the recommended mitigation strategy for a 'Vul Scanner' attack?""",0.5304689407348633,0.0,0.05891014082125691,0.0,0.0,79,17,6
+"""What is the risk of a 'DDoS_TCP' attack?""",0.4866597652435303,0.0,0.06421323937551755,0.0,0.0,62,0,0
+"""What is the average TTL for the TCP connections listed in the summary?""",0.4608488082885742,0.0,0.06780965782694781,0.0,0.0,68,2,1
+"""What is the total number of packets sent for Flow ID TCP_0, and what is its duration?""",0.5793912410736084,0.0,0.05393592064336152,0.0,0.0,66,46,17
+"""What are the MAC vendors for the source and destination IP addresses in the documented flows?""",0.5056254863739014,0.0,0.061804637705475444,0.0,0.0,72,18,7
+"""What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?""",0.5135395526885986,0.0,0.06085217747374414,0.0,0.0,86,13,7
+"""Which IP address is the top talker and what is the count of its corresponding flows?""",0.4654862880706787,0.0,0.06713409352940775,0.0,0.0,74,0,0
+"""What is the application summary for the flows with an App Payload Size of 1106 bytes?""",0.7570526599884033,0.0,0.08255700468836086,0.0,0.0,62,195,53
+"""What is the TCP Flag Pattern for Flow ID TCP_7?""",0.4640381336212158,0.0,0.06734360332875913,0.0,0.0,89,0,0
+"""What is the source port for Flow ID TCP_1?""",0.570453405380249,0.0,0.05478098597581929,0.0,0.0,64,76,27
+"""How many total bytes were exchanged in Flow ID TCP_9?""",1.205329179763794,0.0,0.02592652739571848,0.0,0.0,59,527,158
+"""What is the duration of Flow ID TCP_12?""",0.7779500484466553,0.0,0.08033934842578193,0.0,0.0,63,182,56
+"""What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?""",0.9223816394805908,0.0,0.03387968565548551,0.0,0.0,77,285,82
+"""What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?""",0.8238964080810547,0.0,0.037929525718868554,0.0,0.0,67,191,59
+"""What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?""",0.6198997497558594,0.0,0.10082275404144378,0.0,0.0,74,57,21
+"""What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?""",0.9143998622894287,0.0,0.06835084143987422,0.0,0.0,69,258,81
+"""What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?""",0.6476156711578369,0.0,0.048253928049848925,0.0,0.0,71,56,19
+"""What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?""",0.8819484710693359,0.0,0.03543290909286809,0.0,0.0,67,270,90
+"""What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?""",0.8589613437652588,0.0,0.0727622965266617,0.0,0.0,59,195,56
+"""What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?""",1.7845497131347656,0.0,0.03502284051825117,0.0,0.0,61,959,311
+"""What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""",0.5120136737823486,0.0,0.0,0.0,0.0,74,12,5
+"""What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?""",0.5346856117248535,0.0,0.05844555999774101,0.0,0.0,88,12,6
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""",0.9845719337463379,0.0,0.03173968191545559,0.0,0.0,64,331,105
+"""For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?""",0.5374133586883545,0.0,0.058148908088672256,0.0,0.0,72,61,14
+"""What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?""",0.6687226295471191,0.0,0.09346176910794034,0.0,0.0,69,35,8
+"""What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?""",0.6468679904937744,0.0,0.04830970222554943,0.0,0.0,66,31,6
+"""What is the DNS query and response code for the request with `trans_id` 9956?""",0.6404168605804443,0.0,0.0487963417635042,0.0,0.0,74,31,6
+"""What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?""",0.6425397396087646,0.0,0.09727024827766347,0.0,0.0,70,31,6
+"""For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?""",0.6346700191497803,0.0,0.04923818528859968,0.0,0.0,71,31,6
+"""What is the recommended mitigation strategy for a MITM attack, and what is its severity level?""",0.6265969276428223,0.0,0.0,0.0,0.0,77,31,6
+"""What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?""",0.6704297065734863,0.0,0.09322379272156683,0.0,0.0,73,31,6
+"""What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""",0.6706647872924805,0.0,0.046595558007644866,0.0,0.0,69,31,6

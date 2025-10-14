@@ -1,0 +1,173 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""What is the total number of anomalous traffic samples, and what percentage does this represent?""","""A total of 137,469 traffic samples were considered anomalous, representing 59.99% of the total traffic analyzed."",","A total of 1367 samples (0.6%) were classified under the attack types analyzed. 
+",0.892220675945282,0.8886630535125732,0.8904383182525635,0.43750000000000006,0.13333333333333333,0.43750000000000006,0.03280132420123097,0.1592356687898089
+"""What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?""","""The behavioral signature of a 'DDoS_UDP' attack is high-speed UDP floods, often spoofed, targeting vulnerable services. Its severity is classified as High."",","High-speed UDP floods, often spoofed, target vulnerable services like NTP, DNS, or SSDP. 
+Severity: High  
+",0.8942334651947021,0.8920382261276245,0.8931345343589783,0.5499999999999999,0.4210526315789474,0.5499999999999999,0.10908714663886919,0.3281594327871994
+"""What is the recommended mitigation strategy for a 'Ransomware' attack?""","""To mitigate a 'Ransomware' attack, you should immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Reporting the incident is also recommended."",","Immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Report incidents if needed.  
+",0.9530994296073914,0.9030202627182007,0.9273843169212341,0.6829268292682927,0.6153846153846154,0.6829268292682927,0.371809080319126,0.5800660513167925
+"""What is the risk associated with a 'Port Scanning' attack?""","""The risk associated with a 'Port Scanning' attack is that it indicates an attacker is mapping the network to find exploitable targets."",","This document does not contain information about a 'Port Scanning' attack. 
+
+
+",0.8965449929237366,0.8677365183830261,0.8819055557250977,0.24242424242424246,0.19354838709677416,0.24242424242424246,0.03432116611795845,0.14088250930356191
+"""What is the dominant detected attack and its total count?""","""The dominant detected attack is 'DDoS_HTTP', with 67,914 samples."",","DDoS_HTTP with a total count of 67914 samples.  
+",0.9038244485855103,0.8784677982330322,0.8909657597541809,0.39999999999999997,0.22222222222222224,0.39999999999999997,0.024512401940754224,0.05617977528089887
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""","""A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation."",","Severity: Critical
+Behavior: Hidden channels or implants enabling an attacker to regain access even after reboots or remediation. 
+",0.9322723150253296,0.9089653491973877,0.9204713106155396,0.7234042553191489,0.5333333333333333,0.6808510638297872,0.29302913088431287,0.4993233852680857
+"""How many samples were classified as 'SQL Injection' and what category does it fall under?""","""A total of 18,662 samples were classified as 'SQL Injection', which falls under the 'Injection Exploits' category."",","18662 samples were classified as 'SQL Injection' and it falls under the 'Injection Exploits' category.  
+",0.956454336643219,0.9361649751663208,0.9462008476257324,0.7272727272727272,0.6451612903225806,0.7272727272727272,0.43060929782323654,0.5928571428571429
+"""What is the category and behavioral signature of a 'Password' attack?""","""A 'Password' attack is a 'Credential Brute Force' that involves numerous login attempts with different passwords, targeting services like SSH, Telnet, HTTP, or MQTT."",","Category: Credential Brute Force 
+Behavior: Numerous login attempts with different passwords, targeting SSH, Telnet, HTTP, or MQTT services.  
+",0.921722948551178,0.9137845635414124,0.9177365899085999,0.761904761904762,0.6,0.7142857142857143,0.29507029040942745,0.5088141025641026
+"""What is the recommended mitigation strategy for a 'Vul Scanner' attack?""","""To mitigate a 'Vul Scanner' attack, you should patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution."",","Patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution.  
+",0.9569038152694702,0.9040504097938538,0.9297265410423279,0.7777777777777778,0.7647058823529412,0.7777777777777778,0.4735594472722181,0.6130679915150162
+"""What is the risk of a 'DDoS_TCP' attack?""","""A 'DDoS_TCP' attack often affects routers, embedded Linux devices, or gateway firewalls, causing memory exhaustion."",","Often affects routers, embedded Linux devices, or gateway firewalls, causing memory exhaustion.  
+",0.9645050168037415,0.9125872850418091,0.9378281235694885,0.8571428571428571,0.846153846153846,0.8571428571428571,0.6285356325536535,0.7480182155506832
+"""What is the average TTL for the TCP connections listed in the summary?""","""The average TTL for the TCP connections is 64.0."",","Here's how to figure out the average TTL from the provided data:
+
+1. **Identify the TTL Values:**  Look at each frame and find the ""ip.ttl"" value. This represents the Time To Live for each IP packet.
+
+2. **Sum the TTLs:** Add up all the TTL values you found in step 1.
+
+3. **Count the Connections:** Determine how many TCP connections are listed in the summary (each connection has a unique ""tcp.stream"" number).
+
+4. **Calculate the Average:** Divide the sum of the TTL values from step 2 by the number of connections from step 3.
+
+
+**Important Notes:**
+
+*  The provided data snippets only show two frames. To get an accurate average, you'd need to analyze a larger sample of TCP connections.
+*  TTL values are typically set to 64 for standard internet traffic but can vary depending on network configurations. 
+
+
+
+Let me know if you have the complete dataset and I can help with the calculations!",0.7944393157958984,0.874630331993103,0.8326084017753601,0.09580838323353294,0.03636363636363637,0.09580838323353294,0.003834409147646709,0.1271186440677966
+"""What is the total number of packets sent for Flow ID TCP_0, and what is its duration?""","""For Flow ID TCP_0, a total of 79 packets were sent over a duration of 120.65 seconds."",","The provided text does not contain information about Flow ID TCP_0 or its packet count and duration.  
+
+
+",0.8876649141311646,0.8841818571090698,0.885919988155365,0.3243243243243243,0.17142857142857143,0.3243243243243243,0.02432542569851428,0.15032679738562094
+"""What are the MAC vendors for the source and destination IP addresses in the documented flows?""","""The source MAC vendor is Raspberr and the destination MAC vendor is IntelCor."",","This document does not contain information about MAC vendors.  
+",0.8423440456390381,0.8215739130973816,0.831829309463501,0.18181818181818185,0.1,0.18181818181818185,0.015375695992413887,0.03968253968253969
+"""What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?""","""There are 12,114 TCP flows and 7 UDP flows. There are 12,107 more TCP flows than UDP flows."",","12114 TCP flows were detected. There are 12107 more TCP flows than UDP flows (12114 - 7).  
+",0.9118902683258057,0.9218868017196655,0.9168612957000732,0.6111111111111112,0.4117647058823529,0.5555555555555556,0.25875721526297274,0.4283054003724395
+"""Which IP address is the top talker and what is the count of its corresponding flows?""","""The top talker is 192.168.0.170 with 8,914 flows to 192.168.0.128."",","The provided text does not contain information about specific IP addresses or flow counts.  
+",0.8241091966629028,0.8340064287185669,0.8290282487869263,0.12903225806451615,0.0,0.12903225806451615,0.0,0.04807692307692308
+"""What is the application summary for the flows with an App Payload Size of 1106 bytes?""","""The application summary for these flows is 'HTTP'."",","This document does not contain information about application summaries or flow data with specific payload sizes.  
+",0.8614649176597595,0.8534114360809326,0.8574192523956299,0.25,0.09090909090909091,0.25,0.012300686288463768,0.29040404040404044
+"""What is the TCP Flag Pattern for Flow ID TCP_7?""","""The TCP Flag Pattern is PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK."",","The provided text does not contain information about a ""Flow ID TCP_7"" or its corresponding TCP flag pattern. 
+
+
+Let me know if you have other questions or need information about something else! 😊  
+",0.8106610178947449,0.7837685346603394,0.7969880104064941,0.16,0.08333333333333333,0.16,0.005648892151960285,0.08116883116883117
+"""What is the source port for Flow ID TCP_1?""","""The source port for Flow ID TCP_1 is 55994."",","The provided text doesn't contain information about a Flow ID called ""TCP_1"" or its source port. 
+
+
+Let me know if you have any other questions or need help understanding something else in the text.",0.8409311771392822,0.8817930221557617,0.860877513885498,0.30434782608695654,0.13636363636363638,0.2173913043478261,0.012813098990837714,0.2222222222222222
+"""How many total bytes were exchanged in Flow ID TCP_9?""","""The total bytes exchanged for Flow ID TCP_9 is 4,218."",","The provided data does not contain information about a Flow ID named TCP_9. 
+
+
+",0.8783282041549683,0.8644153475761414,0.8713162541389465,0.3846153846153846,0.16666666666666669,0.3846153846153846,0.03285702044797773,0.18203883495145634
+"""What is the duration of Flow ID TCP_12?""","""The duration of Flow ID TCP_12 is 109.70 seconds."",","The provided text is a web page source code snippet and doesn't contain any information about network flows or Flow IDs like ""TCP_12"".  
+
+
+To find the duration of a specific flow, you would typically need access to network traffic logs or monitoring tools that capture and analyze network activity. 
+
+Look for details in your network logs or security information and event management (SIEM) systems. They often record:
+
+* **Flow Start and End Times:** These timestamps define the beginning and end of a specific flow.
+* **Source and Destination IP Addresses:** Identify the involved devices in the flow.
+* **Protocol and Port Numbers:** Specify the type of communication (e.g., TCP, UDP) and ports used.
+
+
+Let me know if you have access to network logs or other relevant information, and I might be able to help further! 
+",0.7907603979110718,0.8662925958633423,0.8268049955368042,0.09589041095890412,0.041666666666666664,0.0684931506849315,0.003350032058409692,0.17222222222222225
+"""What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?""","""The duration of the connection is 3.0468389987945557 seconds, and it had a total of 3 packets from the originator."",","The provided text does not contain information about the duration and total number of packets for a TCP connection with UID 'CSaCuV34LSgK4Drh03'.  
+",0.8196228742599487,0.853811502456665,0.8363679051399231,0.4285714285714286,0.05,0.28571428571428564,0.014610534486579728,0.23316062176165803
+"""What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?""","""The source IP is 192.168.0.128, the destination IP is 216.58.198.74, and the server name is 'safebrowsing.googleapis.com'."",","The provided text does not contain information about SSL connections, UIDs, or server names. 
+
+
+",0.8540023565292358,0.8126963376998901,0.8328375220298767,0.15789473684210525,0.05555555555555555,0.15789473684210525,0.012382165410591436,0.06329113924050632
+"""What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?""","""The DNS query is 'safebrowsing.googleapis.com' and the response code is 'NOERROR'."",","The provided text snippets do not contain information about DNS queries or responses, including those related to 'safebrowsing.googleapis.com'. 
+
+
+Let me know if you have any other questions about the given text! 
+",0.8561071157455444,0.9002810716629028,0.8776386380195618,0.34782608695652173,0.13636363636363635,0.30434782608695654,0.007173775053353474,0.19658119658119658
+"""What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?""","""The source IP is 192.168.0.170, the destination IP is 192.168.0.128, and the event name is 'TCP_seq_underflow_or_misorder'."",","The provided text does not contain information about a network event with UID 'CpqDy41l84nYqNKYWk'. 
+
+
+",0.7677391171455383,0.8160955905914307,0.7911792397499084,0.1,0.0,0.1,0.012382165410591436,0.06329113924050632
+"""What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?""","""The MIME type is 'text/html' and the total bytes are 10701."",","I can't answer that question. The provided text does not contain information about files with specific FUIDs or their associated MIME types and byte sizes. 
+
+
+The text you provided is a collection of:
+
+*  **Apache2 Configuration Information:** This includes details about the Apache web server, such as where to find configuration files, how to start and stop it, and document root locations.
+* **Uploading Attack Summary:** A brief analysis of an ""Uploading"" attack type detected in network traffic, including its frequency, severity, potential impact, and recommended mitigation strategies.
+
+It does not contain any file-specific details like those requested in your question. 
+
+
+To find the MIME type and total bytes for a file with a specific FUID, you would need to consult logs or data sources that record file information.  
+",0.8044767379760742,0.8498320579528809,0.8265326619148254,0.1276595744680851,0.04316546762589928,0.11347517730496454,0.004797760034264106,0.25107411385606876
+"""What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?""","""The NTP traffic has a version of 4 and a mode of 3."",","This document does not contain the answer to your question. 
+
+
+",0.8518782258033752,0.8374927639961243,0.8446242213249207,0.08695652173913043,0.0,0.08695652173913043,0.0,0.0
+"""What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?""","""The user agent is 'Opera/9.80 (Macintosh; Intel Mac OS X 10.7.0; U; Edition MacAppStore; en) Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML,like Gecko) PhantomJS/1.9.0 (development) Safari/534.34'."",","The user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb' is: 
+
+**Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.9.168 Version/11.52**
+
+
+You can find this information within the provided text snippet describing the HTTP requests.  
+",0.8172770142555237,0.8384346961975098,0.8277207016944885,0.2272727272727273,0.11627906976744186,0.20454545454545456,0.01090602900579092,0.06720430107526881
+"""What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?""","""The response port is 4321 and the connection state is 'REJ'."",","The provided text does not contain the answer to your question. 
+
+
+",0.8083040714263916,0.8009428977966309,0.8046066164970398,0.18181818181818182,0.0,0.18181818181818182,0.018850319022747353,0.045454545454545456
+"""What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""","""The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the curve is 'x25519'."",","The provided text does not contain information about SSL connections or details such as version, cipher, or curve for a connection with UID 'CecYuJ2aSfvTb8m805'. 
+
+
+",0.7982726097106934,0.8099491000175476,0.8040684461593628,0.2,0.0,0.2,0.007913247271422612,0.07092198581560284
+"""What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?""","""The source IP is 192.168.0.128 and the destination IP is 192.168.0.1."",","The provided text does not contain information about DNS queries with a specific transaction ID (trans_id) of 15841.  
+",0.8308491706848145,0.8314359784126282,0.8311424851417542,0.05555555555555555,0.0,0.05555555555555555,0.0,0.042735042735042736
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""","""A total of 229,142 traffic samples were analyzed, with 59.99% (137,469 samples) being anomalous."",","A total of 230486 samples were analyzed.  Anomalous traffic constituted 41.97% of the analyzed data. 
+
+
+",0.9149227142333984,0.8978016376495361,0.9062813520431519,0.48484848484848486,0.2580645161290323,0.42424242424242425,0.04179882049216857,0.26382978723404255
+"""For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?""","""The protocol version is '3.1.1' and the client ID is empty."",","The provided text does not contain information about an MQTT connection with UID 'CczSu14KDCWOJpCK4'.  
+",0.7873517274856567,0.8567700982093811,0.8205954432487488,0.07407407407407408,0.0,0.07407407407407408,0.0,0.04424778761061947
+"""What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?""","""The source IP is 192.168.3.18, the destination IP is 192.168.3.12, and the service is MQTT."",","This document does not contain the answer to your question. 
+
+
+",0.8399389982223511,0.8064823150634766,0.8228707313537598,0.06451612903225806,0.0,0.06451612903225806,0.012801036176909563,0.034482758620689655
+"""What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?""","""The name is 'TCP_seq_underflow_or_misorder' and the source is 'TCP'."",","The provided text does not contain information about log entries or a UID 'CpqDy41l84nYqNKYWk'.  
+",0.7640930414199829,0.8120863437652588,0.7873589992523193,0.14814814814814817,0.0,0.14814814814814817,0.0,0.05263157894736842
+"""What is the DNS query and response code for the request with `trans_id` 9956?""","""The DNS query is '1.debian.pool.ntp.org' and the response code is 'REFUSED'."",","The provided text does not contain information about a DNS query with `trans_id` 9956.  
+",0.8323124647140503,0.8355875015258789,0.8339468240737915,0.20000000000000004,0.07142857142857142,0.20000000000000004,0.030206205252435548,0.22615535889872176
+"""What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?""","""The mime type is 'text/html' and the total bytes are 10,701."",","I can help you find that information! 
+
+Unfortunately, I need more context. The text you provided includes snippets of log files, but it doesn't specify which snippet contains the FUID 'Fn1zG7xU70KMl38Lf'.  
+
+To answer your question accurately, please provide:
+
+* **The complete log file snippet** that includes information about the FUID 'Fn1zG7xU70KMl38Lf'. 
+ 
+Once you give me the full context, I can pinpoint the mime type and total bytes for that specific file. 
+
+
+",0.7902560830116272,0.8520689010620117,0.8199993371963501,0.1904761904761905,0.07317073170731707,0.14285714285714285,0.00846967436908127,0.30065359477124187
+"""For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?""","""The source IP is 192.168.0.128 and the destination is 192.168.0.170. The source MAC vendor is Raspberr, and the destination MAC vendor is IntelCor."",","The provided text does not contain information about Flow ID TCP_0 in the IoT Traffic Flow Summary. 
+
+
+",0.8331032991409302,0.8073717355728149,0.8200356960296631,0.1276595744680851,0.0,0.1276595744680851,0.009611253760771191,0.044642857142857144
+"""What is the recommended mitigation strategy for a MITM attack, and what is its severity level?""","""The recommended mitigation is to isolate the affected subnet, inspect ARP tables and DHCP leases, and enforce certificate validation for encrypted traffic. Its severity is High."",","The provided text does not contain information about MITM (Man-in-the-Middle) attacks or recommendations for mitigating them. 
+
+
+",0.8465697765350342,0.8413301110267639,0.8439418077468872,0.2222222222222222,0.0,0.13333333333333333,0.006584082914527074,0.08
+"""What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?""","""The payload is '♥  A HeartBeat Happened ! \\r\\n' and the topic is 'Heart_Rate'."",","The provided text does not contain information about an MQTT publish message with UID 'CczSu14KDCWOJpCK4'.  
+",0.770016074180603,0.8058898448944092,0.7875446677207947,0.0689655172413793,0.0,0.0689655172413793,0.0,0.035460992907801414
+"""What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""","""The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the server name is 'safebrowsing.googleapis.com'.""","The provided text does not contain information about SSL connections, UIDs, or their respective version, cipher, and server name. 
+
+
+",0.8577991724014282,0.8052411079406738,0.8306896090507507,0.3157894736842105,0.05555555555555555,0.3157894736842105,0.012109013026441871,0.10344827586206898

@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""",2.3416073322296143,2.75,0.026691067772019607,0.0,0.0,0,840,141
+"""What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?""",3.5779495239257812,0.0,0.026202158351617568,0.0,0.0,0,1536,263
+"""What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?""",6.062077045440674,0.0,0.025774994086807067,0.0,0.0,-26,2922,515
+"""What is the recommended mitigation strategy for a SQL Injection attack?""",5.8972086906433105,0.0,0.02649558599611935,0.0,0.0,-28,2794,511
+"""How many unique IP pairs were observed during a DDoS_HTTP attack?""",1.8423655033111572,0.25,0.033923778906887504,0.0,0.0,-12,553,102
+"""What is the risk associated with a 'Password' attack?""",5.045611143112183,0.0,0.02477400585470152,0.0,0.0,-12,2196,428
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""",4.849623918533325,0.0,0.07088178501560267,0.0,0.0,-12,2349,391
+"""What is the threat intelligence summary for IP 194.0.5.123 as described in the report?""",1.5201127529144287,0.0,0.06167305669941672,0.0,0.0,-23,339,61
+"""What is the behavioral signature of a 'Vul Scanner' attack?""",6.551004409790039,0.0,0.033391826095108955,0.0,0.0,-21,3074,582
+"""How many samples were classified as 'Ransomware' and what is its associated risk?""",2.605238199234009,0.0,0.035985193226309345,0.0,0.0,-18,1065,170
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""",1.4146761894226074,0.0,0.04417972145662059,0.0,0.0,-10,258,62
+"""Which IP address is the top talker in the traffic?""",2.283751964569092,0.0,0.027367245204229958,0.0,0.0,-2,570,126
+"""What is the application summary for Flow ID TCP_1?""",4.074682712554932,0.0,0.023007926411332473,0.0,0.0,-15,1682,320
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""",2.3386216163635254,0.0,0.026725144231401092,0.0,0.0,-26,769,142
+"""What is the duration of Flow ID TCP_1?""",2.25325083732605,0.0,0.02773770188594671,0.0,0.0,-20,699,138
+"""What is the TCP Flag Pattern for Flow ID TCP_3?""",1.445756196975708,0.0,0.0432299720594238,0.0,0.0,-21,316,60
+"""What is the IP version for Flow ID TCP_2?""",1.4119513034820557,0.0,0.044264982684505856,0.0,0.0,-21,267,60
+"""What are the source and destination ports for Flow ID TCP_1?""",2.0867233276367188,0.0,0.029951263386115458,0.0,0.0,-23,539,123
+"""What is the average TTL for a connection in the traffic?""",2.322676181793213,0.0,0.04036292305181527,0.0,0.0,-10,748,138
+"""What are the MAC address and vendor of the devices involved in the connections?""",2.020861864089966,0.0,0.03092739840887381,0.0,0.0,-24,426,118
+"""What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?""",1.5556879043579102,0.0,0.040175153271372076,0.0,0.0,-24,355,74
+"""What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?""",5.607576608657837,0.0,0.03343690386868808,0.0,0.0,-7,1926,402
+"""What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?""",3.0388758182525635,0.0,0.04113363213106739,0.0,0.0,-24,1161,218
+"""What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?""",2.721916675567627,0.0,0.03444264140835721,0.0,0.0,-25,674,153
+"""What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?""",2.213905096054077,0.0,0.042345988618531415,0.0,0.0,-21,763,134
+"""What are the source and destination IP addresses and ports for the NTP traffic?""",1.8165647983551025,0.0,0.03440559899464767,0.0,0.0,-24,512,101
+"""What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?""",2.5952465534210205,0.0,0.024082490319696552,0.0,0.0,-24,853,164
+"""What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?""",2.6541354656219482,0.0,0.035322236266503056,0.0,0.0,-17,918,181
+"""What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?""",2.707115888595581,0.0,0.046174602471435726,0.0,0.0,-24,929,181
+"""What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?""",2.3712522983551025,0.0,0.013178690442038317,0.0,0.0,-21,644,131
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?""",2.0633349418640137,0.0,0.030290767985310788,0.0,0.0,-16,630,105
+"""What is the recommended mitigation for a 'SQL Injection' attack?""",4.6680450439453125,0.0,0.026777805017566714,0.0,0.0,-21,2227,384
+"""What is the behavioral signature of a 'DDoS_UDP' attack?""",5.962757587432861,0.0,0.031445182409422776,0.0,0.0,-26,2718,508
+"""What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?""",1.735344409942627,0.0,0.03601590533953655,0.0,0.0,-21,356,84
+"""What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?""",4.668366193771362,0.0,0.02008197217370732,0.0,0.0,-21,1803,365
+"""What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?""",2.7438101768493652,0.0,0.022778543693487405,0.0,0.0,-8,1036,181
+"""What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?""",3.5083932876586914,0.0,0.0356288448161453,0.0,0.0,-21,1363,258
+"""How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?""",2.4848520755767822,0.0,0.10060961071172655,0.0,0.0,-8,796,161
+"""What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?""",4.945789575576782,0.0,0.03159252887983618,0.0,0.0,-20,2158,406
+"""What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?""",2.9543521404266357,0.0,0.04231046065549832,0.0,0.0,-21,1009,188

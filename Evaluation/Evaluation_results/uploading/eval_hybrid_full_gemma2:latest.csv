@@ -1,0 +1,130 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""","""A total of 37,644 traffic samples were analyzed. Anomalous traffic accounted for 30,040 samples, which is 79.80% of the total."",","Total traffic samples analyzed: 37644
+Anomalous traffic: 3  
+",0.8927304148674011,0.8591521978378296,0.8756195902824402,0.3870967741935483,0.13793103448275862,0.3870967741935483,0.014504784152402915,0.10638297872340426
+"""What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?""","""The dominant detected attack is 'Uploading', which makes up 38.15% of the traffic with 14,363 samples."",","DDoS_HTTP represents 33.78% of the analyzed traffic. 
+",0.8969746828079224,0.8767377734184265,0.8867408037185669,0.2222222222222222,0.07999999999999999,0.2222222222222222,0.01931119093291195,0.12417218543046359
+"""What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?""","""A Man-in-the-Middle (MITM) attack attempts to intercept or alter communications between devices, often through ARP spoofing or rogue gateways. Its severity is classified as High."",","The provided text does not contain information about Man-in-the-Middle (MITM) attacks. 
+
+
+",0.8964216113090515,0.8665379881858826,0.8812265396118164,0.2857142857142857,0.25,0.2857142857142857,0.011164461283923129,0.07944915254237288
+"""What is the recommended mitigation strategy for a SQL Injection attack?""","""To mitigate a SQL Injection attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs."",","Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs. 
+",0.9518457651138306,0.9106771945953369,0.9308064579963684,0.7368421052631579,0.6666666666666665,0.7368421052631579,0.37987955789773087,0.5845194306732767
+"""How many unique IP pairs were observed during a DDoS_HTTP attack?""","""There were 5 unique IP pairs observed during a DDoS_HTTP attack."",","5  
+",0.8450566530227661,0.7847102880477905,0.8137661814689636,0.15384615384615385,0.0,0.15384615384615385,8.07337603138401e-06,0.05
+"""What is the risk associated with a 'Password' attack?""","""A 'Password' attack can lead to device hijacking or access to administrative interfaces if default or weak passwords are used."",","Can lead to device hijacking or access to administrative interfaces if default or weak passwords are used.  
+",0.9696658849716187,0.9371806979179382,0.9531465768814087,0.9189189189189189,0.9142857142857143,0.9189189189189189,0.729455361818095,0.812083597715736
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""","""A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation."",","Severity: Critical 
+Behavior: Hidden channels or implants enabling an attacker to regain access even after reboots or remediation.  
+",0.9185366630554199,0.9058336019515991,0.9121409058570862,0.7234042553191489,0.5333333333333333,0.6808510638297872,0.29302913088431287,0.4993233852680857
+"""What is the threat intelligence summary for IP 194.0.5.123 as described in the report?""","""The IP 194.0.5.123 is associated with 'clean' activity, with 0 out of 94 engines flagging it as potentially harmful. It has open port 123 and a DNS hostname of 'any.time.nl'."",","IP 194.0.5.123 is associated with [clean] activity — VirusTotal identified this IP as benign based on consensus across multiple antivirus and threat intelligence engines. 0 out of 94 engines flagged it as potentially harmful. Last known analysis occurred on 2025-08-15 15:37:16 UTC.
+• Open Ports: [123] — network services currently reachable on this host, which may expose it to attacks.
+• DNS Hostnames: any.time.nl — domain names linked to this IP address, which may help in attribution or lookup. 
+
+
+",0.8498878479003906,0.9218241572380066,0.8843955397605896,0.5084745762711865,0.3965517241379311,0.4745762711864407,0.11820522171546362,0.5253939828080229
+"""What is the behavioral signature of a 'Vul Scanner' attack?""","""A 'Vul Scanner' attack is characterized by automated tools that scan for known vulnerabilities or misconfigurations."",","Automated tools (e.g., Nmap NSE, Nikto, Nessus) scan for known vulnerabilities or misconfigurations.  
+",0.8638201951980591,0.8835572004318237,0.8735772371292114,0.5333333333333333,0.42857142857142855,0.5333333333333333,0.24029210317584693,0.4406603405693487
+"""How many samples were classified as 'Ransomware' and what is its associated risk?""","""5 samples (0.01% of traffic) were classified as 'Ransomware'. The risk is that it can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages."",","5 samples were classified as 'Ransomware'. 
+
+It can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages.  
+",0.9568814039230347,0.9245023727416992,0.9404132962226868,0.846153846153846,0.7599999999999999,0.846153846153846,0.5342625287650608,0.7055212014134278
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""","""There were 7,587 total flows detected, consisting of 7,581 TCP flows and 6 UDP flows."",","The provided text does not contain information about the total number of flows detected or their distribution between TCP and UDP.  
+",0.869358241558075,0.8653051257133484,0.8673269748687744,0.36842105263157887,0.05555555555555556,0.31578947368421056,0.013659149296955463,0.16025641025641027
+"""Which IP address is the top talker in the traffic?""","""The top talker is 192.168.0.170, with 6,892 flows to 192.168.0.128."",","192.168.0.170  → 192.168.0.128 (6892 flows) 
+",0.9007483720779419,0.8929650187492371,0.8968398571014404,0.6666666666666667,0.4800000000000001,0.5925925925925927,0.0,0.0
+"""What is the application summary for Flow ID TCP_1?""","""The application summary for Flow ID TCP_1 is 'HTTP'."",","The provided text does not contain information about a Flow ID called TCP_1.  
+
+
+",0.874510645866394,0.8792524337768555,0.876875102519989,0.41666666666666663,0.18181818181818185,0.41666666666666663,0.03285702044797773,0.19946808510638298
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""","""The total bytes exchanged for Flow ID TCP_0 is 662."",","The provided text does not contain information about a Flow ID named TCP_0 or the total number of bytes exchanged for it. 
+
+
+",0.8932749032974243,0.9094903469085693,0.9013096690177917,0.5294117647058824,0.3125,0.29411764705882354,0.05880962777751932,0.5666909620991254
+"""What is the duration of Flow ID TCP_1?""","""The duration of Flow ID TCP_1 is 0.02s."",","Unable to answer. 
+
+
+",0.854857325553894,0.815366268157959,0.8346449732780457,0.0,0.0,0.0,0.0,0.0
+"""What is the TCP Flag Pattern for Flow ID TCP_3?""","""The TCP Flag Pattern for Flow ID TCP_3 is SYN \u2192 RST, ACK."",","SYN → RST, ACK 
+",0.8960944414138794,0.8177511692047119,0.8551322221755981,0.35294117647058826,0.13333333333333336,0.35294117647058826,0.010070292941156274,0.08264462809917356
+"""What is the IP version for Flow ID TCP_2?""","""The IP version for Flow ID TCP_2 is 4."",","4 
+",0.8370662927627563,0.767464280128479,0.8007556796073914,0.18181818181818182,0.0,0.18181818181818182,0.0,0.0
+"""What are the source and destination ports for Flow ID TCP_1?""","""The source port is 80 and the destination port is 58900."",","The provided text does not contain information about Flow ID TCP_1 or its associated source and destination ports.  
+",0.8395873308181763,0.8584156036376953,0.8488970994949341,0.3333333333333333,0.07142857142857142,0.3333333333333333,0.014216645907653848,0.17094017094017094
+"""What is the average TTL for a connection in the traffic?""","""The average TTL is 64.0."",","The provided text does not contain information about the average TTL for a connection.  
+",0.8561228513717651,0.8671075105667114,0.8615801930427551,0.3,0.2222222222222222,0.3,0.030206205252435548,0.31779661016949157
+"""What are the MAC address and vendor of the devices involved in the connections?""","""The source MAC is dc:a6:32:fb:69:b5 (Raspberr) and the destination MAC is d8:f2:ca:8e:17:69 (IntelCor)."",","The provided text does not contain information about MAC addresses or device vendors. 
+
+
+",0.8120842576026917,0.7271978259086609,0.7673004269599915,0.1111111111111111,0.0,0.1111111111111111,0.01553712569276035,0.07692307692307693
+"""What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?""","""The duration of the connection is 0.01995396614074707 seconds, and it has a total of 12 packets (7 from the originator and 5 from the responder)."",","The provided text does not contain information about the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'.  
+",0.8113414645195007,0.8310807943344116,0.8210925459861755,0.37500000000000006,0.043478260869565216,0.2916666666666667,0.012748060881881792,0.18218623481781376
+"""What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?""","""The connection state history is 'ShADadFf'."",","The captured frame shows a TCP connection in its final state with FIN flags raised, indicating a connection termination attempt.  
+
+
+",0.8406506776809692,0.806402325630188,0.8231704235076904,0.23076923076923075,0.0,0.23076923076923075,0.011451997463067555,0.13513513513513514
+"""What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?""","""The HTTP method is 'GET', the URI is '/DVWA/hackable/uploads/hack.php', and the user agent is 'curl/7.79.1'."",","The provided data does not contain information about a connection with UID 'C8uPgt1NGn906RwII6'. 
+
+
+",0.7747983932495117,0.8053160309791565,0.789762556552887,0.05714285714285715,0.0,0.05714285714285715,0.0,0.03378378378378378
+"""What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?""","""The connection state is 'REJ'."",","While the provided text gives details about network traffic and attack types, it doesn't specify the connection state for rejected TCP connections from 192.168.0.128 to 192.168.0.170 on port 3333.  
+
+To determine the connection state, you would need more information such as:
+
+* **TCP Flags:** Analyzing the TCP flags in the network packets can reveal if a connection was established, rejected, or reset.
+* **Connection Log Entries:** Firewall or router logs often record connection attempts and their outcomes (successful, refused, dropped).  
+
+
+You'll need to consult those resources to get the specific connection state information you're looking for. 
+",0.7931737303733826,0.8339105844497681,0.8130322098731995,0.05555555555555556,0.03773584905660377,0.05555555555555556,0.003979752725131096,0.13297872340425532
+"""What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?""","""The originator sent 107 bytes and the responder sent 149 bytes."",","The provided text does not contain information about the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'. 
+
+
+",0.7869543433189392,0.8557840585708618,0.8199272751808167,0.29411764705882354,0.0,0.2352941176470588,0.011712916466550741,0.16393442622950818
+"""What are the source and destination IP addresses and ports for the NTP traffic?""","""The source IP and port are 192.168.0.128:33032 and the destination IP and port are 194.0.5.123:123."",","The provided text does not contain information about the source and destination IP addresses and ports for NTP traffic.  
+",0.8613340854644775,0.8251162171363831,0.842836320400238,0.380952380952381,0.15,0.3333333333333333,0.028339296176052856,0.3717201166180758
+"""What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?""","""The status code is 200, with a status message of 'OK'."",","This document does not contain the answer to your question. 
+",0.8473145961761475,0.8258765935897827,0.8364582657814026,0.09523809523809525,0.0,0.09523809523809525,0.0,0.0
+"""What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?""","""The answer cannot be determined from the provided context."",","The provided text doesn't contain information about an NTP connection with UID 'CeahYCkuDqFYFMrNj'.  
+
+
+It primarily focuses on:
+
+* **SQL Injection Activity:** Summarizes network endpoints and protocol metadata related to potential SQL injection attempts.
+* **Threat Intelligence:** Provides details about the reputation of IP address 194.0.5.123 based on VirusTotal analysis.
+
+
+To find information about an NTP connection with a specific UID, you would need a different data source that logs network traffic and includes details like connection timestamps, UIDs, and protocols used. 
+",0.7762448787689209,0.8539667129516602,0.8132530450820923,0.06521739130434782,0.02222222222222222,0.043478260869565216,0.002660316597295732,0.0617283950617284
+"""What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?""","""The originator sent 156 IP bytes and the responder sent 305 IP bytes."",","This document does not contain the answer to your question. 
+",0.8325268626213074,0.8234789371490479,0.8279781341552734,0.08695652173913043,0.0,0.08695652173913043,0.015635220893785457,0.14763779527559054
+"""What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?""","""The original port is 60908 and the response port is 123."",","This document does not contain information about `id.orig_p` or `id.resp_p` for an NTP connection with UID 'CKXFw24t4ZxqVVmo5e'. 
+
+
+",0.7845269441604614,0.8194392323493958,0.8016030788421631,0.0,0.0,0.0,0.0,0.0
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?""","""A total of 37,644 traffic samples were analyzed. Normal traffic accounted for 7,604 samples, which is 20.20% of the total."",","Total traffic samples analyzed: 37644
+Normal traffic: 7604 (20.20%)  
+",0.9081006646156311,0.8854779601097107,0.8966466784477234,0.48484848484848486,0.1935483870967742,0.48484848484848486,0.016532194276205118,0.10582010582010583
+"""What is the recommended mitigation for a 'SQL Injection' attack?""","""To mitigate a 'SQL Injection' attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs."",","Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs.  
+",0.9502415060997009,0.9056089520454407,0.9273884892463684,0.7368421052631579,0.6666666666666665,0.7368421052631579,0.37987955789773087,0.5845194306732767
+"""What is the behavioral signature of a 'DDoS_UDP' attack?""","""A 'DDoS_UDP' attack is characterized by overwhelming a target device with UDP packets to disrupt service or drain resources."",","High-speed UDP floods, often spoofed, target vulnerable services like NTP, DNS, or SSDP.  
+",0.8644355535507202,0.8576788306236267,0.8610439300537109,0.23529411764705882,0.0,0.23529411764705882,0.012888648678772438,0.10869565217391304
+"""What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?""","""The source IP and port are 192.168.0.170:58904 and the destination IP and port are 192.168.0.128:80."",","The provided text does not contain information about HTTP traffic with UID 'C8uPgt1NGn906RwII6'.  
+",0.7662556767463684,0.8063481450080872,0.7857908606529236,0.05555555555555555,0.0,0.05555555555555555,0.0,0.03378378378378378
+"""What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?""","""The application summary for Flow ID TCP_2 is 'HTTP' and its TCP Flag Pattern is SYN → SYN, ACK → ACK → PSH, ACK → ACK → PSH, ACK."",","Application Summary: HTTP  
+TCP Flag Pattern: SYN → SYN, ACK → ACK → PSH, ACK → ACK → PSH, ACK 
+",0.9332937002182007,0.9204442501068115,0.9268243908882141,0.7499999999999999,0.5789473684210527,0.7499999999999999,0.4178765990697404,0.4768822286476868
+"""What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?""","""The `conn_state` is 'SF' and the history is '^dFfAa'."",","The provided data does not contain information about a TCP connection with UID 'CoGdm7e0oGwG8OFBb'. 
+
+
+",0.8302156925201416,0.843014121055603,0.8365659713745117,0.08333333333333333,0.0,0.08333333333333333,0.0,0.05263157894736842
+"""What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?""","""The total bytes exchanged for Flow ID TCP_3 is 134, with an App Payload Size of 34 bytes."",","The provided text does not contain information about Flow ID TCP_3, its byte exchange, or App Payload Size.  
+",0.9051759243011475,0.8998685479164124,0.9025145173072815,0.5263157894736842,0.3333333333333333,0.42105263157894735,0.03230645681297444,0.2477777777777778
+"""How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?""","""The answer cannot be determined from the provided context."",","The provided text does not contain information about a 'BERT report'. Additionally, there is no mention of a 'Brute-force' attack category.  
+
+
+",0.8477057218551636,0.8625887036323547,0.8550824522972107,0.1290322580645161,0.06896551724137931,0.1290322580645161,0.00913442366656447,0.2505446623093682
+"""What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?""","""A 'Man-in-the-Middle (MITM)' attack has a High severity and its risk is that sensitive data, including credentials or configuration commands, can be silently stolen or manipulated."",","This document does not contain information about Man-in-the-Middle (MITM) attacks.  
+",0.9160935878753662,0.8687651753425598,0.8918018937110901,0.28571428571428575,0.25,0.28571428571428575,0.0,0.0
+"""What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?""","""The status code is 200 with a status message of 'OK'.""","The provided text does not contain information about `status_code` and `status_msg` for HTTP requests to the host 192.168.0.128.  
+",0.8394030332565308,0.8581380248069763,0.8486672043800354,0.2352941176470588,0.06250000000000001,0.2352941176470588,0.0,0.0

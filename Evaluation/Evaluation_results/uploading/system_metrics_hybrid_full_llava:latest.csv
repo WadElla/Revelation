@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""",4.246672630310059,317.80078125,1.8249581907221695,710.0,713.5625,1,140,29
+"""What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?""",2.933891773223877,1.421875,2.7374049967681473,0.0,0.0,3,125,25
+"""What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?""",3.257591962814331,0.85546875,1.9281880823936726,0.0,0.0,-24,885,149
+"""What is the recommended mitigation strategy for a SQL Injection attack?""",1.79876708984375,2.0,2.432221505887147,0.0,0.0,-26,196,35
+"""How many unique IP pairs were observed during a DDoS_HTTP attack?""",1.8368282318115234,0.0,2.5009143045833646,0.0,0.0,-28,81,16
+"""What is the risk associated with a 'Password' attack?""",2.0218660831451416,0.5,2.3802268805626565,0.0,0.0,-25,262,43
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""",2.197239875793457,0.0,2.645364333696618,0.0,0.0,-26,218,34
+"""What is the threat intelligence summary for IP 194.0.5.123 as described in the report?""",2.629804849624634,0.25,2.103292949965277,0.0,0.0,-7,472,84
+"""What is the behavioral signature of a 'Vul Scanner' attack?""",1.8547770977020264,0.0,2.156593374457651,0.0,0.0,-8,312,56
+"""How many samples were classified as 'Ransomware' and what is its associated risk?""",2.1533868312835693,0.25,2.525092064744761,0.0,0.0,-8,218,36
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""",3.5987181663513184,0.25,1.8583005644980388,0.0,0.0,-16,557,137
+"""Which IP address is the top talker in the traffic?""",1.819124460220337,1.5,2.3191101501043083,0.0,0.0,-9,55,21
+"""What is the application summary for Flow ID TCP_1?""",2.3245198726654053,0.25,1.6804545514686902,0.0,3.5,-22,617,120
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""",2.2233850955963135,3.25,2.1785474813129,0.0,0.0,2,77,17
+"""What is the duration of Flow ID TCP_1?""",2.126866340637207,1.0,2.1157888081729763,0.0,0.0,-16,74,23
+"""What is the TCP Flag Pattern for Flow ID TCP_3?""",1.5192999839782715,2.75,2.715066177515982,0.0,0.0,-22,26,9
+"""What is the IP version for Flow ID TCP_2?""",1.753009557723999,1.75,2.1570047826261285,0.0,0.0,-5,51,14
+"""What are the source and destination ports for Flow ID TCP_1?""",1.9679512977600098,0.0,2.445436533656982,0.0,0.0,-9,97,27
+"""What is the average TTL for a connection in the traffic?""",2.2414231300354004,0.75,2.481682251539953,0.0,0.0,-26,300,48
+"""What are the MAC address and vendor of the devices involved in the connections?""",2.098668336868286,0.25,2.710051845775263,0.0,0.0,-23,133,20
+"""What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?""",2.467682123184204,0.5,2.5074137150273934,0.0,0.0,-10,176,39
+"""What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?""",3.597827196121216,0.0,1.815331766639951,0.0,0.0,-18,687,132
+"""What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?""",2.986522674560547,0.25,2.3647903497130516,0.0,0.0,-11,174,59
+"""What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?""",3.9018192291259766,3.25,1.745980426039888,0.0,0.0,-24,828,148
+"""What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?""",2.7127695083618164,0.25,2.4191144805232407,0.0,0.0,-9,253,52
+"""What are the source and destination IP addresses and ports for the NTP traffic?""",2.9228670597076416,0.0,1.9993211735687126,0.0,0.0,-25,719,120
+"""What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?""",2.8255364894866943,1.0,2.012892072412504,0.0,0.0,-19,601,106
+"""What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?""",2.322408676147461,2.0,1.9107317525876324,0.0,0.0,-16,150,39
+"""What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?""",3.3133583068847656,0.0,1.9428928005231567,0.0,0.0,-24,526,122
+"""What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?""",2.304732084274292,0.0,2.3592763935996186,0.0,0.0,-7,157,50
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?""",2.586857557296753,0.0,2.70598587087067,0.0,0.0,-20,125,24
+"""What is the recommended mitigation for a 'SQL Injection' attack?""",2.020397663116455,-0.84375,2.521162092487722,0.0,0.0,-12,207,34
+"""What is the behavioral signature of a 'DDoS_UDP' attack?""",1.6118659973144531,0.0,2.4040459979031796,0.0,0.0,-9,170,36
+"""What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?""",2.7821767330169678,0.0,2.471086728032845,0.0,-0.0625,-11,154,37
+"""What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?""",2.4258508682250977,0.0,2.4604768900600438,0.0,0.0,-24,196,47
+"""What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?""",2.5312371253967285,0.0,2.444456877595072,0.0,0.0,-22,142,46
+"""What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?""",2.6506011486053467,0.0,2.876705914057286,0.0,0.0,-21,8,2
+"""How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?""",2.4002957344055176,0.0,2.616865042905097,0.0,0.0,-27,110,24
+"""What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?""",1.8775033950805664,0.0,2.5965332540934543,0.0,0.0,-21,124,21
+"""What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?""",3.3540005683898926,0.0,1.6118810625590663,0.0,0.0,-27,788,163

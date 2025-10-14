@@ -1,0 +1,41 @@
+question,elapsed_time,memory_diff,cpu_util,proc_gpu_memory_used,device_gpu_memory_used,device_gpu_utilization,response_size,token_count
+"""What is the total number of anomalous traffic samples, and what percentage does this represent?""",11.833749055862427,240.96484375,2.6143447739136914,634.0,6599.125,89,86,19
+"""What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?""",9.471850395202637,3.43359375,2.9528285216757437,0.0,0.0,93,203,43
+"""What is the recommended mitigation strategy for a 'Ransomware' attack?""",7.773113012313843,1.74609375,2.942836411070108,0.0,0.0,73,244,37
+"""What is the risk associated with a 'Port Scanning' attack?""",7.796850681304932,0.640625,2.753515602328662,0.0,8.0,72,523,86
+"""What is the dominant detected attack and its total count?""",7.762297630310059,-0.41796875,3.0113506481284293,0.0,0.0,45,92,19
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""",10.069013357162476,0.40234375,2.9887486422483636,0.0,0.0,74,209,32
+"""How many samples were classified as 'SQL Injection' and what category does it fall under?""",10.467169046401978,-0.22265625,3.0243373217404583,0.0,0.0,69,118,24
+"""What is the category and behavioral signature of a 'Password' attack?""",8.297865152359009,-0.32421875,2.9864609203675587,0.0,0.0,69,159,33
+"""What is the recommended mitigation strategy for a 'Vul Scanner' attack?""",8.305894613265991,0.53125,2.976049077304659,0.0,0.1875,71,200,32
+"""What is the risk of a 'DDoS_TCP' attack?""",6.255872011184692,-0.32421875,2.837334262636011,0.0,0.0,71,324,54
+"""What is the average TTL for the TCP connections listed in the summary?""",9.916414260864258,0.48046875,2.807844576429917,0.0,56.0,72,330,59
+"""What is the total number of packets sent for Flow ID TCP_0, and what is its duration?""",12.186060905456543,0.25,2.979839037546619,0.0,0.0,82,346,58
+"""What are the MAC vendors for the source and destination IP addresses in the documented flows?""",10.802643775939941,0.98046875,2.956452203962553,0.0,0.0,83,308,48
+"""What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?""",13.85553765296936,0.4609375,3.0245127291050324,0.0,0.125,71,170,31
+"""Which IP address is the top talker and what is the count of its corresponding flows?""",11.772380590438843,0.640625,2.8881159370275378,0.0,0.0,71,697,109
+"""What is the application summary for the flows with an App Payload Size of 1106 bytes?""",11.632068872451782,0.88671875,2.834298039455372,0.0,0.0,86,684,116
+"""What is the TCP Flag Pattern for Flow ID TCP_7?""",9.093076467514038,1.46484375,2.5534537274542255,0.0,0.0,86,803,151
+"""What is the source port for Flow ID TCP_1?""",8.133175134658813,0.11328125,2.470591087405994,0.0,0.0,72,603,142
+"""How many total bytes were exchanged in Flow ID TCP_9?""",8.063286066055298,0.4453125,3.0113343122252454,0.0,0.0,70,166,30
+"""What is the duration of Flow ID TCP_12?""",8.434663534164429,0.9921875,2.3081833580132987,0.0,0.0,78,914,185
+"""What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?""",11.023529291152954,0.5859375,2.868863425199131,0.0,0.0,76,496,101
+"""What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?""",14.339102983474731,0.0,2.802650908241234,0.0,0.0,81,757,155
+"""What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?""",11.333546161651611,0.0,2.7131843433122764,0.0,0.0,93,696,125
+"""What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?""",13.473837614059448,1.109375,2.790129366022076,0.0,0.0,72,442,102
+"""What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?""",14.757574796676636,0.1484375,2.5940068424129437,0.0,0.0,72,1033,266
+"""What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?""",10.261395454406738,0.0234375,2.874852658303045,0.0,0.0,75,525,94
+"""What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?""",11.902591228485107,0.1328125,2.740999785149499,0.0,0.0,72,563,118
+"""What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?""",11.269423723220825,0.0,2.9255045164436764,0.0,0.0,80,231,55
+"""What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""",10.478132247924805,0.33984375,2.9645073439640854,0.0,4.25,74,249,51
+"""What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?""",11.08566665649414,0.41796875,2.8161364550603407,0.0,-1.75,74,536,96
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""",13.816385269165039,0.38671875,2.7254777039288296,0.0,0.0,70,893,199
+"""For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?""",12.327688932418823,0.609375,2.8543468441570914,0.0,0.0,71,468,96
+"""What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?""",11.313134908676147,0.0,2.776087287345464,0.0,0.0,84,647,130
+"""What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?""",11.055691003799438,0.0,2.8237719369392003,0.0,0.25,71,588,115
+"""What is the DNS query and response code for the request with `trans_id` 9956?""",10.185657739639282,0.85546875,2.942249854260428,0.0,-0.8125,72,246,45
+"""What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?""",12.488662242889404,0.30859375,2.7675101886656015,0.0,0.0,86,616,120
+"""For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?""",14.52012825012207,0.03125,2.9011451740893484,0.0,2.0,77,734,125
+"""What is the recommended mitigation strategy for a MITM attack, and what is its severity level?""",12.13571047782898,1.01953125,2.6728966597597092,0.0,0.0,68,1256,217
+"""What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?""",10.8508141040802,0.0078125,2.839648684831263,0.0,0.0,84,479,101
+"""What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?""",10.570870399475098,0.0,2.929631036015508,0.0,0.0,75,349,70

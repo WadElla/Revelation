@@ -1,0 +1,5 @@
+[
+{"ts":1638723503.852807,"uid":"Ch4Ld52CErSOvSGaY7","id.orig_h":"192.168.0.128","id.orig_p":5353,"id.resp_h":"224.0.0.251","id.resp_p":5353,"proto":"udp","trans_id":0,"query":"_ipp._tcp.local","qclass":1,"qclass_name":"C_INTERNET","qtype":12,"qtype_name":"PTR","AA":false,"TC":false,"RD":false,"RA":false,"Z":0,"rejected":false},
+{"ts":1638723754.774196,"uid":"Cu2cg53qpw5gDKgSJh","id.orig_h":"fe80::d5a3:549a:3c85:2120","id.orig_p":5353,"id.resp_h":"ff02::fb","id.resp_p":5353,"proto":"udp","trans_id":0,"query":"_ipp._tcp.local","qclass":1,"qclass_name":"C_INTERNET","qtype":12,"qtype_name":"PTR","AA":false,"TC":false,"RD":false,"RA":false,"Z":0,"rejected":false},
+{"ts":1638723759.857781,"uid":"CAoAUN1y7x3by932T7","id.orig_h":"192.168.0.128","id.orig_p":5353,"id.resp_h":"224.0.0.251","id.resp_p":5353,"proto":"udp","trans_id":0,"query":"_ipp._tcp.local","qclass":1,"qclass_name":"C_INTERNET","qtype":12,"qtype_name":"PTR","AA":false,"TC":false,"RD":false,"RA":false,"Z":0,"rejected":false}
+]

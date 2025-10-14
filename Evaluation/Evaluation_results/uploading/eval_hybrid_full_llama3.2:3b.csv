@@ -1,0 +1,164 @@
+question,reference,rag_answer,rag_bert_Precision,rag_bert_Recall,rag_bert_F1,rag_rouge1,rag_rouge2,rag_rougeL,rag_bleu,rag_meteor
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?""","""A total of 37,644 traffic samples were analyzed. Anomalous traffic accounted for 30,040 samples, which is 79.80% of the total."",","The total number of traffic samples analyzed is 37644. 
+
+20.20% of this traffic was classified as normal traffic.
+0.05% of this traffic was classified as anomalous traffic (3 samples).",0.8777630925178528,0.8922837972640991,0.884963870048523,0.40740740740740744,0.11538461538461538,0.2962962962962963,0.01871980086991623,0.27940220922677067
+"""What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?""","""The dominant detected attack is 'Uploading', which makes up 38.15% of the traffic with 14,363 samples."",","The dominant detected attack in the traffic is DDoS_HTTP, representing 33.78% of the total traffic.",0.9216322302818298,0.9053870439529419,0.9134374260902405,0.45714285714285713,0.30303030303030304,0.45714285714285713,0.08994987602402128,0.39917853934026437
+"""What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?""","""A Man-in-the-Middle (MITM) attack attempts to intercept or alter communications between devices, often through ARP spoofing or rogue gateways. Its severity is classified as High."",","There is no explicit mention of a Man-in-the-Middle (MITM) attack in the provided text. The only relevant section related to this type of behavior is [XSS], which mentions ""Hijack sessions"" as a risk associated with malicious JavaScript injection into web-based IoT dashboards or user-facing interfaces.
+
+However, XSS does not explicitly describe a Man-in-the-Middle (MITM) attack scenario. But considering the context of hijacking sessions and modifying settings in the XSS section, it can be inferred that a MITM-like behavior is present but not explicitly defined.
+
+The severity level for XSS is mentioned as ""Medium"" due to its potential impact on IoT infrastructure, which includes ""Can hijack sessions, modify settings, or exfiltrate sensitive values from browser sessions.""",0.836895227432251,0.8826643228530884,0.85917067527771,0.18421052631578946,0.08,0.15789473684210525,0.010205712663040965,0.2349295089936801
+"""What is the recommended mitigation strategy for a SQL Injection attack?""","""To mitigate a SQL Injection attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs."",","Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs.",0.9518457651138306,0.9106771945953369,0.9308064579963684,0.7368421052631579,0.6666666666666665,0.7368421052631579,0.37987955789773087,0.5845194306732767
+"""How many unique IP pairs were observed during a DDoS_HTTP attack?""","""There were 5 unique IP pairs observed during a DDoS_HTTP attack."",","According to the [DDoS_HTTP] section, there are 5 unique IP Pairs observed during this activity.",0.9150161743164062,0.9356362819671631,0.9252113103866577,0.6428571428571429,0.4615384615384615,0.5,0.08225964699966554,0.5250974658869396
+"""What is the risk associated with a 'Password' attack?""","""A 'Password' attack can lead to device hijacking or access to administrative interfaces if default or weak passwords are used."",","The risk associated with a 'Password' attack is that it can lead to device hijacking or access to administrative interfaces if default or weak passwords are used, potentially causing major data loss or service outages.",0.9337134957313538,0.9667231440544128,0.9499316215515137,0.7272727272727273,0.679245283018868,0.7272727272727273,0.4519217557918641,0.821705426356589
+"""What is the severity of a 'Backdoor' attack, and what is its behavioral signature?""","""A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation."",",The severity level of a 'Backdoor' attack is Critical. Its behavioral signature includes hidden channels or implants that enable an attacker to regain access even after reboots or remediation.,0.9716775417327881,0.9627386927604675,0.9671874642372131,0.8275862068965517,0.6071428571428571,0.7241379310344829,0.43706149645911874,0.7107279693486592
+"""What is the threat intelligence summary for IP 194.0.5.123 as described in the report?""","""The IP 194.0.5.123 is associated with 'clean' activity, with 0 out of 94 engines flagging it as potentially harmful. It has open port 123 and a DNS hostname of 'any.time.nl'."",",IP 194.0.5.123 is associated with clean activity — VirusTotal identified this IP as benign based on consensus across multiple antivirus and threat intelligence engines. 0 out of 94 engines flagged it as potentially harmful. Last known analysis occurred on 2025-08-15 15:37:16 UTC.,0.8596017360687256,0.8940974473953247,0.8765103220939636,0.5060240963855421,0.4444444444444445,0.48192771084337344,0.22263659306863223,0.48941974980037256
+"""What is the behavioral signature of a 'Vul Scanner' attack?""","""A 'Vul Scanner' attack is characterized by automated tools that scan for known vulnerabilities or misconfigurations."",","The behavioral signature of a 'Vul Scanner' attack is Automated tools (e.g., Nmap NSE, Nikto, Nessus) scan for known vulnerabilities or misconfigurations.",0.8885070085525513,0.9423505663871765,0.9146370887756348,0.6666666666666667,0.5405405405405405,0.6666666666666667,0.278093559995945,0.6559295031365129
+"""How many samples were classified as 'Ransomware' and what is its associated risk?""","""5 samples (0.01% of traffic) were classified as 'Ransomware'. The risk is that it can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages."",","There were 5 samples (0.01% of traffic) classified under the Ransomware attack type, and its associated risk is that it can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages.",0.9621798992156982,0.9617748856544495,0.9619773626327515,0.8787878787878789,0.71875,0.8181818181818182,0.5759114477883465,0.8412162162162162
+"""What is the total number of flows detected, and how are they distributed between TCP and UDP?""","""There were 7,587 total flows detected, consisting of 7,581 TCP flows and 6 UDP flows."",","The total number of flows detected is not explicitly stated in the provided chunks. However, we can calculate the total number of flows by summing up the counts from each section:
+
+- DDoS_UDP: 300
+- Port Scanning: 7
+- Uploading: 14363
+- DDoS_HTTP: 12718
+- SQL Injection: 1383
+- XSS: 58
+- Vul Scanner: 492
+
+Total number of flows detected: 300 + 7 + 14363 + 12718 + 1383 + 58 + 492 = 16322
+
+As for the distribution between TCP and UDP, we can only find information about DDoS_UDP which targets vulnerable services like NTP, DNS, or SSDP. However, it does not provide explicit information on the distribution between TCP and UDP flows.
+
+Based on the available content, it is unclear how the remaining sections (Port Scanning, Uploading, DDoS_HTTP, SQL Injection, XSS, and Vul Scanner) contribute to the overall number of flows.",0.787316620349884,0.8533881902694702,0.819021999835968,0.14666666666666667,0.027027027027027032,0.12000000000000001,0.0020442388020959156,0.1258992805755396
+"""Which IP address is the top talker in the traffic?""","""The top talker is 192.168.0.170, with 6,892 flows to 192.168.0.128."",",192.168.0.170 → 192.168.0.128 (6892 flows),0.9097506999969482,0.8941607475280762,0.901888370513916,0.6666666666666667,0.4800000000000001,0.5925925925925927,0.0,0.0
+"""What is the application summary for Flow ID TCP_1?""","""The application summary for Flow ID TCP_1 is 'HTTP'."",",There is no information about an application named TCP_1. The provided data does not contain explicit details about a specific flow with the identifier TCP_1.,0.8647892475128174,0.870381772518158,0.8675764799118042,0.32432432432432434,0.05714285714285715,0.21621621621621623,0.009009113474307318,0.14150943396226415
+"""What is the total number of bytes exchanged for Flow ID TCP_0?""","""The total bytes exchanged for Flow ID TCP_0 is 662."",","The retrieved content does not explicitly contain the answer to your question, but it can be inferred based on the available data.
+
+There are two relevant frames with a 'TCP' protocol and a specific sequence number (tcp.seq: ""1550667417"" and tcp.nxtseq: ""150""). Assuming that these sequences represent a connection, we can estimate the total number of bytes exchanged for this Flow ID TCP_0 by analyzing the TCP analysis data.
+
+The initial rtt is 0.003499000 seconds, and the push_bytes_sent is 149 bytes. The window size value is 509, which may indicate the maximum amount of data that can be sent in a single transmission. However, without more information about the flow's duration or other relevant details, it's difficult to calculate the exact total number of bytes exchanged.
+
+If we assume an average transmission time (rtt) of 0.012292000 seconds and use this window size, we could estimate the total number of bytes sent over this connection as follows:
+
+Total Bytes = (Window Size x Time per Transmission) / (1 - (Initial Rtt / Window Size))
+
+Using the above formula, we can calculate an estimated value for Total Bytes.
+
+However, without explicit information about how long the flow lasted, it's impossible to give a precise answer.",0.7916394472122192,0.8920875191688538,0.8388671875,0.091324200913242,0.06451612903225806,0.091324200913242,0.007932998437758234,0.18220248287671237
+"""What is the duration of Flow ID TCP_1?""","""The duration of Flow ID TCP_1 is 0.02s."",","The duration of Flow ID TCP_1 can be found in the first log entry:
+
+""duration"": 0.017190933227539062",0.8445678949356079,0.9181591272354126,0.8798273801803589,0.5714285714285714,0.46153846153846156,0.5714285714285714,0.22894156860669912,0.5659090909090909
+"""What is the TCP Flag Pattern for Flow ID TCP_3?""","""The TCP Flag Pattern for Flow ID TCP_3 is SYN \u2192 RST, ACK."",","The TCP Flag Pattern for Flow ID TCP_3 is SYN → RST, ACK.",0.9686163663864136,0.9270190596580505,0.9473613500595093,0.962962962962963,0.8799999999999999,0.962962962962963,0.6652049901111008,0.7661538461538462
+"""What is the IP version for Flow ID TCP_2?""","""The IP version for Flow ID TCP_2 is 4."",","The information about the IP version for Flow ID TCP_2 is not explicitly contained in the retrieved chunks of data. Therefore, a response based on the available content cannot be provided.",0.8786344528198242,0.9286946058273315,0.9029712080955505,0.4285714285714286,0.39999999999999997,0.4285714285714286,0.1826249361348376,0.6240889212827988
+"""What are the source and destination ports for Flow ID TCP_1?""","""The source port is 80 and the destination port is 58900."",",There is no information provided about Flow ID TCP_1 in the retrieved chunks of multi-source data.,0.8462049961090088,0.8333131074905396,0.8397095799446106,0.20689655172413793,0.0,0.13793103448275862,0.014628063653657535,0.08695652173913045
+"""What is the average TTL for a connection in the traffic?""","""The average TTL is 64.0."",","Unfortunately, there is no explicit mention of the average TTL (Time To Live) for connections in the provided chunks of multi-source data. The retrieved content provides summaries of various attack types and recommended mitigation strategies, but it does not contain information on connection TTLs.
+
+However, based on general knowledge of network protocols, the TTL for a connection is typically set by the operating system or device manufacturer and can vary depending on the specific protocol (e.g., TCP, UDP) and application. In many cases, default TTL values are in the range of 128 to 255 seconds.",0.8166429996490479,0.8640025854110718,0.8396555185317993,0.07766990291262137,0.039603960396039604,0.07766990291262137,0.004451432117823909,0.10714285714285718
+"""What are the MAC address and vendor of the devices involved in the connections?""","""The source MAC is dc:a6:32:fb:69:b5 (Raspberr) and the destination MAC is d8:f2:ca:8e:17:69 (IntelCor)."",","Unfortunately, there is no information provided about the MAC addresses or vendors of the devices involved in the connections. The retrieved chunks only contain IP communication pairs, MQTT topics, DNS queries, Modbus Unit IDs, and other protocol-level metadata, but not device-specific details such as MAC addresses or vendor information.",0.8152714371681213,0.7419661283493042,0.7768933773040771,0.16216216216216217,0.0,0.10810810810810811,0.005599757876912195,0.15060240963855423
+"""What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?""","""The duration of the connection is 0.01995396614074707 seconds, and it has a total of 12 packets (7 from the originator and 5 from the responder)."",","There is no direct information on HTTP connections in this data. However, it does mention a specific Modbus Unit ID involved in DDoS_HTTP activity: 0 → 192.168.0.128 → 224.0.0.251. This information could be used to investigate the HTTP connection and identify potential packets if needed.
+
+It is not possible to provide an exact answer on packet duration or total number of packets for the specified HTTP connection based solely on this data.",0.8344011306762695,0.8189572095870972,0.8266070485115051,0.2330097087378641,0.0,0.15533980582524273,0.004594239985312244,0.1851851851851852
+"""What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?""","""The connection state history is 'ShADadFf'."",","There is no explicit information about the connection state history in the provided data chunks. However, based on the available protocol-level metadata, we can infer some details about the TCP connection.
+
+The relevant sections are:
+
+- [Port Scanning]
+    - Unique IP Pairs: 
+        * 192.168.0.128 → 192.168.0.170
+        * 192.168.0.170 → 192.168.0.128
+    - MQTT Topics: 1 
+        * 0
+    - DNS Queries: 1 
+        * 0
+    - Modbus Unit IDs: 1 
+        * 0
+
+- [TCP]
+    - tcp.srcport: 58900
+    - tcp.dstport: 80
+    - tcp.port: 80
+    - tcp.stream: 1
+    - tcp.completeness: 0
+    - tcp.len: 0
+    - tcp.seq: 1
+    - tcp.ack_raw: 2827199344
+
+The TCP connection between 192.168.0.170 and 192.168.0.128 on port 80 is initiated with a sequence number of 1, and the acknowledgment number is unknown (as indicated by 0). There are no further details about the state of this connection in the provided data.
+
+Therefore, we can conclude that the exact connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80 cannot be determined with certainty from the given information.",0.7206579446792603,0.7982900142669678,0.7574900984764099,0.053475935828877004,0.032432432432432434,0.053475935828877004,0.005680257848891511,0.14217342342342343
+"""What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?""","""The HTTP method is 'GET', the URI is '/DVWA/hackable/uploads/hack.php', and the user agent is 'curl/7.79.1'."",","{
+  ""ts"": 1638828714.228923,
+  ""uid"": ""Czm7xv2ccanD1Bvp5g"",
+  ""id.orig_h"": ""192.168.0.170"",
+  ""id.orig_p"": 60624,
+  ""id.resp_h"": ""192.168.0.128"",
+  ""id.resp_p"": 80,
+  ""trans_depth"": 1,
+  ""method"": ""GET"",
+  ""host"": ""192.168.0.128"",
+  ""uri"": ""/DVWA/hackable/uploads/hack.php"",
+  ""version"": ""1.1"",
+  ""user_agent"": ""curl/7.79.1"",
+  ""request_body_len"": 0,
+  ""response_body_len"": 0,
+  ""status_code"": 200,
+  ""status_msg"": ""OK"",
+  ""tags"": [],
+  ""_log_source"": ""http.json""
+}",0.7752406597137451,0.9075818657875061,0.8362075090408325,0.3225806451612903,0.17582417582417584,0.3010752688172043,0.0,0.0
+"""What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?""","""The connection state is 'REJ'."",","There is no direct information about the connection state of the rejected TCP connections in the provided text snippet. However, I can suggest some possible ways to investigate this further:
+
+1. Check the logs: Review the system logs or security logs to see if there are any records of rejected TCP connections from 192.168.0.128 to 192.168.0.170 on port 3333.
+2. Use network monitoring tools: Utilize network monitoring tools such as Wireshark or Tcpdump to capture and analyze the network traffic related to these connections.
+3. Investigate firewall rules: Check if there are any firewall rules that may be blocking or rejecting incoming connections from 192.168.0.128 to 192.168.0.170 on port 3333.
+
+If you need more specific information, please provide more context or details about the rejected TCP connections, such as:
+
+* The exact timestamp of the connections
+* The source and destination IP addresses
+* The port numbers involved
+* Any error messages or logs related to these connections",0.7740523219108582,0.8260295391082764,0.799196720123291,0.046783625730994156,0.02366863905325444,0.03508771929824561,0.002659359525770905,0.12588943623426385
+"""What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?""","""The originator sent 107 bytes and the responder sent 149 bytes."",","The total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4' is not explicitly stated in the provided chunks. However, based on the DDoS_HTTP section, we can infer that this UDP packet was part of a volumetric denial-of-service attack.
+
+The unique IP Pair for this packet is 192.168.0.128 → 192.168.0.170. 
+
+However, we cannot accurately determine the total number of bytes sent and received without more specific information about the packet's content or metadata.",0.797970175743103,0.8494265079498291,0.8228947520256042,0.1443298969072165,0.0,0.10309278350515462,0.003522436526299483,0.14204545454545456
+"""What are the source and destination IP addresses and ports for the NTP traffic?""","""The source IP and port are 192.168.0.128:33032 and the destination IP and port are 194.0.5.123:123."",","Based on the provided data, there is no explicit information about the source and destination IP addresses and ports for the NTP traffic. However, we can infer that the NTP traffic was part of a DDoS_UDP attack (Category: Amplification / Flooding), which involved high-speed UDP floods targeting vulnerable services like NTP.
+
+From the [DDoS_UDP] section:
+
+- The source IP address is mentioned as 192.168.0.128.
+- However, there are multiple destination IP addresses mentioned for this traffic type, including 192.168.0.170 and other IP addresses not related to the DDoS_UDP attack.",0.8238447904586792,0.886803388595581,0.8541655540466309,0.2689075630252101,0.11965811965811965,0.20168067226890757,0.007444671355498294,0.2232142857142857
+"""What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?""","""The status code is 200, with a status message of 'OK'."",",There is no information about HTTP status codes for specific URLs in the provided retrieved chunks.,0.8525804877281189,0.8644641637802124,0.858481228351593,0.2962962962962963,0.08,0.14814814814814814,0.014628063653657535,0.13043478260869565
+"""What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?""","""The answer cannot be determined from the provided context."",",The duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj' is 0.236033000 seconds.,0.764844536781311,0.8488138914108276,0.8046445250511169,0.18181818181818185,0.0,0.18181818181818185,0.017033186037639283,0.10752688172043011
+"""What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?""","""The originator sent 156 IP bytes and the responder sent 305 IP bytes."",",There is no information in the provided chunks about a specific UID ('CoGdm7e0oGwG8OFBb') or its corresponding originator and responder IP bytes.,0.7963411808013916,0.874970555305481,0.8338062167167664,0.35294117647058826,0.0625,0.35294117647058826,0.013659149296955463,0.18115942028985507
+"""What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?""","""The original port is 60908 and the response port is 123."",",The id.orig_p and id.resp_p for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e' are not provided in the retrieved chunks of multi-source data.,0.7993792295455933,0.8272123336791992,0.8130576610565186,0.16216216216216214,0.0,0.16216216216216214,0.010862721615727716,0.08333333333333334
+"""What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?""","""A total of 37,644 traffic samples were analyzed. Normal traffic accounted for 7,604 samples, which is 20.20% of the total."",",The total number of traffic samples analyzed is 37644. Normal traffic constitutes 20.20% of this total.,0.9445543885231018,0.9194858074188232,0.9318515658378601,0.65,0.2631578947368421,0.55,0.03883261733263716,0.42270408163265305
+"""What is the recommended mitigation for a 'SQL Injection' attack?""","""To mitigate a 'SQL Injection' attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs."",","Sanitize all input fields, apply least privilege DB access, and use parameterized queries or ORMs.",0.9502415060997009,0.9056089520454407,0.9273884892463684,0.7368421052631579,0.6666666666666665,0.7368421052631579,0.37987955789773087,0.5845194306732767
+"""What is the behavioral signature of a 'DDoS_UDP' attack?""","""A 'DDoS_UDP' attack is characterized by overwhelming a target device with UDP packets to disrupt service or drain resources."",","High-speed UDP floods, often spoofed, target vulnerable services like NTP, DNS, or SSDP.",0.8644355535507202,0.8576788306236267,0.8610439300537109,0.23529411764705882,0.0,0.23529411764705882,0.012888648678772438,0.10869565217391304
+"""What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?""","""The source IP and port are 192.168.0.170:58904 and the destination IP and port are 192.168.0.128:80."",",There is no information provided about HTTP traffic with a specific UID in the retrieved chunks. The question cannot be answered based on the available content.,0.8521437048912048,0.8046203851699829,0.8277004957199097,0.08163265306122448,0.0,0.08163265306122448,0.0072658577559704465,0.03105590062111801
+"""What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?""","""The application summary for Flow ID TCP_2 is 'HTTP' and its TCP Flag Pattern is SYN → SYN, ACK → ACK → PSH, ACK → ACK → PSH, ACK."",","The application summary for Flow ID TCP_2 is HTTP. The TCP flag pattern is SYN → SYN, ACK → ACK → PSH, ACK → ACK → PSH, ACK.",0.9760929346084595,0.9640558362007141,0.970037043094635,0.9387755102040817,0.8936170212765957,0.9387755102040817,0.6585061120528429,0.8302095347943099
+"""What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?""","""The `conn_state` is 'SF' and the history is '^dFfAa'."",","{
+  ""ts"": 1638828707.03475,
+  ""uid"": ""CoGdm7e0oGwG8OFBb"",
+  ""id.orig_h"": ""192.168.0.128"",
+  ""id.orig_p"": 48828,
+  ""id.resp_h"": ""192.168.0.170"",
+  ""id.resp_p"": 3333,
+  ""proto"": ""tcp"",
+  ""duration"": 0.002583026885986328,
+  ""orig_bytes"": 0,
+  ""resp_bytes"": 0,
+  ""conn_state"": ""REJ"",
+  ""local_orig"": true,
+  ""local_resp"": true,
+  ""missed_bytes"": 0,
+  ""history"": ""Sr""
+}",0.7710530757904053,0.84812331199646,0.8077539801597595,0.0967741935483871,0.03333333333333333,0.0967741935483871,0.0,0.0
+"""What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?""","""The total bytes exchanged for Flow ID TCP_3 is 134, with an App Payload Size of 34 bytes."",","There is no information about Flow ID TCP_3 in the provided chunks. The relevant data only includes TCP_1 with 1204 samples (3.13% of traffic), TCP_2 with 1000 samples (2.68% of traffic), and TCP_5 with 10 samples (0.03% of traffic).",0.8396481275558472,0.8673803806304932,0.853289008140564,0.24615384615384617,0.09523809523809522,0.1846153846153846,0.02792268676050845,0.25428413488114976
+"""How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?""","""The answer cannot be determined from the provided context."",","There is no explicit mention of DNS Queries in the 'Brute-force' attack category in the provided chunks. However, according to the [Password] section, there is one DNS Query with a value of 0 listed under this attack type.",0.823938250541687,0.854202389717102,0.8387974500656128,0.125,0.043478260869565216,0.125,0.010307860500264256,0.12605042016806722
+"""What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?""","""A 'Man-in-the-Middle (MITM)' attack has a High severity and its risk is that sensitive data, including credentials or configuration commands, can be silently stolen or manipulated."",","The retrieved chunks do not explicitly contain information about a 'Man-in-the-Middle (MITM)' attack. However, it does mention that Fingerprinting activity manifested in the analyzed traffic, where attackers profile connected devices or services to determine software versions, open ports, and vulnerabilities.
+
+Based on this, we can infer that Fingerprinting is often used as a precursor to targeted exploits or vulnerability scans. This behavior could potentially be exploited by an attacker to intercept data or disrupt communication between devices.",0.854795515537262,0.8878374099731445,0.8710032105445862,0.29357798165137616,0.11214953271028039,0.22018348623853212,0.007449046320404952,0.2372499106823866
+"""What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?""","""The status code is 200 with a status message of 'OK'.""","No explicit information is contained within this data regarding HTTP requests made to a host at IP address 192.168.0.128, including status code and status message.",0.8445767164230347,0.864630937576294,0.8544861674308777,0.30769230769230765,0.10810810810810811,0.2051282051282051,0.020144990145560468,0.3

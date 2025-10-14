@@ -1,0 +1,25 @@
+==== Succinct Anomaly & Threat Intelligence Summary ====
+
+📊 Overall Classification Results
+- Total traffic samples analyzed: 4001
+- Normal traffic: 6 (0.15%)
+- Anomalous traffic: 3995 (99.85%)
+
+🧠 Attack Distribution
+- Backdoor: 3689 samples (92.34%)
+- Ransomware: 183 samples (4.58%)
+- SQL Injection: 99 samples (2.48%)
+- DDoS_HTTP: 11 samples (0.28%)
+- DDoS_UDP: 10 samples (0.25%)
+- MITM: 2 samples (0.05%)
+- Password: 1 samples (0.03%)
+
+🌐 Public IP Insights
+- Total public IPs observed: 0
+- VirusTotal verdicts:
+    • Malicious (0): N/A
+    • Benign (0): N/A
+    • Unknown (0): N/A
+
+
+========================================================

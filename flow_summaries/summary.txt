@@ -1,0 +1,1845 @@
+=== IoT Traffic Flow Summary ===
+Total Flows Detected: 141
+- TCP: 138 flows
+- UDP: 3 flows
+Top Talkers:
+- 192.168.0.170 → 192.168.0.128 (136 flows)
+- 192.168.0.128 → 192.168.0.170 (1 flows)
+- 192.168.0.128 → 224.0.0.251 (1 flows)
+- 192.168.0.128 → 192.168.0.101 (1 flows)
+- N/A → N/A (1 flows)
+================================
+
+=== Flow ID: TCP_0 ===
+- Duration: 456.82s
+- Packets: 1820
+- Source IP: 192.168.0.128 (Private IP) → Dest IP: 192.168.0.170 (Private IP)
+- MAC: dc:a6:32:fb:69:b5 (Raspberr) → d8:f2:ca:8e:17:69 (IntelCor)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 56322 → 4321
+- Total bytes exchanged: 508552
+- App Payload Size: 25480 bytes
+- TCP Flag Pattern: ACK → PSH, ACK → ACK → PSH, ACK → ACK → PSH, ACK
+
+=== Flow ID: UDP_0 ===
+- Duration: 256.00s
+- Packets: 2
+- Source IP: 192.168.0.128 (Private IP) → Dest IP: 224.0.0.251 (Multicast IP)
+- MAC: dc:a6:32:fb:69:b5 (Raspberr) → 01:00:5e:00:00:fb (IPv4mcast)
+- IP Version: 4
+- TTL Range: 255–255 (avg: 255.0)
+- Protocol: UDP
+- Ports: 5353 → 5353
+- Total bytes exchanged: 174
+- App Payload Size: 28 bytes
+- TCP Flag Pattern: N/A
+
+=== Flow ID: TCP_1 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58522 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_2 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58524 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_3 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58526 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_4 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58528 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_5 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58530 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_6 ===
+- Duration: 361.49s
+- Packets: 21
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 4321 → 56324
+- Total bytes exchanged: 3290
+- App Payload Size: 294 bytes
+- TCP Flag Pattern: PSH, ACK → PSH, ACK → ACK → PSH, ACK → PSH, ACK → ACK
+
+=== Flow ID: TCP_7 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58532 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_8 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58534 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_9 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58536 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_10 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58538 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_11 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58540 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_12 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58542 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_13 ===
+- Duration: 245.76s
+- Packets: 3
+- Source IP: 192.168.0.128 (Private IP) → Dest IP: 192.168.0.101 (Private IP)
+- MAC: dc:a6:32:fb:69:b5 (Raspberr) → d8:f2:ca:8e:17:69 (IntelCor)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 5900 → 58468
+- Total bytes exchanged: 4542
+- App Payload Size: 42 bytes
+- TCP Flag Pattern: ACK → ACK → ACK
+
+=== Flow ID: TCP_14 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58544 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_15 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58546 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_16 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58548 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_17 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58550 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_18 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58552 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_19 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58554 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_20 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58556 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_21 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58558 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_22 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58560 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_23 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58562 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_24 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58564 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_25 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58566 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_26 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58568 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_27 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58570 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: UDP_1 ===
+- Duration: 0.00s
+- Packets: 1
+- Source IP: N/A (Invalid IP) → Dest IP: N/A (Invalid IP)
+- MAC: dc:a6:32:fb:69:b5 (Raspberr) → 33:33:00:00:00:fb (IPv6mcast)
+- IP Version: N/A
+- TTL Range: 0–0 (avg: 0.0)
+- Protocol: UDP
+- Ports: 5353 → 5353
+- Total bytes exchanged: 107
+- App Payload Size: 107 bytes
+- TCP Flag Pattern: N/A
+
+=== Flow ID: TCP_28 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58572 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_29 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58574 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_30 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58576 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_31 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58578 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_32 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58580 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_33 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58582 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_34 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58584 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_35 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58586 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_36 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58588 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_37 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58590 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_38 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58592 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_39 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58594 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_40 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58596 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_41 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58598 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_42 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58600 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_43 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58602 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_44 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58604 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_45 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58606 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: UDP_2 ===
+- Duration: 10805.02s
+- Packets: 2
+- Source IP: 192.168.0.101 (Private IP) → Dest IP: 192.168.0.255 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → ff:ff:ff:ff:ff:ff (Broadcast)
+- IP Version: 4
+- TTL Range: 128–128 (avg: 128.0)
+- Protocol: UDP
+- Ports: 138 → 138
+- Total bytes exchanged: 486
+- App Payload Size: 28 bytes
+- TCP Flag Pattern: N/A
+
+=== Flow ID: TCP_46 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58608 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_47 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58610 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_48 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 58612 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_49 ===
+- Duration: 441.45s
+- Packets: 1744
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 60210 → 4321
+- Total bytes exchanged: 442620
+- App Payload Size: 24416 bytes
+- TCP Flag Pattern: PSH, ACK → ACK → PSH, ACK → ACK → PSH, ACK → ACK
+
+=== Flow ID: TCP_50 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32946 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_51 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32948 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_52 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32950 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_53 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32952 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_54 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32954 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_55 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32956 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_56 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32958 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_57 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32960 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_58 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32962 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_59 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32964 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_60 ===
+- Duration: 0.13s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32966 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_61 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32968 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_62 ===
+- Duration: 0.03s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32970 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_63 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32972 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_64 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32974 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_65 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32976 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_66 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32978 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_67 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32980 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_68 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32982 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_69 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32984 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_70 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32986 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_71 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32988 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_72 ===
+- Duration: 0.09s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32990 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_73 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32992 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_74 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32994 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_75 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32996 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_76 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 32998 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_77 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33000 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_78 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33002 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_79 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33004 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_80 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33006 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_81 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33008 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_82 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33010 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_83 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33012 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_84 ===
+- Duration: 0.12s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33014 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_85 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33016 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_86 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33018 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_87 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33020 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_88 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33022 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_89 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33024 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_90 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33026 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_91 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33028 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_92 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33030 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_93 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33032 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_94 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33034 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_95 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33036 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_96 ===
+- Duration: 0.11s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33038 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_97 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33040 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_98 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33042 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_99 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33044 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_100 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33046 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_101 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33048 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_102 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33050 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_103 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33052 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_104 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33054 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_105 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33056 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_106 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33058 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_107 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33060 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_108 ===
+- Duration: 0.12s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33062 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_109 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33064 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_110 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33066 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_111 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33068 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_112 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33070 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_113 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33072 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_114 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33074 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_115 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33076 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_116 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33078 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_117 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33080 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_118 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33082 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_119 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33084 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_120 ===
+- Duration: 0.11s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33086 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_121 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33088 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_122 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33090 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_123 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33092 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_124 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33094 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_125 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33096 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_126 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33098 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_127 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33100 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_128 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33102 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_129 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33104 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_130 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33106 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_131 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33108 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_132 ===
+- Duration: 0.11s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33110 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_133 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33112 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_134 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33114 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_135 ===
+- Duration: 0.01s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33116 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_136 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33118 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+
+=== Flow ID: TCP_137 ===
+- Duration: 0.00s
+- Packets: 2
+- Source IP: 192.168.0.170 (Private IP) → Dest IP: 192.168.0.128 (Private IP)
+- MAC: d8:f2:ca:8e:17:69 (IntelCor) → dc:a6:32:fb:69:b5 (Raspberr)
+- IP Version: 4
+- TTL Range: 64–64 (avg: 64.0)
+- Protocol: TCP
+- Ports: 33120 → 4321
+- Total bytes exchanged: 134
+- App Payload Size: 34 bytes
+- TCP Flag Pattern: SYN → RST, ACK
+

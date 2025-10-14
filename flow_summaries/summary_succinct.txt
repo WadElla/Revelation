@@ -1,0 +1,7 @@
+=== Succinct Flow Summary ===
+Total flows: 141
+Protocol distribution: TCP:138, UDP:3
+Unique IPs: 8  •  Private: 5  •  Public: 3
+Public IP reputation — Malicious: 0, Benign: 0, Unknown: 1
+Top talkers: 192.168.0.170 → 192.168.0.128 (136) | 192.168.0.128 → 192.168.0.170 (1) | 192.168.0.128 → 224.0.0.251 (1) | 192.168.0.128 → 192.168.0.101 (1) | N/A → N/A (1)
+================================
