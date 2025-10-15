@@ -21,11 +21,11 @@ from docx import Document as DocxDocument
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCtowOePpR13zVQ9n2IaKgJSXMBMMNFgG0"
+os.environ["GOOGLE_API_KEY"] = "Put your Google API key here if you want to use their Gemini model"
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCtowOePpR13zVQ9n2IaKgJSXMBMMNFgG0")
+genai.configure(api_key="Put your Google API key here if you want to use their Gemini model")
 
 # Config
 CHROMA_PATH = None
