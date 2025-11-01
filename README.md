@@ -1,4 +1,4 @@
-# 🧠 Revelation: An AI Agent-Powered Framework for Holistic Interpretation of IoT Network Traffic
+# Revelation: An AI Agent-Powered Framework for Holistic Interpretation of IoT Network Traffic
 
 Revelation is an **AI-agent–powered framework** that transforms raw IoT packet captures (PCAPs) into structured, semantically enriched artifacts for **interactive, evidence-grounded analysis**.
 The processing workflow produces four key artifacts—**Zeek protocol logs**, **packet-layer JSON**, **flow summaries**, and a **BERT-based interpretation report enriched with threat intelligence**—which are collectively indexed in a vector database for retrieval.
