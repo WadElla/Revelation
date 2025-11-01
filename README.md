@@ -170,10 +170,10 @@ You can:
 
 If a question is IoT-related but not covered by the capture, the agent automatically performs a **Tavily-based IoT web lookup** and cites its sources.
 
-#### 📸 Streamlit Screenshots
+### 📸 Revelation UI Screenshots
 
 <details open>
-  <summary><b>📸 Click to view Streamlit screenshots</b></summary>
+  <summary><b>📸 Click to view UI screenshots</b></summary>
 
   <p align="center">
     <a href="assets/Question.png"><img src="assets/Question.png" alt="Q&A results" width="32%"></a>
