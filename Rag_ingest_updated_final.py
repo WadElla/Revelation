@@ -6,13 +6,22 @@ import hashlib
 from typing import List
 from uuid import uuid4
 from collections import defaultdict
-from langchain.schema.document import Document
-from langchain_community.vectorstores import Chroma
+
+# from langchain.schema.document import Document
+# from langchain_community.vectorstores import Chroma
+# from langchain_community.document_loaders import TextLoader, JSONLoader
+# from langchain_experimental.text_splitter import SemanticChunker
+# from langchain_community.embeddings import OllamaEmbeddings
+
+from langchain_core.documents import Document
+from langchain_chroma import Chroma
 from langchain_community.document_loaders import TextLoader, JSONLoader
 from langchain_experimental.text_splitter import SemanticChunker
-from langchain_community.embeddings import OllamaEmbeddings
+#from langchain_community.embeddings import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings
+
 import google.generativeai as genai
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+#from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import os
 import time
 
@@ -23,9 +32,14 @@ import time
 # Safety buffer below ChromaDB max batch size
 BATCH_SIZE = 1000
 
+
 # === Embedding Function ===
 def get_embedding_function():
-    return OllamaEmbeddings(model="nomic-embed-text:v1.5")
+    return OllamaEmbeddings(
+        model="nomic-embed-text:v1.5"  # You can try this embedding model too, embeddinggemma:latest
+    )
+# def get_embedding_function():
+#     return OllamaEmbeddings(model="nomic-embed-text:v1.5")
 
 """
 # Alternate embedding function (kept as in the original file, but unused)
@@ -338,7 +352,7 @@ def load_and_chunk_packet_layers() -> List[Document]:
     if not os.path.isdir(PACKET_LAYER_PATH):
         return []
     embedding_fn = get_embedding_function()
-    text_splitter = SemanticChunker(embedding_fn)
+    text_splitter = SemanticChunker(embeddings=embedding_fn)
     chunks: List[Document] = []
 
     for fname in os.listdir(PACKET_LAYER_PATH):
@@ -392,7 +406,7 @@ def add_to_chroma(chunks: List[Document], session_dir: str):
         # Optional pause for API rate limits (kept disabled):
         # time.sleep(8)
 
-    db.persist()
+    #db.persist()
     print(f"✅ Fully ingested {len(chunks)} chunks into {session_dir}")
 
 

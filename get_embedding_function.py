@@ -16,6 +16,6 @@ def get_embedding_function():
 """
 
 def get_embedding_function():
-    return OllamaEmbeddings(model="nomic-embed-text:v1.5")
+    return OllamaEmbeddings(model="nomic-embed-text:v1.5") #You can try this embedding model too, embeddinggemma:latest
 
 
