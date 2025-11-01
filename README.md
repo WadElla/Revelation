@@ -93,6 +93,7 @@ No additional configuration is required.
 
 ```
 REVELATION/
+├── assets/                       # Images from our webApp
 ├── chroma_sessions/              # Persisted vector DB sessions (latest_session.txt)
 ├── data/                         # Input PCAP files
 ├── enhancer/                     # Enriched BERT reports (VirusTotal + InternetDB)
@@ -168,6 +169,32 @@ You can:
    - “Summarize MQTT activity linked to anomalies.”
 
 If a question is IoT-related but not covered by the capture, the agent automatically performs a **Tavily-based IoT web lookup** and cites its sources.
+
+<details>
+  <summary><b>Click to view Streamlit screenshots</b></summary>
+
+  <p align="center">
+    <a href="assets/Question.png">
+      <img src="assets/Question.png" alt="Home" width="900">
+    </a>
+  </p>
+  <p align="center">
+    <a href="assets/build.png">
+      <img src="assets/build.png" alt="Build pipeline" width="900">
+    </a>
+  </p>
+  <p align="center">
+    <a href="assets/session.png">
+      <img src="assets/streamlit-qa.png" alt="Interactive Q&A" width="900">
+    </a>
+  </p>
+  <p align="center">
+    <a href="assets/outside.png">
+      <img src="assets/outside.png" alt="Interactive Q&A" width="900">
+    </a>
+  </p>
+</details>
+
 
 ---
 
