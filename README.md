@@ -173,25 +173,23 @@ If a question is IoT-related but not covered by the capture, the agent automatic
 <details>
   <summary><b>Click to view Streamlit screenshots</b></summary>
 
+  <!-- Row 1 -->
   <p align="center">
-    <a href="assets/Question.png">
-      <img src="assets/Question.png" alt="Home" width="900">
-    </a>
+    <a href="assets/Question.png"><img src="assets/Question.png" alt="Q&A results" width="32%"></a>
+    <a href="assets/build.png"><img src="assets/build.png" alt="Build pipeline" width="32%"></a>
+    <a href="assets/session.png"><img src="assets/session.png" alt="Session selector" width="32%"></a>
   </p>
+
+  <!-- Row 2 -->
   <p align="center">
-    <a href="assets/build.png">
-      <img src="assets/build.png" alt="Build pipeline" width="900">
-    </a>
+    <a href="assets/outside.png"><img src="assets/outside.png" alt="External lookup example" width="32%"></a>
+    <a href="assets/image5.png"><img src="assets/session_deletion.png" alt="Session management" width="32%"></a>
+    <a href="assets/image6.png"><img src="assets/confirmation" alt="comfirmation of task" width="32%"></a>
   </p>
+
+  <!-- Row 3 (single, centered) -->
   <p align="center">
-    <a href="assets/session.png">
-      <img src="assets/streamlit-qa.png" alt="Interactive Q&A" width="900">
-    </a>
-  </p>
-  <p align="center">
-    <a href="assets/outside.png">
-      <img src="assets/outside.png" alt="Interactive Q&A" width="900">
-    </a>
+    <a href="assets/image7.png"><img src="assets/photo1.png" alt="Q&A results" width="60%"></a>
   </p>
 </details>
 
