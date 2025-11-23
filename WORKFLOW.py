@@ -11,6 +11,8 @@ from agno.workflow.v2.workflow import Workflow
 from agno.storage.sqlite import SqliteStorage
 from agno.agent import Agent
 from agno.models.ollama import Ollama
+
+os.environ["TAVILY_API_KEY"] = "Put your Tavily API key here"
 from agno.tools.tavily import TavilyTools
 
 PROJECT_ROOT = Path(__file__).resolve().parent
