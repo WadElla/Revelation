@@ -1,0 +1,162 @@
+scenario,scenario_id,question_number,question
+Backdoor,A,1,Which attack type occurs most frequently in the IoT traffic logs?
+Backdoor,A,2,What critical threats are identified in the anomaly detection report?
+Backdoor,A,3,What is the recommended mitigation strategy for SQL Injection attacks?
+Backdoor,A,4,What is the risk associated with a DDoS_HTTP attack?
+Backdoor,A,5,"How many total anomalous traffic samples were analyzed, and what percentage of the total traffic do they represent?"
+Backdoor,A,6,"What is the IP address associated with malicious activity in the threat intelligence report, and what are its associated open ports?"
+Backdoor,A,7,What is the behavioral signature of a Man-in-the-Middle (MITM) attack?
+Backdoor,A,8,Which DNS queries were observed in the DDoS_HTTP traffic?
+Backdoor,A,9,What is the recommendation for dealing with a DDoS_UDP attack?
+Backdoor,A,10,What does the threat intelligence summary state about the IP address 26.15.12.1?
+Backdoor,A,11,How many unique IP pairs were observed during the SQL Injection activity?
+Backdoor,A,12,How many total flows were detected in the IoT traffic?
+Backdoor,A,13,What is the breakdown of flows by protocol?
+Backdoor,A,14,"Which IP address is the top talker, and how many flows is it associated with?"
+Backdoor,A,15,What is the MAC address and vendor of the source and destination for Flow ID TCP_0?
+Backdoor,A,16,What is the duration and number of packets for Flow ID TCP_0?
+Backdoor,A,17,What is the protocol and port information for Flow ID UDP_0?
+Backdoor,A,18,What is the TCP Flag Pattern for Flow ID TCP_1?
+Backdoor,A,19,What is the IP version for Flow ID TCP_0?
+Backdoor,A,20,What is the average TTL for Flow ID TCP_0?
+Backdoor,A,21,What is the total number of bytes exchanged for Flow ID TCP_13?
+Backdoor,A,22,What is the connection state for the TCP traffic to port 4321 on host 192.168.0.170?
+Backdoor,A,23,Which protocol and service is associated with the connection between 192.168.0.128 and 224.0.0.251 on port 5353?
+Backdoor,A,24,What is the query and query type for the DNS request originating from 192.168.0.128?
+Backdoor,A,25,What is the history of the TCP connection attempts from 192.168.0.128 to 192.168.0.170 on port 4321?
+Backdoor,A,26,What is the IP protocol number for the ICMP connections?
+Backdoor,A,27,What is the duration of the TCP connection with UID 'Cp91d82qvMkTqXqg48'?
+Backdoor,A,28,How many packets were sent by the originator and responder for a rejected TCP connection?
+Backdoor,A,29,What is the destination IP address and port for the first UDP DNS flow listed?
+Backdoor,A,30,What is the query class name for the DNS query?
+Backdoor,A,31,What is the origin and response IP addresses for the ICMP traffic that has a destination of ff02::1?
+Backdoor,A,32,What is the MAC vendor of the source device for the top talker's communication?
+Backdoor,A,33,What is the destination IP address of the rejected TCP connection on port 4321?
+Backdoor,A,34,What is the total number of bytes sent by the originator and responder in Flow ID TCP_0?
+Backdoor,A,35,What is the recommended action for administrators regarding backdoor attacks?
+Backdoor,A,36,What is the origin and response IP addresses for the ICMP traffic with a destination of ff02::1?
+Backdoor,A,37,What is the port activity for the top talker's traffic?
+Backdoor,A,38,What is the duration of the TCP connection with UID 'CiAzT131FLtCIy6Cy1'?
+Backdoor,A,39,"Which TCP flow is associated with the SYN -> RST, ACK TCP flag pattern?"
+Backdoor,A,40,What is the full DNS query name and query type for the traffic between 192.168.0.128 and 224.0.0.251 on port 5353?
+Backdoor,A,41,What is the source IP address for the DDoS_HTTP activity?
+DDoS,B,1,"What is the total number of anomalous traffic samples, and what percentage does this represent?"
+DDoS,B,2,What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?
+DDoS,B,3,What is the recommended mitigation strategy for a 'Ransomware' attack?
+DDoS,B,4,What is the risk associated with a 'Port Scanning' attack?
+DDoS,B,5,What is the dominant detected attack and its total count?
+DDoS,B,6,"What is the severity of a 'Backdoor' attack, and what is its behavioral signature?"
+DDoS,B,7,How many samples were classified as 'SQL Injection' and what category does it fall under?
+DDoS,B,8,What is the category and behavioral signature of a 'Password' attack?
+DDoS,B,9,What is the recommended mitigation strategy for a 'Vul Scanner' attack?
+DDoS,B,10,What is the risk of a 'DDoS_TCP' attack?
+DDoS,B,11,What is the average TTL for the TCP connections listed in the summary?
+DDoS,B,12,"What is the total number of packets sent for Flow ID TCP_0, and what is its duration?"
+DDoS,B,13,What are the MAC vendors for the source and destination IP addresses in the documented flows?
+DDoS,B,14,"What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?"
+DDoS,B,15,Which IP address is the top talker and what is the count of its corresponding flows?
+DDoS,B,16,What is the application summary for the flows with an App Payload Size of 1106 bytes?
+DDoS,B,17,What is the TCP Flag Pattern for Flow ID TCP_7?
+DDoS,B,18,What is the source port for Flow ID TCP_1?
+DDoS,B,19,How many total bytes were exchanged in Flow ID TCP_9?
+DDoS,B,20,What is the duration of Flow ID TCP_12?
+DDoS,B,21,What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?
+DDoS,B,22,"What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?"
+DDoS,B,23,What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?
+DDoS,B,24,"What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?"
+DDoS,B,25,What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?
+DDoS,B,26,What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?
+DDoS,B,27,What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?
+DDoS,B,28,"What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?"
+DDoS,B,29,"What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?"
+DDoS,B,30,What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?
+DDoS,B,31,"What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?"
+DDoS,B,32,"For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?"
+DDoS,B,33,What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?
+DDoS,B,34,What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?
+DDoS,B,35,What is the DNS query and response code for the request with `trans_id` 9956?
+DDoS,B,36,What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?
+DDoS,B,37,"For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?"
+DDoS,B,38,"What is the recommended mitigation strategy for a MITM attack, and what is its severity level?"
+DDoS,B,39,What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?
+DDoS,B,40,"What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?"
+Normal,C,1,"How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?"
+Normal,C,2,"What is the most prevalent anomalous traffic type, and what is its severity level?"
+Normal,C,3,What is the recommended mitigation strategy for Ransomware attacks?
+Normal,C,4,What is the behavioral signature of a Man-in-the-Middle (MITM) attack?
+Normal,C,5,"What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?"
+Normal,C,6,What is the risk associated with an 'Uploading' attack?
+Normal,C,7,"How many samples of 'Password' attacks were detected, and what is the associated risk?"
+Normal,C,8,What is the recommended mitigation for 'Vul Scanner' activity?
+Normal,C,9,What is the severity and behavioral signature of a 'Backdoor' attack?
+Normal,C,10,What is the risk and recommended mitigation for a DDoS_HTTP attack?
+Normal,C,11,"What is the total number of flows detected, and how are they distributed between TCP and UDP?"
+Normal,C,12,"Which IP address is the top talker in the traffic, and what is its associated destination?"
+Normal,C,13,What is the application summary for Flow ID TCP_0?
+Normal,C,14,What is the duration and number of packets for Flow ID UDP_0?
+Normal,C,15,What is the average TTL for Flow ID UDP_0?
+Normal,C,16,What are the MAC address and vendor of the devices involved in Flow ID TCP_0?
+Normal,C,17,What is the total number of bytes exchanged for Flow ID TCP_0?
+Normal,C,18,What is the TCP Flag Pattern for Flow ID TCP_0?
+Normal,C,19,What is the App Payload Size for Flow ID TCP_1?
+Normal,C,20,What are the source and destination ports for Flow ID TCP_0?
+Normal,C,21,What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?
+Normal,C,22,What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?
+Normal,C,23,What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?
+Normal,C,24,What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?
+Normal,C,25,What is the Quality of Service (QoS) for the MQTT published messages?
+Normal,C,26,What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?
+Normal,C,27,What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?
+Normal,C,28,What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?
+Normal,C,29,What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?
+Normal,C,30,What are the source and destination IP addresses and ports for the first DNS query listed?
+Normal,C,31,What is the client ID and protocol version for the MQTT connections?
+Normal,C,32,What is the behavioral signature of a 'Credential Stuffing' attack?
+Normal,C,33,What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?
+Normal,C,34,What is the total number of DNS queries observed in the traffic?
+Normal,C,35,What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?
+Normal,C,36,What is the risk associated with a 'Password' attack?
+Normal,C,37,What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?
+Normal,C,38,What is the behavioral signature and severity of a 'Vul Scanner' attack?
+Normal,C,39,What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?
+Normal,C,40,"How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?"
+Uploading,D,1,"What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?"
+Uploading,D,2,"What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?"
+Uploading,D,3,"What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?"
+Uploading,D,4,What is the recommended mitigation strategy for a SQL Injection attack?
+Uploading,D,5,How many unique IP pairs were observed during a DDoS_HTTP attack?
+Uploading,D,6,What is the risk associated with a 'Password' attack?
+Uploading,D,7,"What is the severity of a 'Backdoor' attack, and what is its behavioral signature?"
+Uploading,D,8,What is the threat intelligence summary for IP 194.0.5.123 as described in the report?
+Uploading,D,9,What is the behavioral signature of a 'Vul Scanner' attack?
+Uploading,D,10,How many samples were classified as 'Ransomware' and what is its associated risk?
+Uploading,D,11,"What is the total number of flows detected, and how are they distributed between TCP and UDP?"
+Uploading,D,12,Which IP address is the top talker in the traffic?
+Uploading,D,13,What is the application summary for Flow ID TCP_1?
+Uploading,D,14,What is the total number of bytes exchanged for Flow ID TCP_0?
+Uploading,D,15,What is the duration of Flow ID TCP_1?
+Uploading,D,16,What is the TCP Flag Pattern for Flow ID TCP_3?
+Uploading,D,17,What is the IP version for Flow ID TCP_2?
+Uploading,D,18,What are the source and destination ports for Flow ID TCP_1?
+Uploading,D,19,What is the average TTL for a connection in the traffic?
+Uploading,D,20,What are the MAC address and vendor of the devices involved in the connections?
+Uploading,D,21,What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?
+Uploading,D,22,What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?
+Uploading,D,23,"What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?"
+Uploading,D,24,What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?
+Uploading,D,25,What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?
+Uploading,D,26,What are the source and destination IP addresses and ports for the NTP traffic?
+Uploading,D,27,What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?
+Uploading,D,28,What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?
+Uploading,D,29,What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?
+Uploading,D,30,What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?
+Uploading,D,31,"What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?"
+Uploading,D,32,What is the recommended mitigation for a 'SQL Injection' attack?
+Uploading,D,33,What is the behavioral signature of a 'DDoS_UDP' attack?
+Uploading,D,34,What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?
+Uploading,D,35,What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?
+Uploading,D,36,What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?
+Uploading,D,37,"What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?"
+Uploading,D,38,How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?
+Uploading,D,39,What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?
+Uploading,D,40,What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?

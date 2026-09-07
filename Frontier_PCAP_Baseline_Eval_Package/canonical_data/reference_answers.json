@@ -1,0 +1,1290 @@
+[
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 1,
+    "question": "Which attack type occurs most frequently in the IoT traffic logs?",
+    "reference_answer": "Backdoor attacks are the dominant detected attack, making up 91.38% of the traffic with 22,767 samples. Administrators should investigate for unrecognized binaries, reverse shells, or custom beaconing behavior and reflash firmware if needed.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 2,
+    "question": "What critical threats are identified in the anomaly detection report?",
+    "reference_answer": "Ransomware and Backdoor attacks were identified as critical threats. Ransomware can disrupt industrial systems or critical home infrastructure, while Backdoor attacks can allow full device control and long-term compromise.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for SQL Injection attacks?",
+    "reference_answer": "To mitigate SQL Injection attacks, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 4,
+    "question": "What is the risk associated with a DDoS_HTTP attack?",
+    "reference_answer": "A DDoS_HTTP attack may lead to downtime of dashboards, control panels, or external APIs used by IoT systems.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 5,
+    "question": "How many total anomalous traffic samples were analyzed, and what percentage of the total traffic do they represent?",
+    "reference_answer": "There were 24,891 anomalous traffic samples analyzed, which represents 99.91% of the total traffic.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 6,
+    "question": "What is the IP address associated with malicious activity in the threat intelligence report, and what are its associated open ports?",
+    "reference_answer": "The IP address 61.80.179.118 is associated with malicious activity. Its associated open ports are 21, 3306, 5000, 5001, and 8520.",
+    "question_category": "threat_intelligence"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 7,
+    "question": "What is the behavioral signature of a Man-in-the-Middle (MITM) attack?",
+    "reference_answer": "Man-in-the-Middle (MITM) attacks attempt to intercept or alter communications between devices, often through ARP spoofing or rogue gateways.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 8,
+    "question": "Which DNS queries were observed in the DDoS_HTTP traffic?",
+    "reference_answer": "The DNS queries observed during DDoS_HTTP activity were 0, 0.debian.pool.ntp.org, 1.debian.pool.ntp.org, 2.debian.pool.ntp.org, and 3.debian.pool.ntp.org.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 9,
+    "question": "What is the recommendation for dealing with a DDoS_UDP attack?",
+    "reference_answer": "The recommendation for a DDoS_UDP attack is to disable unused UDP services, rate-limit critical ports, and monitor for abnormal packet size bursts.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 10,
+    "question": "What does the threat intelligence summary state about the IP address 26.15.12.1?",
+    "reference_answer": "The threat intelligence summary states that IP 26.15.12.1 is associated with clean activity, with 0 out of 94 engines flagging it as potentially harmful.",
+    "question_category": "threat_intelligence"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 11,
+    "question": "How many unique IP pairs were observed during the SQL Injection activity?",
+    "reference_answer": "There were a total of 6 unique IP pairs observed during the SQL Injection activity.",
+    "question_category": "http"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 12,
+    "question": "How many total flows were detected in the IoT traffic?",
+    "reference_answer": "There were 849 total flows detected in the traffic.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 13,
+    "question": "What is the breakdown of flows by protocol?",
+    "reference_answer": "There were 833 TCP flows and 16 UDP flows.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 14,
+    "question": "Which IP address is the top talker, and how many flows is it associated with?",
+    "reference_answer": "The top talker is 192.168.0.170, which is associated with 831 flows to 192.168.0.128.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 15,
+    "question": "What is the MAC address and vendor of the source and destination for Flow ID TCP_0?",
+    "reference_answer": "The source MAC is d8:f2:ca:8e:17:69 (IntelCor) and the destination MAC is dc:a6:32:fb:69:b5 (Raspberr).",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 16,
+    "question": "What is the duration and number of packets for Flow ID TCP_0?",
+    "reference_answer": "Flow ID TCP_0 had a duration of 2572.29s and contained 9828 packets.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 17,
+    "question": "What is the protocol and port information for Flow ID UDP_0?",
+    "reference_answer": "The protocol is UDP, and the ports are 5353 → 5353.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 18,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_1?",
+    "reference_answer": "The TCP Flag Pattern for Flow ID TCP_1 is SYN → RST, ACK.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 19,
+    "question": "What is the IP version for Flow ID TCP_0?",
+    "reference_answer": "The IP version for Flow ID TCP_0 is 4.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 20,
+    "question": "What is the average TTL for Flow ID TCP_0?",
+    "reference_answer": "The average TTL for Flow ID TCP_0 is 64.0.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 21,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_13?",
+    "reference_answer": "The total bytes exchanged for Flow ID TCP_13 is 6056.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 22,
+    "question": "What is the connection state for the TCP traffic to port 4321 on host 192.168.0.170?",
+    "reference_answer": "The connection state is 'REJ', indicating a connection attempt was rejected.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 23,
+    "question": "Which protocol and service is associated with the connection between 192.168.0.128 and 224.0.0.251 on port 5353?",
+    "reference_answer": "The protocol is UDP and the service is DNS.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 24,
+    "question": "What is the query and query type for the DNS request originating from 192.168.0.128?",
+    "reference_answer": "The query is '_ipp._tcp.local' and the query type is 'PTR'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 25,
+    "question": "What is the history of the TCP connection attempts from 192.168.0.128 to 192.168.0.170 on port 4321?",
+    "reference_answer": "The connection history is 'Sr', which indicates a SYN packet from the originator and a RST from the responder.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 26,
+    "question": "What is the IP protocol number for the ICMP connections?",
+    "reference_answer": "The IP protocol number for the ICMP connections is 58.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 27,
+    "question": "What is the duration of the TCP connection with UID 'Cp91d82qvMkTqXqg48'?",
+    "reference_answer": "The duration of the connection is 0.003877878189086914 seconds.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 28,
+    "question": "How many packets were sent by the originator and responder for a rejected TCP connection?",
+    "reference_answer": "One packet was sent by the originator and one packet by the responder for the rejected TCP connections.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 29,
+    "question": "What is the destination IP address and port for the first UDP DNS flow listed?",
+    "reference_answer": "The destination IP address is 224.0.0.251 and the port is 5353.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 30,
+    "question": "What is the query class name for the DNS query?",
+    "reference_answer": "The query class name is 'C_INTERNET'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 31,
+    "question": "What is the origin and response IP addresses for the ICMP traffic that has a destination of ff02::1?",
+    "reference_answer": "The origin IP address is fe80::24e3:6aff:fe3f:5b07 and the response IP is ff02::1.",
+    "question_category": "endpoint_metadata"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 32,
+    "question": "What is the MAC vendor of the source device for the top talker's communication?",
+    "reference_answer": "The MAC vendor of the source device (d8:f2:ca:8e:17:69) for the top talker is IntelCor.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 33,
+    "question": "What is the destination IP address of the rejected TCP connection on port 4321?",
+    "reference_answer": "The destination IP address for the rejected TCP connection on port 4321 is 192.168.0.170.",
+    "question_category": "endpoint_metadata"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 34,
+    "question": "What is the total number of bytes sent by the originator and responder in Flow ID TCP_0?",
+    "reference_answer": "The originator sent 1782294 bytes and the responder sent 1048702 bytes in Flow ID TCP_0.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 35,
+    "question": "What is the recommended action for administrators regarding backdoor attacks?",
+    "reference_answer": "Administrators should investigate for unrecognized binaries, reverse shells, or custom beaconing behavior and consider re-flashing firmware to mitigate backdoor attacks.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 36,
+    "question": "What is the origin and response IP addresses for the ICMP traffic with a destination of ff02::1?",
+    "reference_answer": "The origin IP is fe80::24e3:6aff:fe3f:5b07 and the response IP is ff02::1.",
+    "question_category": "endpoint_metadata"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 37,
+    "question": "What is the port activity for the top talker's traffic?",
+    "reference_answer": "The traffic from 192.168.0.170 is mostly directed to port 443, with 829 flows.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 38,
+    "question": "What is the duration of the TCP connection with UID 'CiAzT131FLtCIy6Cy1'?",
+    "reference_answer": "The duration of the TCP connection is 0.0039288997650146484 seconds.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 39,
+    "question": "Which TCP flow is associated with the SYN -> RST, ACK TCP flag pattern?",
+    "reference_answer": "Flow ID TCP_1 is associated with the SYN -> RST, ACK TCP flag pattern.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 40,
+    "question": "What is the full DNS query name and query type for the traffic between 192.168.0.128 and 224.0.0.251 on port 5353?",
+    "reference_answer": "The DNS query is for '_ipp._tcp.local' and the query type is 'PTR'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 41,
+    "question": "What is the source IP address for the DDoS_HTTP activity?",
+    "reference_answer": "The source IP address for the DDoS_HTTP activity is 192.168.0.170.",
+    "question_category": "http"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 1,
+    "question": "What is the total number of anomalous traffic samples, and what percentage does this represent?",
+    "reference_answer": "A total of 137,469 traffic samples were considered anomalous, representing 59.99% of the total traffic analyzed.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 2,
+    "question": "What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?",
+    "reference_answer": "The behavioral signature of a 'DDoS_UDP' attack is high-speed UDP floods, often spoofed, targeting vulnerable services. Its severity is classified as High.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for a 'Ransomware' attack?",
+    "reference_answer": "To mitigate a 'Ransomware' attack, you should immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Reporting the incident is also recommended.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 4,
+    "question": "What is the risk associated with a 'Port Scanning' attack?",
+    "reference_answer": "The risk associated with a 'Port Scanning' attack is that it indicates an attacker is mapping the network to find exploitable targets.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 5,
+    "question": "What is the dominant detected attack and its total count?",
+    "reference_answer": "The dominant detected attack is 'DDoS_HTTP', with 67,914 samples.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 6,
+    "question": "What is the severity of a 'Backdoor' attack, and what is its behavioral signature?",
+    "reference_answer": "A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 7,
+    "question": "How many samples were classified as 'SQL Injection' and what category does it fall under?",
+    "reference_answer": "A total of 18,662 samples were classified as 'SQL Injection', which falls under the 'Injection Exploits' category.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 8,
+    "question": "What is the category and behavioral signature of a 'Password' attack?",
+    "reference_answer": "A 'Password' attack is a 'Credential Brute Force' that involves numerous login attempts with different passwords, targeting services like SSH, Telnet, HTTP, or MQTT.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 9,
+    "question": "What is the recommended mitigation strategy for a 'Vul Scanner' attack?",
+    "reference_answer": "To mitigate a 'Vul Scanner' attack, you should patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 10,
+    "question": "What is the risk of a 'DDoS_TCP' attack?",
+    "reference_answer": "A 'DDoS_TCP' attack often affects routers, embedded Linux devices, or gateway firewalls, causing memory exhaustion.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 11,
+    "question": "What is the average TTL for the TCP connections listed in the summary?",
+    "reference_answer": "The average TTL for the TCP connections is 64.0.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 12,
+    "question": "What is the total number of packets sent for Flow ID TCP_0, and what is its duration?",
+    "reference_answer": "For Flow ID TCP_0, a total of 79 packets were sent over a duration of 120.65 seconds.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 13,
+    "question": "What are the MAC vendors for the source and destination IP addresses in the documented flows?",
+    "reference_answer": "The source MAC vendor is Raspberr and the destination MAC vendor is IntelCor.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 14,
+    "question": "What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?",
+    "reference_answer": "There are 12,114 TCP flows and 7 UDP flows. There are 12,107 more TCP flows than UDP flows.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 15,
+    "question": "Which IP address is the top talker and what is the count of its corresponding flows?",
+    "reference_answer": "The top talker is 192.168.0.170 with 8,914 flows to 192.168.0.128.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 16,
+    "question": "What is the application summary for the flows with an App Payload Size of 1106 bytes?",
+    "reference_answer": "The application summary for these flows is 'HTTP'.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 17,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_7?",
+    "reference_answer": "The TCP Flag Pattern is PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK → PSH, ACK.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 18,
+    "question": "What is the source port for Flow ID TCP_1?",
+    "reference_answer": "The source port for Flow ID TCP_1 is 55994.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 19,
+    "question": "How many total bytes were exchanged in Flow ID TCP_9?",
+    "reference_answer": "The total bytes exchanged for Flow ID TCP_9 is 4,218.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 20,
+    "question": "What is the duration of Flow ID TCP_12?",
+    "reference_answer": "The duration of Flow ID TCP_12 is 109.70 seconds.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?",
+    "reference_answer": "The duration of the connection is 3.0468389987945557 seconds, and it had a total of 3 packets from the originator.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 22,
+    "question": "What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?",
+    "reference_answer": "The source IP is 192.168.0.128, the destination IP is 216.58.198.74, and the server name is 'safebrowsing.googleapis.com'.",
+    "question_category": "zeek_ssl_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 23,
+    "question": "What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?",
+    "reference_answer": "The DNS query is 'safebrowsing.googleapis.com' and the response code is 'NOERROR'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 24,
+    "question": "What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?",
+    "reference_answer": "The source IP is 192.168.0.170, the destination IP is 192.168.0.128, and the event name is 'TCP_seq_underflow_or_misorder'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 25,
+    "question": "What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?",
+    "reference_answer": "The MIME type is 'text/html' and the total bytes are 10701.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 26,
+    "question": "What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?",
+    "reference_answer": "The NTP traffic has a version of 4 and a mode of 3.",
+    "question_category": "zeek_ntp_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 27,
+    "question": "What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?",
+    "reference_answer": "The user agent is 'Opera/9.80 (Macintosh; Intel Mac OS X 10.7.0; U; Edition MacAppStore; en) Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML,like Gecko) PhantomJS/1.9.0 (development) Safari/534.34'.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 28,
+    "question": "What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?",
+    "reference_answer": "The response port is 4321 and the connection state is 'REJ'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 29,
+    "question": "What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?",
+    "reference_answer": "The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the curve is 'x25519'.",
+    "question_category": "zeek_ssl_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 30,
+    "question": "What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?",
+    "reference_answer": "The source IP is 192.168.0.128 and the destination IP is 192.168.0.1.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 31,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?",
+    "reference_answer": "A total of 229,142 traffic samples were analyzed, with 59.99% (137,469 samples) being anomalous.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 32,
+    "question": "For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?",
+    "reference_answer": "The protocol version is '3.1.1' and the client ID is empty.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 33,
+    "question": "What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?",
+    "reference_answer": "The source IP is 192.168.3.18, the destination IP is 192.168.3.12, and the service is MQTT.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 34,
+    "question": "What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?",
+    "reference_answer": "The name is 'TCP_seq_underflow_or_misorder' and the source is 'TCP'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 35,
+    "question": "What is the DNS query and response code for the request with `trans_id` 9956?",
+    "reference_answer": "The DNS query is '1.debian.pool.ntp.org' and the response code is 'REFUSED'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 36,
+    "question": "What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?",
+    "reference_answer": "The mime type is 'text/html' and the total bytes are 10,701.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 37,
+    "question": "For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?",
+    "reference_answer": "The source IP is 192.168.0.128 and the destination is 192.168.0.170. The source MAC vendor is Raspberr, and the destination MAC vendor is IntelCor.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 38,
+    "question": "What is the recommended mitigation strategy for a MITM attack, and what is its severity level?",
+    "reference_answer": "The recommended mitigation is to isolate the affected subnet, inspect ARP tables and DHCP leases, and enforce certificate validation for encrypted traffic. Its severity is High.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 39,
+    "question": "What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?",
+    "reference_answer": "The payload is '♥ A HeartBeat Happened ! \\\\r\\\\n' and the topic is 'Heart_Rate'.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 40,
+    "question": "What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?",
+    "reference_answer": "The version is 'TLSv13', the cipher is 'TLS_CHACHA20_POLY1305_SHA256', and the server name is 'safebrowsing.googleapis.com'.",
+    "question_category": "zeek_ssl_uid"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 1,
+    "question": "How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?",
+    "reference_answer": "A total of 170,435 traffic samples were analyzed. Anomalous traffic accounted for 4,776 samples, which is 2.80% of the total traffic.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 2,
+    "question": "What is the most prevalent anomalous traffic type, and what is its severity level?",
+    "reference_answer": "SQL Injection is the dominant detected attack, with 1,788 samples, making up 1.05% of the traffic. Its severity is classified as High.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for Ransomware attacks?",
+    "reference_answer": "To mitigate Ransomware, immediately isolate affected hosts, restore from clean backups, and assess lateral movement. Report incidents if needed.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 4,
+    "question": "What is the behavioral signature of a Man-in-the-Middle (MITM) attack?",
+    "reference_answer": "Man-in-the-Middle (MITM) attacks attempt to intercept or alter communications between devices, often through ARP spoofing or rogue gateways.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 5,
+    "question": "What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?",
+    "reference_answer": "The unique IP pairs for DDoS_TCP activity are 192.168.3.1 \\u2192 192.168.3.12 and 192.168.3.12 \\u2192 192.168.3.1. There is one DNS query: 1.debian.pool.ntp.org. The Modbus Unit ID is 0.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 6,
+    "question": "What is the risk associated with an 'Uploading' attack?",
+    "reference_answer": "An 'Uploading' attack could result in remote code execution or storage of malicious tools on IoT gateways.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 7,
+    "question": "How many samples of 'Password' attacks were detected, and what is the associated risk?",
+    "reference_answer": "26 samples (0.02% of traffic) were classified as 'Password' attacks. The risk is that these attacks can lead to device hijacking or access to administrative interfaces if default or weak passwords are used.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 8,
+    "question": "What is the recommended mitigation for 'Vul Scanner' activity?",
+    "reference_answer": "To mitigate 'Vul Scanner' activity, it is recommended to patch exposed services, disable unused ports, and fingerprint the scanning tool for possible attribution.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 9,
+    "question": "What is the severity and behavioral signature of a 'Backdoor' attack?",
+    "reference_answer": "A 'Backdoor' attack has a Critical severity level. The behavior is characterized by hidden channels or implants that enable an attacker to regain access even after reboots or remediation.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 10,
+    "question": "What is the risk and recommended mitigation for a DDoS_HTTP attack?",
+    "reference_answer": "DDoS_HTTP attacks may lead to downtime of dashboards, control panels, or external APIs. The recommendation is to deploy rate limiting, reverse proxies, or cloud-based DDoS protection, and identify attacker IPs for blacklisting.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 11,
+    "question": "What is the total number of flows detected, and how are they distributed between TCP and UDP?",
+    "reference_answer": "There were 10,418 total flows detected, consisting of 9,826 TCP flows and 592 UDP flows.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 12,
+    "question": "Which IP address is the top talker in the traffic, and what is its associated destination?",
+    "reference_answer": "The top talker is 192.168.3.12, which is associated with 9,754 flows to 192.168.3.18.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 13,
+    "question": "What is the application summary for Flow ID TCP_0?",
+    "reference_answer": "The application summary for Flow ID TCP_0 is 'MQTT 14 on topic'.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 14,
+    "question": "What is the duration and number of packets for Flow ID UDP_0?",
+    "reference_answer": "Flow ID UDP_0 had a duration of 1835.21 seconds and contained 352 packets.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 15,
+    "question": "What is the average TTL for Flow ID UDP_0?",
+    "reference_answer": "The average TTL for Flow ID UDP_0 is 255.0.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 16,
+    "question": "What are the MAC address and vendor of the devices involved in Flow ID TCP_0?",
+    "reference_answer": "The source MAC is dc:a6:32:fb:69:b5 (Raspberr) and the destination MAC is d8:f2:ca:8e:17:69 (IntelCor).",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 17,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_0?",
+    "reference_answer": "The total bytes exchanged for Flow ID TCP_0 is 1060.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 18,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_0?",
+    "reference_answer": "The TCP Flag Pattern for Flow ID TCP_0 is SYN \\u2192 SYN, ACK \\u2192 PSH, ACK \\u2192 ACK \\u2192 PSH, ACK \\u2192 PSH, ACK.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 19,
+    "question": "What is the App Payload Size for Flow ID TCP_1?",
+    "reference_answer": "The App Payload Size for Flow ID TCP_1 is 210 bytes.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 20,
+    "question": "What are the source and destination ports for Flow ID TCP_0?",
+    "reference_answer": "The source port is 49238 and the destination port is 1883.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?",
+    "reference_answer": "The duration of the connection is 0.018690824508666992 seconds, with a total of 18 packets (9 from originator and 9 from responder).",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 22,
+    "question": "What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?",
+    "reference_answer": "The DNS query is '1.debian.pool.ntp.org' and the connection was rejected.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 23,
+    "question": "What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?",
+    "reference_answer": "The MQTT protocol version is 3.1.1 and the connection status is 'Connection Accepted'.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 24,
+    "question": "What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?",
+    "reference_answer": "The payload is 'BPM: 51\\\\r\\\\n'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 25,
+    "question": "What is the Quality of Service (QoS) for the MQTT published messages?",
+    "reference_answer": "The Quality of Service (QoS) for the published messages is 'at most once'.",
+    "question_category": "mqtt"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 26,
+    "question": "What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?",
+    "reference_answer": "The originator sent 60 bytes and the responder sent 4 bytes.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 27,
+    "question": "What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?",
+    "reference_answer": "The DNS query types are 'A' and 'AAAA'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 28,
+    "question": "What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?",
+    "reference_answer": "The topic name is 'Heart_Rate' and the payload length is 30.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 29,
+    "question": "What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?",
+    "reference_answer": "The connection history is 'ShADadFfr'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 30,
+    "question": "What are the source and destination IP addresses and ports for the first DNS query listed?",
+    "reference_answer": "The source IP and port are 192.168.3.12:44022 and the destination IP and port are 192.168.3.1:53.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 31,
+    "question": "What is the client ID and protocol version for the MQTT connections?",
+    "reference_answer": "The MQTT connections have a protocol version of 3.1.1 and a blank client ID.",
+    "question_category": "mqtt"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 32,
+    "question": "What is the behavioral signature of a 'Credential Stuffing' attack?",
+    "reference_answer": "A 'Credential Stuffing' attack uses pre-existing credentials to gain unauthorized access to an IoT system.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 33,
+    "question": "What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?",
+    "reference_answer": "The originator sent 9 packets and the responder sent 9 packets.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 34,
+    "question": "What is the total number of DNS queries observed in the traffic?",
+    "reference_answer": "There are a total of 4 DNS queries listed in the report, and the `dns.json` file shows queries for '1.debian.pool.ntp.org' and 'desktop-uhf0sf2.local'.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 35,
+    "question": "What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?",
+    "reference_answer": "The topic name is 'Heart_Rate' and the payload length is 30.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 36,
+    "question": "What is the risk associated with a 'Password' attack?",
+    "reference_answer": "A 'Password' attack can lead to device hijacking or access to administrative interfaces if default or weak passwords are used.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 37,
+    "question": "What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?",
+    "reference_answer": "For Flow ID TCP_0, the duration is 0.03 seconds and the total bytes exchanged is 1060.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 38,
+    "question": "What is the behavioral signature and severity of a 'Vul Scanner' attack?",
+    "reference_answer": "A 'Vul Scanner' attack has a Low severity and is characterized by probing network devices for open ports and known vulnerabilities.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 39,
+    "question": "What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?",
+    "reference_answer": "The connection state is 'SF' and the history is 'ShDadAFfr'.",
+    "question_category": "zeek_mqtt_uid"
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 40,
+    "question": "How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?",
+    "reference_answer": "There were 587 flows between these two IPs. Based on the flow summaries, the source device (192.168.3.12) has a Raspberr MAC vendor, and the destination device (192.168.3.18) has an IntelCor MAC vendor.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 1,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?",
+    "reference_answer": "A total of 37,644 traffic samples were analyzed. Anomalous traffic accounted for 30,040 samples, which is 79.80% of the total.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 2,
+    "question": "What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?",
+    "reference_answer": "The dominant detected attack is 'Uploading', which makes up 38.15% of the traffic with 14,363 samples.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 3,
+    "question": "What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?",
+    "reference_answer": "A Man-in-the-Middle (MITM) attack attempts to intercept or alter communications between devices, often through ARP spoofing or rogue gateways. Its severity is classified as High.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 4,
+    "question": "What is the recommended mitigation strategy for a SQL Injection attack?",
+    "reference_answer": "To mitigate a SQL Injection attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 5,
+    "question": "How many unique IP pairs were observed during a DDoS_HTTP attack?",
+    "reference_answer": "There were 5 unique IP pairs observed during a DDoS_HTTP attack.",
+    "question_category": "http"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 6,
+    "question": "What is the risk associated with a 'Password' attack?",
+    "reference_answer": "A 'Password' attack can lead to device hijacking or access to administrative interfaces if default or weak passwords are used.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 7,
+    "question": "What is the severity of a 'Backdoor' attack, and what is its behavioral signature?",
+    "reference_answer": "A 'Backdoor' attack has a Critical severity level. Its behavior is characterized by hidden channels or implants that allow an attacker to regain access even after reboots or remediation.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 8,
+    "question": "What is the threat intelligence summary for IP 194.0.5.123 as described in the report?",
+    "reference_answer": "The IP 194.0.5.123 is associated with 'clean' activity, with 0 out of 94 engines flagging it as potentially harmful. It has open port 123 and a DNS hostname of 'any.time.nl'.",
+    "question_category": "threat_intelligence"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 9,
+    "question": "What is the behavioral signature of a 'Vul Scanner' attack?",
+    "reference_answer": "A 'Vul Scanner' attack is characterized by automated tools that scan for known vulnerabilities or misconfigurations.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 10,
+    "question": "How many samples were classified as 'Ransomware' and what is its associated risk?",
+    "reference_answer": "5 samples (0.01% of traffic) were classified as 'Ransomware'. The risk is that it can disrupt industrial systems or critical home infrastructure, causing major data loss or service outages.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 11,
+    "question": "What is the total number of flows detected, and how are they distributed between TCP and UDP?",
+    "reference_answer": "There were 7,587 total flows detected, consisting of 7,581 TCP flows and 6 UDP flows.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 12,
+    "question": "Which IP address is the top talker in the traffic?",
+    "reference_answer": "The top talker is 192.168.0.170, with 6,892 flows to 192.168.0.128.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 13,
+    "question": "What is the application summary for Flow ID TCP_1?",
+    "reference_answer": "The application summary for Flow ID TCP_1 is 'HTTP'.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 14,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_0?",
+    "reference_answer": "The total bytes exchanged for Flow ID TCP_0 is 662.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 15,
+    "question": "What is the duration of Flow ID TCP_1?",
+    "reference_answer": "The duration of Flow ID TCP_1 is 0.02s.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 16,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_3?",
+    "reference_answer": "The TCP Flag Pattern for Flow ID TCP_3 is SYN \\u2192 RST, ACK.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 17,
+    "question": "What is the IP version for Flow ID TCP_2?",
+    "reference_answer": "The IP version for Flow ID TCP_2 is 4.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 18,
+    "question": "What are the source and destination ports for Flow ID TCP_1?",
+    "reference_answer": "The source port is 80 and the destination port is 58900.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 19,
+    "question": "What is the average TTL for a connection in the traffic?",
+    "reference_answer": "The average TTL is 64.0.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 20,
+    "question": "What are the MAC address and vendor of the devices involved in the connections?",
+    "reference_answer": "The source MAC is dc:a6:32:fb:69:b5 (Raspberr) and the destination MAC is d8:f2:ca:8e:17:69 (IntelCor).",
+    "question_category": "endpoint_metadata"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?",
+    "reference_answer": "The duration of the connection is 0.01995396614074707 seconds, and it has a total of 12 packets (7 from the originator and 5 from the responder).",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 22,
+    "question": "What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?",
+    "reference_answer": "The connection state history is 'ShADadFf'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 23,
+    "question": "What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?",
+    "reference_answer": "The HTTP method is 'GET', the URI is '/DVWA/hackable/uploads/hack.php', and the user agent is 'curl/7.79.1'.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 24,
+    "question": "What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?",
+    "reference_answer": "The connection state is 'REJ'.",
+    "question_category": "other"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 25,
+    "question": "What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?",
+    "reference_answer": "The originator sent 107 bytes and the responder sent 149 bytes.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 26,
+    "question": "What are the source and destination IP addresses and ports for the NTP traffic?",
+    "reference_answer": "The source IP and port are 192.168.0.128:33032 and the destination IP and port are 194.0.5.123:123.",
+    "question_category": "ntp"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 27,
+    "question": "What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?",
+    "reference_answer": "The status code is 200, with a status message of 'OK'.",
+    "question_category": "http"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 28,
+    "question": "What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?",
+    "reference_answer": "The answer cannot be determined from the provided context.",
+    "question_category": "zeek_ntp_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 29,
+    "question": "What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?",
+    "reference_answer": "The originator sent 156 IP bytes and the responder sent 305 IP bytes.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 30,
+    "question": "What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?",
+    "reference_answer": "The original port is 60908 and the response port is 123.",
+    "question_category": "zeek_ntp_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 31,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?",
+    "reference_answer": "A total of 37,644 traffic samples were analyzed. Normal traffic accounted for 7,604 samples, which is 20.20% of the total.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 32,
+    "question": "What is the recommended mitigation for a 'SQL Injection' attack?",
+    "reference_answer": "To mitigate a 'SQL Injection' attack, you should sanitize all input fields, apply least privilege database access, and use parameterized queries or ORMs.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 33,
+    "question": "What is the behavioral signature of a 'DDoS_UDP' attack?",
+    "reference_answer": "A 'DDoS_UDP' attack is characterized by overwhelming a target device with UDP packets to disrupt service or drain resources.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 34,
+    "question": "What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?",
+    "reference_answer": "The source IP and port are 192.168.0.170:58904 and the destination IP and port are 192.168.0.128:80.",
+    "question_category": "zeek_http_uid"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 35,
+    "question": "What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?",
+    "reference_answer": "The application summary for Flow ID TCP_2 is 'HTTP' and its TCP Flag Pattern is SYN → SYN, ACK → ACK → PSH, ACK → ACK → PSH, ACK.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 36,
+    "question": "What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?",
+    "reference_answer": "The `conn_state` is 'SF' and the history is '^dFfAa'.",
+    "question_category": "zeek_uid_or_log_field"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 37,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?",
+    "reference_answer": "The total bytes exchanged for Flow ID TCP_3 is 134, with an App Payload Size of 34 bytes.",
+    "question_category": "flow_summary"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 38,
+    "question": "How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?",
+    "reference_answer": "The answer cannot be determined from the provided context.",
+    "question_category": "dns"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 39,
+    "question": "What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?",
+    "reference_answer": "A 'Man-in-the-Middle (MITM)' attack has a High severity and its risk is that sensitive data, including credentials or configuration commands, can be silently stolen or manipulated.",
+    "question_category": "anomaly_report_or_guidance"
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 40,
+    "question": "What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?",
+    "reference_answer": "The status code is 200 with a status message of 'OK'.",
+    "question_category": "http"
+  }
+]

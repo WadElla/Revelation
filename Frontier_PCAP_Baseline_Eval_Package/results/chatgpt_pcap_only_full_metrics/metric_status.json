@@ -1,0 +1,68 @@
+{
+  "evaluation_semantics": {
+    "all_reference_rows_are_included_in_primary_summary_metrics": true,
+    "explicit_refusal_answers_are_scored_against_reference_answers": true,
+    "empty_or_missing_predictions_are_scored_as_zero": true,
+    "answered_only_view_excludes_explicit_refusals_and_blank_predictions": true
+  },
+  "computed_metrics": {
+    "bleu": true,
+    "rouge": true,
+    "official_meteor": true,
+    "bertscore_requested": true,
+    "bertscore_computed": true,
+    "raw_bertscore_computed": true,
+    "strict_bertscore_computed": true
+  },
+  "meteor_status": {
+    "official_meteor": true,
+    "download_attempted": false,
+    "notes": []
+  },
+  "bertscore_status": {
+    "non_empty_pairs_scored": 161,
+    "empty_or_missing_predictions_scored_as_zero": 0,
+    "raw_bertscore": {
+      "implementation_note": "Reference-compatible raw BERTScore: bert_score(preds, refs, lang='en', verbose=False), batched for efficiency. Explicit idf=False and rescale_with_baseline=False are included to make the defaults auditable.",
+      "matches_provided_reference_code_semantics": true,
+      "lang": "en",
+      "idf": false,
+      "rescale_with_baseline": false,
+      "model_type": null,
+      "batch_size": 16,
+      "computed": true
+    },
+    "strict_bertscore": {
+      "implementation_note": "Diagnostic strict BERTScore with IDF weighting and baseline rescaling.",
+      "lang": "en",
+      "idf": true,
+      "rescale_with_baseline": true,
+      "model_type": "roberta-large",
+      "batch_size": 8,
+      "computed": true
+    },
+    "bertscore_computed": true
+  },
+  "input_validation": {
+    "num_reference_rows": 161,
+    "num_prediction_rows": 161,
+    "reference_counts_by_scenario": {
+      "Backdoor": 41,
+      "DDoS": 40,
+      "Normal": 40,
+      "Uploading": 40
+    },
+    "prediction_counts_by_scenario": {
+      "Backdoor": 41,
+      "DDoS": 40,
+      "Normal": 40,
+      "Uploading": 40
+    },
+    "missing_prediction_keys": [],
+    "extra_prediction_keys": [],
+    "duplicate_reference_keys": [],
+    "duplicate_prediction_keys": [],
+    "question_mismatch_count": 0,
+    "question_mismatches": []
+  }
+}

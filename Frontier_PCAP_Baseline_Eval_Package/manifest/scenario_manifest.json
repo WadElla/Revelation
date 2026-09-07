@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "pcap_file": "pcaps/Backdoor.pcap",
+    "questions_file": "questions/Backdoor_questions.docx",
+    "reference_answer_file": "reference_answers/Backdoor_reference_answers.docx",
+    "included_chatgpt_pcap_only_file": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx",
+    "num_questions": 41
+  },
+  {
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "pcap_file": "pcaps/DDoS.pcap",
+    "questions_file": "questions/DDoS_questions.docx",
+    "reference_answer_file": "reference_answers/DDoS_reference_answers.docx",
+    "included_chatgpt_pcap_only_file": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx",
+    "num_questions": 40
+  },
+  {
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "pcap_file": "pcaps/Normal.pcap",
+    "questions_file": "questions/Normal_questions.docx",
+    "reference_answer_file": "reference_answers/Normal_reference_answers.docx",
+    "included_chatgpt_pcap_only_file": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx",
+    "num_questions": 40
+  },
+  {
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "pcap_file": "pcaps/Uploading.pcap",
+    "questions_file": "questions/Uploading_questions.docx",
+    "reference_answer_file": "reference_answers/Uploading_reference_answers.docx",
+    "included_chatgpt_pcap_only_file": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx",
+    "num_questions": 40
+  }
+]

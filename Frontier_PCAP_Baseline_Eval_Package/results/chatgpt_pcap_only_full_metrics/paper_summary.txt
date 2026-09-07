@@ -1,0 +1,38 @@
+ChatGPT PCAP-Only Answer Quality Evaluation
+============================================
+
+This run compares saved ChatGPT PCAP-only answers against the gold/reference answers.
+It does not run Revelation, RAG, Chroma, Zeek, BERT, PCAP processing, or answer generation.
+
+Primary all-question evaluation:
+- Questions evaluated: 161
+- ChatGPT refusal count: 83
+- ChatGPT refusal rate: 0.5155
+- BLEU: 0.1171
+- ROUGE-1 F1: 0.3569
+- ROUGE-2 F1: 0.2124
+- ROUGE-L F1: 0.3220
+- Official METEOR: 0.2612
+- Raw BERTScore F1: 0.8729
+- Strict BERTScore F1: 0.1219
+- Exact Match: 0.0186
+
+Answered-only diagnostic evaluation:
+- Answered questions: 78
+- BLEU: 0.2089
+- ROUGE-L F1: 0.5423
+- Official METEOR: 0.4659
+- Raw BERTScore F1: 0.9194
+- Strict BERTScore F1: 0.4538
+
+Scenario-level all-question metrics:
+- Backdoor: questions=41, refusals=15, BLEU=0.1828, ROUGE-L=0.4038, METEOR=0.3638, Raw-BERT-F1=0.8910, Strict-BERT-F1=0.2369
+- DDoS: questions=40, refusals=23, BLEU=0.1051, ROUGE-L=0.3069, METEOR=0.2307, Raw-BERT-F1=0.8653, Strict-BERT-F1=0.0613
+- Normal: questions=40, refusals=22, BLEU=0.0889, ROUGE-L=0.2734, METEOR=0.2121, Raw-BERT-F1=0.8657, Strict-BERT-F1=0.0827
+- Uploading: questions=40, refusals=23, BLEU=0.0899, ROUGE-L=0.3017, METEOR=0.2358, Raw-BERT-F1=0.8693, Strict-BERT-F1=0.1038
+
+Qualitative analysis files:
+- chatgpt_refusals_for_qualitative_analysis.csv
+- low_score_questions_for_qualitative_analysis.csv
+- low_score_answered_only_questions_for_qualitative_analysis.csv
+- per_question_scores.csv

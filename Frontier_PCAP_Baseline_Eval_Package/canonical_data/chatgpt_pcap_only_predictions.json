@@ -1,0 +1,1451 @@
+[
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 1,
+    "question": "Which attack type occurs most frequently in the IoT traffic logs?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 2,
+    "question": "What critical threats are identified in the anomaly detection report?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for SQL Injection attacks?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 4,
+    "question": "What is the risk associated with a DDoS_HTTP attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 5,
+    "question": "How many total anomalous traffic samples were analyzed, and what percentage of the total traffic do they represent?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 6,
+    "question": "What is the IP address associated with malicious activity in the threat intelligence report, and what are its associated open ports?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 7,
+    "question": "What is the behavioral signature of a Man-in-the-Middle (MITM) attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 8,
+    "question": "Which DNS queries were observed in the DDoS_HTTP traffic?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 9,
+    "question": "What is the recommendation for dealing with a DDoS_UDP attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 10,
+    "question": "What does the threat intelligence summary state about the IP address 26.15.12.1?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 11,
+    "question": "How many unique IP pairs were observed during the SQL Injection activity?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 12,
+    "question": "How many total flows were detected in the IoT traffic?",
+    "predicted_answer": "155 total bidirectional flows were detected.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 13,
+    "question": "What is the breakdown of flows by protocol?",
+    "predicted_answer": "TCP: 138 flows; UDP: 3 flows; ICMPv6: 9 flows; IGMP: 3 flows; ARP: 2 flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 14,
+    "question": "Which IP address is the top talker, and how many flows is it associated with?",
+    "predicted_answer": "`192.168.0.128` is the top talker, associated with 143 flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 15,
+    "question": "What is the MAC address and vendor of the source and destination for Flow ID TCP_0?",
+    "predicted_answer": "For Flow ID TCP_0, the source MAC is `dc:a6:32:fb:69:b5` with vendor Raspberry Pi Trading Ltd, and the destination MAC is `d8:f2:ca:8e:17:69` with vendor Intel Corporate.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 16,
+    "question": "What is the duration and number of packets for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 lasted approximately 456.820234 seconds and contained 1820 packets.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 17,
+    "question": "What is the protocol and port information for Flow ID UDP_0?",
+    "predicted_answer": "Flow ID UDP_0 uses UDP from `192.168.0.128:5353` to `224.0.0.251:5353`, consistent with mDNS traffic.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 18,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_1?",
+    "predicted_answer": "Flow ID TCP_1 has the TCP flag pattern `SYN -> RST, ACK`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 19,
+    "question": "What is the IP version for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 uses IPv4.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 20,
+    "question": "What is the average TTL for Flow ID TCP_0?",
+    "predicted_answer": "The average TTL for Flow ID TCP_0 is 64.0.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 21,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_13?",
+    "predicted_answer": "Flow ID TCP_13 exchanged 4542 total frame bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 22,
+    "question": "What is the connection state for the TCP traffic to port 4321 on host 192.168.0.170?",
+    "predicted_answer": "The repeated TCP connection attempts to `192.168.0.170:4321` are rejected.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 23,
+    "question": "Which protocol and service is associated with the connection between 192.168.0.128 and 224.0.0.251 on port 5353?",
+    "predicted_answer": "The protocol is UDP and the service is mDNS on port 5353.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 24,
+    "question": "What is the query and query type for the DNS request originating from 192.168.0.128?",
+    "predicted_answer": "The DNS queries originating from `192.168.0.128` are `_ipps._tcp.local` and `_ipp._tcp.local`, both with query type PTR.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 25,
+    "question": "What is the history of the TCP connection attempts from 192.168.0.128 to 192.168.0.170 on port 4321?",
+    "predicted_answer": "The TCP connection-attempt history is `SYN -> RST, ACK`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 26,
+    "question": "What is the IP protocol number for the ICMP connections?",
+    "predicted_answer": "The IP protocol number for the ICMPv6 connections is 58.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 27,
+    "question": "What is the duration of the TCP connection with UID 'Cp91d82qvMkTqXqg48'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 28,
+    "question": "How many packets were sent by the originator and responder for a rejected TCP connection?",
+    "predicted_answer": "One packet was sent by the originator and one packet was sent by the responder for each rejected TCP connection.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 29,
+    "question": "What is the destination IP address and port for the first UDP DNS flow listed?",
+    "predicted_answer": "The destination IP address and port for the first UDP DNS flow are `224.0.0.251:5353`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 30,
+    "question": "What is the query class name for the DNS query?",
+    "predicted_answer": "The query class name is IN.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 31,
+    "question": "What is the origin and response IP addresses for the ICMP traffic that has a destination of ff02::1?",
+    "predicted_answer": "The origin IP is `fe80::24e3:6aff:fe3f:5b07`, and the response/destination IP is `ff02::1`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 32,
+    "question": "What is the MAC vendor of the source device for the top talker's communication?",
+    "predicted_answer": "The MAC vendor of the source device for the top talker is Raspberry Pi Trading Ltd.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 33,
+    "question": "What is the destination IP address of the rejected TCP connection on port 4321?",
+    "predicted_answer": "The destination IP address of the rejected TCP connection on port 4321 is `192.168.0.170`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 34,
+    "question": "What is the total number of bytes sent by the originator and responder in Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 exchanged 508552 total frame bytes: 449746 bytes from the originator and 58806 bytes from the responder.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 35,
+    "question": "What is the recommended action for administrators regarding backdoor attacks?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 36,
+    "question": "What is the origin and response IP addresses for the ICMP traffic with a destination of ff02::1?",
+    "predicted_answer": "The origin IP is `fe80::24e3:6aff:fe3f:5b07`, and the response/destination IP is `ff02::1`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 37,
+    "question": "What is the port activity for the top talker's traffic?",
+    "predicted_answer": "The top talker `192.168.0.128` is associated mainly with TCP traffic to `192.168.0.170:4321`, TCP port `5900` traffic to `192.168.0.101:58468`, and UDP/mDNS traffic on port 5353 to `224.0.0.251:5353`.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 38,
+    "question": "What is the duration of the TCP connection with UID 'CiAzT131FLtCIy6Cy1'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 39,
+    "question": "Which TCP flow is associated with the SYN -> RST, ACK TCP flag pattern?",
+    "predicted_answer": "TCP_1 is the first TCP flow associated with the `SYN -> RST, ACK` TCP flag pattern.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 40,
+    "question": "What is the full DNS query name and query type for the traffic between 192.168.0.128 and 224.0.0.251 on port 5353?",
+    "predicted_answer": "The full DNS query names are `_ipps._tcp.local` and `_ipp._tcp.local`, and both have query type PTR.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Backdoor",
+    "scenario_id": "A",
+    "question_number": 41,
+    "question": "What is the source IP address for the DDoS_HTTP activity?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Backdoor_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 1,
+    "question": "What is the total number of anomalous traffic samples, and what percentage does this represent?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 2,
+    "question": "What is the behavioral signature of a 'DDoS_UDP' attack and its severity level?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for a 'Ransomware' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 4,
+    "question": "What is the risk associated with a 'Port Scanning' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 5,
+    "question": "What is the dominant detected attack and its total count?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 6,
+    "question": "What is the severity of a 'Backdoor' attack, and what is its behavioral signature?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 7,
+    "question": "How many samples were classified as 'SQL Injection' and what category does it fall under?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 8,
+    "question": "What is the category and behavioral signature of a 'Password' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 9,
+    "question": "What is the recommended mitigation strategy for a 'Vul Scanner' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 10,
+    "question": "What is the risk of a 'DDoS_TCP' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 11,
+    "question": "What is the average TTL for the TCP connections listed in the summary?",
+    "predicted_answer": "64.0 for the documented local TCP/HTTP connections.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 12,
+    "question": "What is the total number of packets sent for Flow ID TCP_0, and what is its duration?",
+    "predicted_answer": "Flow ID TCP_0 contains 79 packets and lasts approximately 120.645307 seconds.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 13,
+    "question": "What are the MAC vendors for the source and destination IP addresses in the documented flows?",
+    "predicted_answer": "For the documented local flows, 192.168.0.170 uses MAC d8:f2:ca:8e:17:69, OUI vendor Intel Corporate; 192.168.0.128 uses MAC dc:a6:32:fb:69:b5, OUI vendor Raspberry Pi Trading Ltd.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 14,
+    "question": "What is the total number of TCP flows detected, and how many more TCP flows are there than UDP flows?",
+    "predicted_answer": "12,114 TCP flows were detected; this is 12,107 more TCP flows than UDP flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 15,
+    "question": "Which IP address is the top talker and what is the count of its corresponding flows?",
+    "predicted_answer": "192.168.0.128 is the top talker, associated with 12,124 bidirectional flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 16,
+    "question": "What is the application summary for the flows with an App Payload Size of 1106 bytes?",
+    "predicted_answer": "The flow with App Payload Size 1106 bytes contains partial HTTP request-header payload from 192.168.0.170 to 192.168.0.128:80 and an HTTP/1.1 408 Request Timeout response from Apache/2.4.38 (Raspbian).",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 17,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_7?",
+    "predicted_answer": "TCP_7 shows repeated PSH, ACK and ACK packets, ending with FIN, ACK -> ACK -> FIN, ACK -> ACK.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 18,
+    "question": "What is the source port for Flow ID TCP_1?",
+    "predicted_answer": "The source port for Flow ID TCP_1 is 55994.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 19,
+    "question": "How many total bytes were exchanged in Flow ID TCP_9?",
+    "predicted_answer": "Flow ID TCP_9 exchanged 4218 total frame bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 20,
+    "question": "What is the duration of Flow ID TCP_12?",
+    "predicted_answer": "Flow ID TCP_12 lasts approximately 109.702043 seconds.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the TCP connection with UID 'CSaCuV34LSgK4Drh03'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 22,
+    "question": "What are the `id.orig_h` and `id.resp_h` for the SSL connection with UID 'CecYuJ2aSfvTb8m805', and what is the server name?",
+    "predicted_answer": "For the only TLS/SSL connection visible in the PCAP, id.orig_h is 192.168.0.128, id.resp_h is 216.58.198.74, and the server name is safebrowsing.googleapis.com.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 23,
+    "question": "What is the DNS query and response code for the request related to 'safebrowsing.googleapis.com'?",
+    "predicted_answer": "The DNS query is safebrowsing.googleapis.com with query type A, and the response code is NOERROR.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 24,
+    "question": "What is the source and destination IP address, and the name of the weird network event with UID 'CpqDy41l84nYqNKYWk'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 25,
+    "question": "What is the MIME type and total bytes for the file with FUID 'Fn1zG7xU70KMl38Lf' from the HTTP source?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 26,
+    "question": "What is the `version` and `mode` for the NTP traffic with UID 'CeahYCkuDqFYFMrNj'?",
+    "predicted_answer": "The NTP client request is version 4, mode 3; the server response is version 4, mode 4.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 27,
+    "question": "What is the user agent for the HTTP request to the host '192.168.0.128' with UID 'CQln2j1Prs5jpIF5zb'?",
+    "predicted_answer": "The user agent is Opera/9.80 (Macintosh; Intel Mac OS X 10.7.0; U; Edition MacAppStore; en) Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML,like Gecko) PhantomJS/1.9.0 (development) Safari/534.34.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 28,
+    "question": "What is the `id.resp_p` for the TCP connection with UID 'Cp91d82qvMkTqXqg48', and what is the `conn_state`?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 29,
+    "question": "What is the `version`, `cipher`, and `curve` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?",
+    "predicted_answer": "For the observed TLS connection, the selected version is TLSv1.3, the cipher is TLS_CHACHA20_POLY1305_SHA256, and the curve/group is x25519.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 30,
+    "question": "What are the source and destination IP addresses for the DNS queries with `trans_id` 15841?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 31,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 32,
+    "question": "For the MQTT connection with UID 'CczSu14KDCWOJpCK4', what is the protocol version and what is the client ID?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 33,
+    "question": "What is the IP address and service associated with the TCP connection with UID 'CczSu14KDCWOJpCK4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 34,
+    "question": "What is the `name` and `source` for the weird log entry with UID 'CpqDy41l84nYqNKYWk'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 35,
+    "question": "What is the DNS query and response code for the request with `trans_id` 9956?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 36,
+    "question": "What is the file with FUID 'Fn1zG7xU70KMl38Lf's mime type and total bytes from the HTTP source?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 37,
+    "question": "For Flow ID TCP_0 in the IoT Traffic Flow Summary, what are the source and destination IP and MAC addresses?",
+    "predicted_answer": "For Flow ID TCP_0, the source is 192.168.0.170 with MAC d8:f2:ca:8e:17:69, and the destination is 192.168.0.128 with MAC dc:a6:32:fb:69:b5.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 38,
+    "question": "What is the recommended mitigation strategy for a MITM attack, and what is its severity level?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 39,
+    "question": "What is the payload and topic for the MQTT publish message with UID 'CczSu14KDCWOJpCK4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "DDoS",
+    "scenario_id": "B",
+    "question_number": 40,
+    "question": "What is the `version`, `cipher`, and `server_name` for the SSL connection with UID 'CecYuJ2aSfvTb8m805'?",
+    "predicted_answer": "For the observed TLS connection, the selected version is TLSv1.3, the cipher is TLS_CHACHA20_POLY1305_SHA256, and the server name is safebrowsing.googleapis.com.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_DDoS_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 1,
+    "question": "How many total traffic samples were analyzed, and what percentage of the traffic was classified as anomalous?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 2,
+    "question": "What is the most prevalent anomalous traffic type, and what is its severity level?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 3,
+    "question": "What is the recommended mitigation strategy for Ransomware attacks?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 4,
+    "question": "What is the behavioral signature of a Man-in-the-Middle (MITM) attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 5,
+    "question": "What are the unique IP pairs, DNS queries, and Modbus Unit IDs observed during a DDoS_TCP attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 6,
+    "question": "What is the risk associated with an 'Uploading' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 7,
+    "question": "How many samples of 'Password' attacks were detected, and what is the associated risk?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 8,
+    "question": "What is the recommended mitigation for 'Vul Scanner' activity?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 9,
+    "question": "What is the severity and behavioral signature of a 'Backdoor' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 10,
+    "question": "What is the risk and recommended mitigation for a DDoS_HTTP attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 11,
+    "question": "What is the total number of flows detected, and how are they distributed between TCP and UDP?",
+    "predicted_answer": "10,418 TCP/UDP flows were detected: 9,826 TCP flows and 592 UDP flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 12,
+    "question": "Which IP address is the top talker in the traffic, and what is its associated destination?",
+    "predicted_answer": "The top directional talker is 192.168.3.18, primarily communicating with destination 192.168.3.12.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 13,
+    "question": "What is the application summary for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 contains an MQTT session to port 1883: MQTT CONNECT, CONNACK accepted, PUBLISH to topic Heart_Rate with payload \"♥ A HeartBeat Happened ! \\r\\n\", and DISCONNECT.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 14,
+    "question": "What is the duration and number of packets for Flow ID UDP_0?",
+    "predicted_answer": "Flow ID UDP_0 lasted approximately 1835.205976 seconds and contained 352 packets.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 15,
+    "question": "What is the average TTL for Flow ID UDP_0?",
+    "predicted_answer": "The average TTL for Flow ID UDP_0 is 255.0.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 16,
+    "question": "What are the MAC address and vendor of the devices involved in Flow ID TCP_0?",
+    "predicted_answer": "For Flow ID TCP_0, the source device is 192.168.3.18 with MAC d8:f2:ca:8e:17:69, vendor Intel Corporate; the destination device is 192.168.3.12 with MAC dc:a6:32:fb:69:b5, vendor Raspberry Pi Trading Ltd.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 17,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 exchanged 1,060 total frame bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 18,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 follows a SYN -> SYN, ACK -> ACK handshake, MQTT PSH/ACK data exchange, FIN/ACK teardown, and later RST packets.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 19,
+    "question": "What is the App Payload Size for Flow ID TCP_1?",
+    "predicted_answer": "The App Payload Size for Flow ID TCP_1 is 43 bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 20,
+    "question": "What are the source and destination ports for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 uses source port 49238 and destination port 1883.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the TCP connection with UID 'CczSu14KDCWOJpCK4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 22,
+    "question": "What is the DNS query and rejection status for the traffic between 192.168.3.12 and 192.168.3.1 on port 53?",
+    "predicted_answer": "The DNS traffic between 192.168.3.12 and 192.168.3.1 on port 53 contains A and AAAA queries for debian.pool.ntp.org hostnames, and the responses are REFUSED.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 23,
+    "question": "What is the MQTT protocol version and connection status for the connection with UID 'CczSu14KDCWOJpCK4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 24,
+    "question": "What is the payload of the message published on the 'Heart_Rate' topic with UID 'CJpUi93XwcALEV92He'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 25,
+    "question": "What is the Quality of Service (QoS) for the MQTT published messages?",
+    "predicted_answer": "The MQTT published messages use QoS 0.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 26,
+    "question": "What is the total number of original and response bytes for the TCP connection with UID 'Cfjywu4xTjwioQyod4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 27,
+    "question": "What is the DNS query type for the request regarding '1.debian.pool.ntp.org'?",
+    "predicted_answer": "Requests for 1.debian.pool.ntp.org use A and AAAA DNS query types.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 28,
+    "question": "What is the MQTT topic name and payload length for the message with UID 'CwCN0KeqJKzKrrvwd'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 29,
+    "question": "What is the connection state history for the TCP flow with UID 'CAky7oXUlFHkjO2Lj'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 30,
+    "question": "What are the source and destination IP addresses and ports for the first DNS query listed?",
+    "predicted_answer": "The first DNS request is from 192.168.3.12:44022 to 192.168.3.1:53.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 31,
+    "question": "What is the client ID and protocol version for the MQTT connections?",
+    "predicted_answer": "The MQTT connections use an empty client ID and MQTT protocol level 4.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 32,
+    "question": "What is the behavioral signature of a 'Credential Stuffing' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 33,
+    "question": "What is the total number of packets sent by the originator and responder for a `SF` connection state with UID `CczSu14KDCWOJpCK4`?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 34,
+    "question": "What is the total number of DNS queries observed in the traffic?",
+    "predicted_answer": "2,370 DNS query records were observed in 2,365 DNS request packets.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 35,
+    "question": "What is the MQTT topic and payload length for the message with UID `CwCN0KeqJKzKrrvwd`?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 36,
+    "question": "What is the risk associated with a 'Password' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 37,
+    "question": "What is the duration and total bytes for the TCP flow between 192.168.3.12 and 192.168.3.18?",
+    "predicted_answer": "Across all TCP flows between 192.168.3.12 and 192.168.3.18, the observed time span is approximately 1837.389964 seconds and the total exchanged frame bytes are 9,676,687 bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 38,
+    "question": "What is the behavioral signature and severity of a 'Vul Scanner' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 39,
+    "question": "What is the `conn_state` and history for the MQTT connection with UID `Cfjywu4xTjwioQyod4`?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Normal",
+    "scenario_id": "C",
+    "question_number": 40,
+    "question": "How many flows were observed between 192.168.3.1 and 192.168.3.12, and what is the associated MAC vendor for the devices?",
+    "predicted_answer": "There are 587 UDP flows between 192.168.3.1 and 192.168.3.12. The observed MAC vendors are Fiberhome Telecommunication Technologies Co.,LTD for 192.168.3.1 and Raspberry Pi Trading Ltd for 192.168.3.12.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Normal_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 1,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered anomalous?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 2,
+    "question": "What is the dominant detected attack in the traffic, and what percentage of the traffic does it represent?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 3,
+    "question": "What are the behavioral characteristics of a Man-in-the-Middle (MITM) attack, and what is its severity level?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 4,
+    "question": "What is the recommended mitigation strategy for a SQL Injection attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 5,
+    "question": "How many unique IP pairs were observed during a DDoS_HTTP attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 6,
+    "question": "What is the risk associated with a 'Password' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 7,
+    "question": "What is the severity of a 'Backdoor' attack, and what is its behavioral signature?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 8,
+    "question": "What is the threat intelligence summary for IP 194.0.5.123 as described in the report?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 9,
+    "question": "What is the behavioral signature of a 'Vul Scanner' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 10,
+    "question": "How many samples were classified as 'Ransomware' and what is its associated risk?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 11,
+    "question": "What is the total number of flows detected, and how are they distributed between TCP and UDP?",
+    "predicted_answer": "7,585 TCP/UDP flows were detected: 7,580 TCP flows and 5 UDP flows.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 12,
+    "question": "Which IP address is the top talker in the traffic?",
+    "predicted_answer": "192.168.0.128 is the top talker, and its main associated destination is 192.168.0.170.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 13,
+    "question": "What is the application summary for Flow ID TCP_1?",
+    "predicted_answer": "Flow ID TCP_1 contains an HTTP/1.1 200 OK response from 192.168.0.128:80 to 192.168.0.170:58900, with Apache/2.4.38 (Raspbian), Content-Length: 0, and Content-Type: text/html; charset=UTF-8.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 14,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_0?",
+    "predicted_answer": "Flow ID TCP_0 exchanged 662 total frame bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 15,
+    "question": "What is the duration of Flow ID TCP_1?",
+    "predicted_answer": "Flow ID TCP_1 lasted approximately 0.016571 seconds.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 16,
+    "question": "What is the TCP Flag Pattern for Flow ID TCP_3?",
+    "predicted_answer": "Flow ID TCP_3 has the TCP flag pattern SYN -> RST, ACK.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 17,
+    "question": "What is the IP version for Flow ID TCP_2?",
+    "predicted_answer": "Flow ID TCP_2 uses IPv4.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 18,
+    "question": "What are the source and destination ports for Flow ID TCP_1?",
+    "predicted_answer": "For Flow ID TCP_1, the source port is 80 and the destination port is 58900.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 19,
+    "question": "What is the average TTL for a connection in the traffic?",
+    "predicted_answer": "The average TTL for the listed TCP connections is 64.0.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 20,
+    "question": "What are the MAC address and vendor of the devices involved in the connections?",
+    "predicted_answer": "The local devices use MAC address dc:a6:32:fb:69:b5 for 192.168.0.128 and MAC address d8:f2:ca:8e:17:69 for 192.168.0.170; their OUI-derived vendors are Raspberry Pi Trading Ltd and Intel Corporate, respectively.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 21,
+    "question": "What is the duration and total number of packets for the HTTP connection with UID 'C1kyZs4jrUyHfUERde'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 22,
+    "question": "What is the connection state history for the TCP connection between 192.168.0.170 and 192.168.0.128 on port 80?",
+    "predicted_answer": "The TCP traffic between 192.168.0.170 and 192.168.0.128 on port 80 shows successful connection setup, HTTP data exchange, and graceful teardown.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 23,
+    "question": "What is the HTTP method, URI, and user agent for the connection with UID 'C8uPgt1NGn906RwII6'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 24,
+    "question": "What is the connection state for the rejected TCP connections originating from 192.168.0.128 to 192.168.0.170 on port 3333?",
+    "predicted_answer": "The rejected TCP connections have a rejected/REJ-style state with SYN -> RST, ACK behavior.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 25,
+    "question": "What is the total number of bytes sent and received for the HTTP connection with UID 'CSGQoa2Jd3w9MAYMX4'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 26,
+    "question": "What are the source and destination IP addresses and ports for the NTP traffic?",
+    "predicted_answer": "NTP traffic was observed from 192.168.0.128:33032, 192.168.0.128:60908, and 192.168.0.128:44933 to 194.0.5.123:123.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 27,
+    "question": "What is the HTTP status code for the requests to '/DVWA/hackable/uploads/hack.php'?",
+    "predicted_answer": "The HTTP status code is 200 OK.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 28,
+    "question": "What is the duration of the NTP connection with UID 'CeahYCkuDqFYFMrNj'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 29,
+    "question": "What is the total number of originator and responder IP bytes for the connection with UID 'CoGdm7e0oGwG8OFBb'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 30,
+    "question": "What are the `id.orig_p` and `id.resp_p` for the NTP connection with UID 'CKXFw24t4ZxqVVmo5e'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 31,
+    "question": "What is the total number of traffic samples analyzed, and what percentage of that traffic was considered normal?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 32,
+    "question": "What is the recommended mitigation for a 'SQL Injection' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 33,
+    "question": "What is the behavioral signature of a 'DDoS_UDP' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 34,
+    "question": "What are the source and destination IP addresses and ports for the HTTP traffic with UID 'C8uPgt1NGn906RwII6'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 35,
+    "question": "What is the application summary for Flow ID TCP_2 and its corresponding TCP Flag Pattern?",
+    "predicted_answer": "Flow ID TCP_2 contains an HTTP GET request for /DVWA/hackable/uploads/hack.php followed by an HTTP/1.1 200 OK response; its TCP flag pattern is SYN -> SYN, ACK -> ACK -> ACK, PSH -> ACK -> ACK, PSH -> FIN, ACK -> FIN, ACK -> ACK -> ACK -> ACK -> ACK.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 36,
+    "question": "What is the `conn_state` and `history` for the TCP connection with UID 'CoGdm7e0oGwG8OFBb'?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 37,
+    "question": "What is the total number of bytes exchanged for Flow ID TCP_3, and what is its App Payload Size?",
+    "predicted_answer": "Flow ID TCP_3 exchanged 134 total frame bytes and has an application payload size of 0 bytes.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 38,
+    "question": "How many DNS Queries are listed in the 'Brute-force' attack category in the BERT report?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 39,
+    "question": "What is the risk and severity level for a 'Man-in-the-Middle (MITM)' attack?",
+    "predicted_answer": "The answer cannot be determined from the provided PCAP.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  },
+  {
+    "model_name": "ChatGPT_PCAP_only",
+    "scenario": "Uploading",
+    "scenario_id": "D",
+    "question_number": 40,
+    "question": "What is the `status_code` and `status_msg` for the HTTP requests to the host 192.168.0.128?",
+    "predicted_answer": "The status_code is 200 and the status_msg is OK.",
+    "source_docx": "model_outputs/chatgpt_pcap_only_docx/ChatGPT_PCAPOnly_Uploading_answers.docx"
+  }
+]
